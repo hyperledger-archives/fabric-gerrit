@@ -1,0 +1,1031 @@
+[{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1473628327
+      },
+      {
+        "message": "Patch Set 1:\n\njust making a note so I get an email when this merges",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1473631244
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nThis is the transfer of fabric-test-resources to Gerrit.",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1473641628
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1473684977
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "jonathan@hacera.com",
+          "name": "Jonathan Levi (HACERA)",
+          "username": "JonathanLevi"
+        },
+        "timestamp": 1473699781
+      },
+      {
+        "message": "Change has been successfully merged by Jonathan Levi",
+        "reviewer": {
+          "email": "gerrit@hyperledger.org",
+          "name": "Gerrit Code Review"
+        },
+        "timestamp": 1473709554
+      }
+    ],
+    "commitMessage": "Initial Commit\n\nInitial squash-commit for f-t-r e888a7a4f6f36c1bddfdbb4607504ce7cb84ce05\n\nChange-Id: I388d5a2c0c0870183fc9bb165dcf53b93d5d0d85\nSigned-off-by: Christopher Ferris <chrisfer@us.ibm.com>\n",
+    "createdOn": 1473628327,
+    "id": "I388d5a2c0c0870183fc9bb165dcf53b93d5d0d85",
+    "lastUpdated": 1473709554,
+    "number": 997,
+    "open": false,
+    "owner": {
+      "email": "chris.ferris@gmail.com",
+      "name": "Christopher Ferris",
+      "username": "ChristopherFerris"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            },
+            "description": "Verified",
+            "grantedOn": 1473641628,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1473684977,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jonathan@hacera.com",
+              "name": "Jonathan Levi (HACERA)",
+              "username": "JonathanLevi"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1473699781,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jonathan@hacera.com",
+              "name": "Jonathan Levi (HACERA)",
+              "username": "JonathanLevi"
+            },
+            "grantedOn": 1473709554,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "createdOn": 1473628327,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "8d3803dd51281e1fc2e4b1e3a2a8ed77a1d895ff"
+        ],
+        "ref": "refs/changes/97/997/1",
+        "revision": "bc0e77f153166616b660781352989db941b3103e",
+        "sizeDeletions": 0,
+        "sizeInsertions": 105,
+        "uploader": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        }
+      }
+    ],
+    "project": "fabric-test-resources",
+    "status": "MERGED",
+    "subject": "Initial Commit",
+    "topic": "initial-commit",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-test-resources/+/997"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "997",
+    "project_name": "fabric-test-resources",
+    "review_hash": "I388d5a2c0c0870183fc9bb165dcf53b93d5d0d85"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1473709554,
+  "uuid": "dc425ddc013f01549e0d4e514fdcd17be3c2ca75"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1497292730
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\ndoc change only",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1497307335
+      },
+      {
+        "message": "Patch Set 1:\n\nDo we need to those \"rel=license\" attributes in the hyperlinks?\n\nIf we don't, we should be able to keep those Markdown documents clean, without those HTML blobs in.",
+        "reviewer": {
+          "email": "kostas@gmail.com",
+          "name": "Kostas Christidis",
+          "username": "kchristidis"
+        },
+        "timestamp": 1497393953
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "srinivasan.muralidharan99@gmail.com",
+          "name": "Srinivasan Muralidharan",
+          "username": "muralisr"
+        },
+        "timestamp": 1497394977
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "jonathan@hacera.com",
+          "name": "Jonathan Levi (HACERA)",
+          "username": "JonathanLevi"
+        },
+        "timestamp": 1497399768
+      },
+      {
+        "message": "Change has been successfully merged by Jonathan Levi (HACERA)",
+        "reviewer": {
+          "email": "gerrit@hyperledger.org",
+          "name": "Gerrit Code Review"
+        },
+        "timestamp": 1497399784
+      }
+    ],
+    "commitMessage": "FAB-4577 add missing license headers\n\nChange-Id: I7492cfc6d67bc9568b86812007624bb86d8a9570\nSigned-off-by: Christopher Ferris <chrisfer@us.ibm.com>\n",
+    "createdOn": 1497292730,
+    "id": "I7492cfc6d67bc9568b86812007624bb86d8a9570",
+    "lastUpdated": 1497399784,
+    "number": 10485,
+    "open": false,
+    "owner": {
+      "email": "chris.ferris@gmail.com",
+      "name": "Christopher Ferris",
+      "username": "ChristopherFerris"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            },
+            "description": "Verified",
+            "grantedOn": 1497307335,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "srinivasan.muralidharan99@gmail.com",
+              "name": "Srinivasan Muralidharan",
+              "username": "muralisr"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1497394977,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jonathan@hacera.com",
+              "name": "Jonathan Levi (HACERA)",
+              "username": "JonathanLevi"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1497399768,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jonathan@hacera.com",
+              "name": "Jonathan Levi (HACERA)",
+              "username": "JonathanLevi"
+            },
+            "grantedOn": 1497399784,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "createdOn": 1497292730,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "abc194be11e670520956b648a81c79ae3d85cb61"
+        ],
+        "ref": "refs/changes/85/10485/1",
+        "revision": "e51f893327e6d25d90d04db7bccc913d4c81efde",
+        "sizeDeletions": 0,
+        "sizeInsertions": 12,
+        "uploader": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        }
+      }
+    ],
+    "project": "fabric-test-resources",
+    "status": "MERGED",
+    "subject": "FAB-4577 add missing license headers",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-test-resources/+/10485"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "10485",
+    "project_name": "fabric-test-resources",
+    "review_hash": "I7492cfc6d67bc9568b86812007624bb86d8a9570"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1497399784,
+  "uuid": "62cd1b89f00bb67db609db4adf62ba8680290285"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1534525725
+      },
+      {
+        "message": "Patch Set 1: Verified+1 Code-Review+2",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1534525920
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "jonathan@hacera.com",
+          "name": "Jonathan Levi (HACERA)",
+          "username": "JonathanLevi"
+        },
+        "timestamp": 1535104400
+      },
+      {
+        "message": "Change has been successfully merged by Jonathan Levi (HACERA)",
+        "reviewer": {
+          "email": "jonathan@hacera.com",
+          "name": "Jonathan Levi (HACERA)",
+          "username": "JonathanLevi"
+        },
+        "timestamp": 1535104411
+      }
+    ],
+    "commitMessage": "Add Apache 2.0 LICENSE file\n\nChange-Id: Icda3633dc3e143507a978f5dfa5c901d1269ed4e\nSigned-off-by: Ry Jones <ry@linux.com>\n",
+    "createdOn": 1534525725,
+    "id": "Icda3633dc3e143507a978f5dfa5c901d1269ed4e",
+    "lastUpdated": 1535104411,
+    "number": 25631,
+    "open": false,
+    "owner": {
+      "email": "ry@linux.com",
+      "name": "Ry Jones",
+      "username": "ryjones"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jonathan@hacera.com",
+              "name": "Jonathan Levi (HACERA)",
+              "username": "JonathanLevi"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1535104400,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jonathan@hacera.com",
+              "name": "Jonathan Levi (HACERA)",
+              "username": "JonathanLevi"
+            },
+            "grantedOn": 1535104411,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1534525920,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Verified",
+            "grantedOn": 1534525920,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1534525725,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "e51f893327e6d25d90d04db7bccc913d4c81efde"
+        ],
+        "ref": "refs/changes/31/25631/1",
+        "revision": "a6a01371798a5f2661db730eec118f62e740ecfa",
+        "sizeDeletions": 0,
+        "sizeInsertions": 202,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      }
+    ],
+    "project": "fabric-test-resources",
+    "status": "MERGED",
+    "subject": "Add Apache 2.0 LICENSE file",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-test-resources/+/25631"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "25631",
+    "project_name": "fabric-test-resources",
+    "review_hash": "Icda3633dc3e143507a978f5dfa5c901d1269ed4e"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1535104411,
+  "uuid": "a7fdf8e99931249b56e9cc5c50b137b0ae90ca4a"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1546151359
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1546182253
+      },
+      {
+        "message": "Patch Set 1:\n\nthere is no CI for this repo. You'll need to add V+1 manually.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1546201020
+      },
+      {
+        "message": "Patch Set 1: Verified+1",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1546266418
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1546266421
+      },
+      {
+        "message": "Change has been successfully merged by Gari Singh",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1546266423
+      }
+    ],
+    "commitMessage": "Configure Stale ProBot\n\nUse GitHub's process to automatically comment\nand close PRs, with a pointer to the contributing\nguide.\n\nChange-Id: I60229b36708d3ee6d756e29d57f6dd347c0725cf\nSigned-off-by: Ry Jones <ry@linux.com>\n",
+    "createdOn": 1546151359,
+    "id": "I60229b36708d3ee6d756e29d57f6dd347c0725cf",
+    "lastUpdated": 1546266423,
+    "number": 28406,
+    "open": false,
+    "owner": {
+      "email": "ry@linux.com",
+      "name": "Ry Jones",
+      "username": "ryjones"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1546266421,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "grantedOn": 1546266423,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Verified",
+            "grantedOn": 1546266418,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1546182253,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1546151359,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "a6a01371798a5f2661db730eec118f62e740ecfa"
+        ],
+        "ref": "refs/changes/06/28406/1",
+        "revision": "2d6fa149c9e1f1b6124bb986c846de04dc1b480b",
+        "sizeDeletions": 0,
+        "sizeInsertions": 26,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      }
+    ],
+    "project": "fabric-test-resources",
+    "status": "MERGED",
+    "subject": "Configure Stale ProBot",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-test-resources/+/28406"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "28406",
+    "project_name": "fabric-test-resources",
+    "review_hash": "I60229b36708d3ee6d756e29d57f6dd347c0725cf"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1546266423,
+  "uuid": "68ba24199aca4d149a39bc9448336356e29219b9"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1567272076
+      },
+      {
+        "message": "Patch Set 2: Published edit on patch set 1.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1567278240
+      },
+      {
+        "message": "Patch Set 3: Published edit on patch set 2.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1567451769
+      },
+      {
+        "message": "Patch Set 3: Code-Review+2",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1567595249
+      },
+      {
+        "message": "Patch Set 3: Verified+1",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1567595398
+      },
+      {
+        "message": "Abandoned",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1568229045
+      }
+    ],
+    "commitMessage": "[FAB-16489] Add CODEOWNERS\n\nSigned-off-by: Ry Jones <ry@linux.com>\nChange-Id: I8d0a8da6050b6ed58f30e2c4facbc8ca88972c70\n",
+    "createdOn": 1567272076,
+    "id": "I8d0a8da6050b6ed58f30e2c4facbc8ca88972c70",
+    "lastUpdated": 1568229045,
+    "number": 33327,
+    "open": false,
+    "owner": {
+      "email": "ry@linux.com",
+      "name": "Ry Jones",
+      "username": "ryjones"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1567272076,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "2d6fa149c9e1f1b6124bb986c846de04dc1b480b"
+        ],
+        "ref": "refs/changes/27/33327/1",
+        "revision": "a6c2fd7b33326420e54e83286570d593db7778dd",
+        "sizeDeletions": 0,
+        "sizeInsertions": 2,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      },
+      {
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1567278240,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "2d6fa149c9e1f1b6124bb986c846de04dc1b480b"
+        ],
+        "ref": "refs/changes/27/33327/2",
+        "revision": "ae14a8c8b640cd73889abd4c305cb43681be244e",
+        "sizeDeletions": 0,
+        "sizeInsertions": 4,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1567595249,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "description": "Verified",
+            "grantedOn": 1567595398,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1567451769,
+        "kind": "REWORK",
+        "number": 3,
+        "parents": [
+          "2d6fa149c9e1f1b6124bb986c846de04dc1b480b"
+        ],
+        "ref": "refs/changes/27/33327/3",
+        "revision": "44022c0189d2cab068012966390b4a3d93b73404",
+        "sizeDeletions": 0,
+        "sizeInsertions": 4,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      }
+    ],
+    "project": "fabric-test-resources",
+    "status": "ABANDONED",
+    "subject": "[FAB-16489] Add CODEOWNERS",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-test-resources/+/33327"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "33327",
+    "project_name": "fabric-test-resources",
+    "review_hash": "I8d0a8da6050b6ed58f30e2c4facbc8ca88972c70"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1568229045,
+  "uuid": "db8bc08f4142580177ecdd3e8c8a987ffcce4341"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "satheesh.ceg@gmail.com",
+          "name": "Satheesh Kathamuthu",
+          "username": "satheeshk"
+        },
+        "timestamp": 1478172729
+      },
+      {
+        "message": "Patch Set 1: Code-Review-1\n\n(1 comment)",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1478173547
+      },
+      {
+        "message": "Uploaded patch set 2: Commit message was updated.",
+        "reviewer": {
+          "email": "satheesh.ceg@gmail.com",
+          "name": "Satheesh Kathamuthu",
+          "username": "satheeshk"
+        },
+        "timestamp": 1478178488
+      },
+      {
+        "message": "Patch Set 2: Code-Review-1\n\nIs it required that the java test resources be build output artifacts when referenced?",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1478178955
+      },
+      {
+        "message": "Patch Set 2:\n\n> Is it required that the java test resources be build output\n > artifacts when referenced?\n\nNo, These are used as source downloaded from remote repository.",
+        "reviewer": {
+          "email": "satheesh.ceg@gmail.com",
+          "name": "Satheesh Kathamuthu",
+          "username": "satheeshk"
+        },
+        "timestamp": 1478184124
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1479468610
+      },
+      {
+        "message": "Patch Set 2: Verified+1",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1479468618
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1479469727
+      },
+      {
+        "message": "Change has been successfully merged by Gari Singh",
+        "reviewer": {
+          "email": "gerrit@hyperledger.org",
+          "name": "Gerrit Code Review"
+        },
+        "timestamp": 1479469732
+      }
+    ],
+    "commitMessage": "Test resources for Java chaincode\n\nThese two java projects are used in java chaincode\ntests. Currently these are hosted on a personal repository.\nOnce merged those references can be changed to this.\n\nChange-Id: I50fc2eb50835e3a77d2f067f48dea4c76766fd55\nSigned-off-by: Satheesh Kathamuthu <satheesh.ceg@gmail.com>\n",
+    "createdOn": 1478172729,
+    "id": "I50fc2eb50835e3a77d2f067f48dea4c76766fd55",
+    "lastUpdated": 1479469732,
+    "number": 2215,
+    "open": false,
+    "owner": {
+      "email": "satheesh.ceg@gmail.com",
+      "name": "Satheesh Kathamuthu",
+      "username": "satheeshk"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1478173547,
+            "type": "Code-Review",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "satheesh.ceg@gmail.com",
+          "name": "Satheesh Kathamuthu",
+          "username": "satheeshk"
+        },
+        "comments": [
+          {
+            "file": "/COMMIT_MSG",
+            "line": 10,
+            "message": "repository",
+            "reviewer": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            }
+          }
+        ],
+        "createdOn": 1478172729,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "bc0e77f153166616b660781352989db941b3103e"
+        ],
+        "ref": "refs/changes/15/2215/1",
+        "revision": "4d249df3836713545e3aa04b863809623d70207f",
+        "sizeDeletions": 0,
+        "sizeInsertions": 578,
+        "uploader": {
+          "email": "satheesh.ceg@gmail.com",
+          "name": "Satheesh Kathamuthu",
+          "username": "satheeshk"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1479468610,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            },
+            "description": "Verified",
+            "grantedOn": 1479468618,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1479469727,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "grantedOn": 1479469732,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "satheesh.ceg@gmail.com",
+          "name": "Satheesh Kathamuthu",
+          "username": "satheeshk"
+        },
+        "createdOn": 1478178488,
+        "kind": "NO_CODE_CHANGE",
+        "number": 2,
+        "parents": [
+          "bc0e77f153166616b660781352989db941b3103e"
+        ],
+        "ref": "refs/changes/15/2215/2",
+        "revision": "abc194be11e670520956b648a81c79ae3d85cb61",
+        "sizeDeletions": 0,
+        "sizeInsertions": 578,
+        "uploader": {
+          "email": "satheesh.ceg@gmail.com",
+          "name": "Satheesh Kathamuthu",
+          "username": "satheeshk"
+        }
+      }
+    ],
+    "project": "fabric-test-resources",
+    "status": "MERGED",
+    "subject": "Test resources for Java chaincode",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-test-resources/+/2215"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "2215",
+    "project_name": "fabric-test-resources",
+    "review_hash": "I50fc2eb50835e3a77d2f067f48dea4c76766fd55"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1479469732,
+  "uuid": "bd1ee313356d76cbac8a04fe70acbe76e1e05b9c"
+}]

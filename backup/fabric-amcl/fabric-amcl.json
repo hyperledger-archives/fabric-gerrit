@@ -1,0 +1,1283 @@
+[{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "david-khala@hotmail.com",
+          "name": "David Liu",
+          "username": "davidkhala"
+        },
+        "timestamp": 1521214410
+      },
+      {
+        "message": "Uploaded patch set 2: Commit message was updated.",
+        "reviewer": {
+          "email": "david-khala@hotmail.com",
+          "name": "David Liu",
+          "username": "davidkhala"
+        },
+        "timestamp": 1521214488
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1521219353
+      },
+      {
+        "message": "Patch Set 2: Verified+1",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1521219357
+      },
+      {
+        "message": "Change has been successfully merged by Gari Singh",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1521219361
+      }
+    ],
+    "commitMessage": "[FAB-8932] Add readme.md\n\nThis fixes #FAB-8932\n\nChange-Id: If4a9b029125e45659b77ffc2a1b79282545672fd\nSigned-off-by: davidliu <david-khala@hotmail.com>\n",
+    "createdOn": 1521214410,
+    "id": "If4a9b029125e45659b77ffc2a1b79282545672fd",
+    "lastUpdated": 1521219361,
+    "number": 19291,
+    "open": false,
+    "owner": {
+      "email": "david-khala@hotmail.com",
+      "name": "David Liu",
+      "username": "davidkhala"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "david-khala@hotmail.com",
+          "name": "David Liu",
+          "username": "davidkhala"
+        },
+        "createdOn": 1521214410,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "ea8d504acd07754482414591d1ae105ff448dea2"
+        ],
+        "ref": "refs/changes/91/19291/1",
+        "revision": "df9da132b597f02533dcca78d2636d65b4251c86",
+        "sizeDeletions": 0,
+        "sizeInsertions": 11,
+        "uploader": {
+          "email": "david-khala@hotmail.com",
+          "name": "David Liu",
+          "username": "davidkhala"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1521219353,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "grantedOn": 1521219361,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Verified",
+            "grantedOn": 1521219357,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "david-khala@hotmail.com",
+          "name": "David Liu",
+          "username": "davidkhala"
+        },
+        "createdOn": 1521214488,
+        "kind": "NO_CODE_CHANGE",
+        "number": 2,
+        "parents": [
+          "ea8d504acd07754482414591d1ae105ff448dea2"
+        ],
+        "ref": "refs/changes/91/19291/2",
+        "revision": "600b0c45a024131b326a41096da0559a9a7461fd",
+        "sizeDeletions": 0,
+        "sizeInsertions": 11,
+        "uploader": {
+          "email": "david-khala@hotmail.com",
+          "name": "David Liu",
+          "username": "davidkhala"
+        }
+      }
+    ],
+    "project": "fabric-amcl",
+    "status": "MERGED",
+    "subject": "[FAB-8932] Add readme.md",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-amcl/+/19291"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "19291",
+    "project_name": "fabric-amcl",
+    "review_hash": "If4a9b029125e45659b77ffc2a1b79282545672fd"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1521219361,
+  "uuid": "5fe9a1f484c9b4994308a66653c2d5a087b37037"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "david-khala@hotmail.com",
+          "name": "David Liu",
+          "username": "davidkhala"
+        },
+        "timestamp": 1530092265
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "david-khala@hotmail.com",
+          "name": "David Liu",
+          "username": "davidkhala"
+        },
+        "timestamp": 1530092466
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1530151974
+      },
+      {
+        "message": "Patch Set 2: Verified+1",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1530151979
+      },
+      {
+        "message": "Change has been successfully merged by Gari Singh",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1530151981
+      }
+    ],
+    "commitMessage": "[FAB-10887] Update index of FP256BN\n\nChange index aligning with latest commit in milagro-crypto/amcl\nThis patch aslo update README file as [FAB-8932]\n\nChange-Id: I5a1b980f8e4ad1c5516631e9ef6d603eab89a414\nSigned-off-by: davidliu <david-khala@hotmail.com>\n",
+    "createdOn": 1530092265,
+    "id": "I5a1b980f8e4ad1c5516631e9ef6d603eab89a414",
+    "lastUpdated": 1530151981,
+    "number": 23719,
+    "open": false,
+    "owner": {
+      "email": "david-khala@hotmail.com",
+      "name": "David Liu",
+      "username": "davidkhala"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "david-khala@hotmail.com",
+          "name": "David Liu",
+          "username": "davidkhala"
+        },
+        "createdOn": 1530092265,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "600b0c45a024131b326a41096da0559a9a7461fd"
+        ],
+        "ref": "refs/changes/19/23719/1",
+        "revision": "f7992dc4b1bcff8756968b1dbc64033ae46d6e47",
+        "sizeDeletions": -4,
+        "sizeInsertions": 25,
+        "uploader": {
+          "email": "david-khala@hotmail.com",
+          "name": "David Liu",
+          "username": "davidkhala"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1530151974,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "grantedOn": 1530151981,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Verified",
+            "grantedOn": 1530151979,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "david-khala@hotmail.com",
+          "name": "David Liu",
+          "username": "davidkhala"
+        },
+        "createdOn": 1530092466,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "600b0c45a024131b326a41096da0559a9a7461fd"
+        ],
+        "ref": "refs/changes/19/23719/2",
+        "revision": "82c3cb92585cff1e3e3b621d49c53174c03b8d63",
+        "sizeDeletions": -4,
+        "sizeInsertions": 25,
+        "uploader": {
+          "email": "david-khala@hotmail.com",
+          "name": "David Liu",
+          "username": "davidkhala"
+        }
+      }
+    ],
+    "project": "fabric-amcl",
+    "status": "MERGED",
+    "subject": "[FAB-10887] Update index of FP256BN",
+    "topic": "FAB-10887",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-amcl/+/23719"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "23719",
+    "project_name": "fabric-amcl",
+    "review_hash": "I5a1b980f8e4ad1c5516631e9ef6d603eab89a414"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1530151981,
+  "uuid": "9f25409103a48269d97c76eeda2533cf5da1e73b"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1520078607
+      },
+      {
+        "message": "Patch Set 1: Verified+1",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1520078628
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1520078636
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1520078916
+      },
+      {
+        "message": "Patch Set 1:\n\nI take it we can merge this as you didn't author the code but just pushing it into git?",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1520078961
+      },
+      {
+        "message": "Patch Set 1:\n\n> I take it we can merge this as you didn't author the code but just\n > pushing it into git?\n\nI think so",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1520079544
+      },
+      {
+        "message": "Change has been successfully merged by Yacov Manevich",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1520080085
+      }
+    ],
+    "commitMessage": "[FAB-8644] Build proper amcl package\n\nInitial commit for amcl package for\nFP256BN curve built from the\nhttps://github.com/milagro-crypto/amcl\nlibrary\n\nChange-Id: Ica6b743e0fbfce609b723a9fe7468540d52879bb\nSigned-off-by: Gari Singh <gari.r.singh@gmail.com>\n",
+    "createdOn": 1520078607,
+    "id": "Ica6b743e0fbfce609b723a9fe7468540d52879bb",
+    "lastUpdated": 1520080173,
+    "number": 18701,
+    "open": false,
+    "owner": {
+      "email": "gari.r.singh@gmail.com",
+      "name": "Gari Singh",
+      "username": "mastersingh24"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "yacovm@il.ibm.com",
+              "name": "Yacov Manevich",
+              "username": "yacovm"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1520078916,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yacovm@il.ibm.com",
+              "name": "Yacov Manevich",
+              "username": "yacovm"
+            },
+            "grantedOn": 1520080085,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1520078636,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Verified",
+            "grantedOn": 1520078628,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "createdOn": 1520078607,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "fb5b81124e39215fab41983304d3f87177a59a50"
+        ],
+        "ref": "refs/changes/01/18701/1",
+        "revision": "3b7d21ac5978efdd1aadfa35c8eafb7d9ffa2f0f",
+        "sizeDeletions": 0,
+        "sizeInsertions": 9302,
+        "uploader": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        }
+      }
+    ],
+    "project": "fabric-amcl",
+    "status": "MERGED",
+    "subject": "[FAB-8644] Build proper amcl package",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-amcl/+/18701"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "18701",
+    "project_name": "fabric-amcl",
+    "review_hash": "Ica6b743e0fbfce609b723a9fe7468540d52879bb"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1520080173,
+  "uuid": "4a96ff59c46b80f0c9dfb8202decfeb72c6301e6"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1520083276
+      },
+      {
+        "message": "Patch Set 1: Verified+1 Code-Review+2",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1520083308
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1520088186
+      },
+      {
+        "message": "Change has been successfully merged by David Enyeart",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1520088277
+      }
+    ],
+    "commitMessage": "[FAB-8645] Remove extraneous comments\n\n//import* comments are causing issues with\ndep\n\nChange-Id: Ieeb5ed96ec213650bb235ff0c867e3a93d6bb8fc\nSigned-off-by: Gari Singh <gari.r.singh@gmail.com>\n",
+    "createdOn": 1520083276,
+    "id": "Ieeb5ed96ec213650bb235ff0c867e3a93d6bb8fc",
+    "lastUpdated": 1520088277,
+    "number": 18703,
+    "open": false,
+    "owner": {
+      "email": "gari.r.singh@gmail.com",
+      "name": "Gari Singh",
+      "username": "mastersingh24"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1520083308,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Verified",
+            "grantedOn": 1520083308,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1520088186,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "grantedOn": 1520088277,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "createdOn": 1520083276,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "3b7d21ac5978efdd1aadfa35c8eafb7d9ffa2f0f"
+        ],
+        "ref": "refs/changes/03/18703/1",
+        "revision": "ea8d504acd07754482414591d1ae105ff448dea2",
+        "sizeDeletions": -18,
+        "sizeInsertions": 20,
+        "uploader": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        }
+      }
+    ],
+    "project": "fabric-amcl",
+    "status": "MERGED",
+    "subject": "[FAB-8645] Remove extraneous comments",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-amcl/+/18703"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "18703",
+    "project_name": "fabric-amcl",
+    "review_hash": "Ieeb5ed96ec213650bb235ff0c867e3a93d6bb8fc"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1520088277,
+  "uuid": "de8d24001268fda5914cf20b9566574f4cff6027"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "rtorres@um.es",
+          "name": "Rafa Torres",
+          "username": "rtorres"
+        },
+        "timestamp": 1535723255
+      },
+      {
+        "message": "Assignee added: Rafa Torres <rtorres@um.es>",
+        "reviewer": {
+          "email": "rtorres@um.es",
+          "name": "Rafa Torres",
+          "username": "rtorres"
+        },
+        "timestamp": 1535723405
+      },
+      {
+        "message": "Assignee deleted: Rafa Torres <rtorres@um.es>",
+        "reviewer": {
+          "email": "rtorres@um.es",
+          "name": "Rafa Torres",
+          "username": "rtorres"
+        },
+        "timestamp": 1535723413
+      },
+      {
+        "message": "Patch Set 2: Commit message was updated.",
+        "reviewer": {
+          "email": "rtorres@um.es",
+          "name": "Rafa Torres",
+          "username": "rtorres"
+        },
+        "timestamp": 1535976370
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2\n\nI did not do a deep review, as I believe our policy is to simply merge the updates from amcl as-is.",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1535977285
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1535977713
+      },
+      {
+        "message": "Patch Set 2: Verified+1",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1535977716
+      },
+      {
+        "message": "Change has been successfully merged by Gari Singh",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1535977720
+      }
+    ],
+    "commitMessage": "[FAB-11825] Update amcl lib with multithread fix.\n\nPrevious version of AMCL have issues the objects handling in multithread\nscenarios.\nThis patch adds safe object manipulation for multithread.\nRefs: \nhttps://github.com/milagro-crypto/amcl/commit/\n22f62d8215adf5672017c11d2f6885afb00268c4\n\nChange-Id: Ieae5699c6530df8304f6a5f7e652d51df646c924\nSigned-off-by: Rafa Torres <rtm@zurich.ibm.com>\n",
+    "createdOn": 1535723255,
+    "id": "Ieae5699c6530df8304f6a5f7e652d51df646c924",
+    "lastUpdated": 1535977720,
+    "number": 26023,
+    "open": false,
+    "owner": {
+      "email": "rtorres@um.es",
+      "name": "Rafa Torres",
+      "username": "rtorres"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "rtorres@um.es",
+          "name": "Rafa Torres",
+          "username": "rtorres"
+        },
+        "createdOn": 1535723255,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "31cc24e414990009f09ab4d4d9a85eb94d17ac31"
+        ],
+        "ref": "refs/changes/23/26023/1",
+        "revision": "294568f1a8fca7e44bba0e0a0cd8480d1b478cc5",
+        "sizeDeletions": -241,
+        "sizeInsertions": 706,
+        "uploader": {
+          "email": "rtorres@um.es",
+          "name": "Rafa Torres",
+          "username": "rtorres"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1535977713,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "grantedOn": 1535977720,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Verified",
+            "grantedOn": 1535977716,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1535977285,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "rtorres@um.es",
+          "name": "Rafa Torres",
+          "username": "rtorres"
+        },
+        "createdOn": 1535976370,
+        "kind": "NO_CODE_CHANGE",
+        "number": 2,
+        "parents": [
+          "31cc24e414990009f09ab4d4d9a85eb94d17ac31"
+        ],
+        "ref": "refs/changes/23/26023/2",
+        "revision": "6b78f7a22d950103fb2669aabb969f56d42d283b",
+        "sizeDeletions": -241,
+        "sizeInsertions": 706,
+        "uploader": {
+          "email": "rtorres@um.es",
+          "name": "Rafa Torres",
+          "username": "rtorres"
+        }
+      }
+    ],
+    "project": "fabric-amcl",
+    "status": "MERGED",
+    "subject": "[FAB-11825] Update amcl lib with multithread fix.",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-amcl/+/26023"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "26023",
+    "project_name": "fabric-amcl",
+    "review_hash": "Ieae5699c6530df8304f6a5f7e652d51df646c924"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1535977720,
+  "uuid": "b50ac1c0fddab93f71b477d546114a64aade3f9e"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1534550403
+      },
+      {
+        "message": "Patch Set 1: Verified+1 Code-Review+2",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1534616957
+      },
+      {
+        "message": "Change has been successfully merged by Gari Singh",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1534616959
+      }
+    ],
+    "commitMessage": "Add Apache 2.0 LICENSE file\n\nChange-Id: Idf1fc032047b01a618e6c5d23d0f04a4aee9940c\nSigned-off-by: Ry Jones <ry@linux.com>\n",
+    "createdOn": 1534550403,
+    "id": "Idf1fc032047b01a618e6c5d23d0f04a4aee9940c",
+    "lastUpdated": 1534616959,
+    "number": 25643,
+    "open": false,
+    "owner": {
+      "email": "ry@linux.com",
+      "name": "Ry Jones",
+      "username": "ryjones"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1534616957,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "grantedOn": 1534616959,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Verified",
+            "grantedOn": 1534616957,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1534550403,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "82c3cb92585cff1e3e3b621d49c53174c03b8d63"
+        ],
+        "ref": "refs/changes/43/25643/1",
+        "revision": "31cc24e414990009f09ab4d4d9a85eb94d17ac31",
+        "sizeDeletions": 0,
+        "sizeInsertions": 202,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      }
+    ],
+    "project": "fabric-amcl",
+    "status": "MERGED",
+    "subject": "Add Apache 2.0 LICENSE file",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-amcl/+/25643"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "25643",
+    "project_name": "fabric-amcl",
+    "review_hash": "Idf1fc032047b01a618e6c5d23d0f04a4aee9940c"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1534616959,
+  "uuid": "4bdf79568f4bfde70447344764b27a7ffdc98baa"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1546162632
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1546165036
+      },
+      {
+        "message": "Patch Set 1:\n\nI think you can set V+1 and merge. I don't think there is Jenkins support for AMCL.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1546165217
+      },
+      {
+        "message": "Patch Set 1: Verified+1",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1546165461
+      },
+      {
+        "message": "Change has been successfully merged by Yacov Manevich",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1546165463
+      }
+    ],
+    "commitMessage": "Configure Stale ProBot\n\nUse GitHub's process to automatically comment\nand close PRs, with a pointer to the contributing\nguide.\n\nChange-Id: Ib044f398b575ac30f077f254ffd496557e7e0859\nSigned-off-by: Ry Jones <ry@linux.com>\n",
+    "createdOn": 1546162632,
+    "id": "Ib044f398b575ac30f077f254ffd496557e7e0859",
+    "lastUpdated": 1546165463,
+    "number": 28409,
+    "open": false,
+    "owner": {
+      "email": "ry@linux.com",
+      "name": "Ry Jones",
+      "username": "ryjones"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "yacovm@il.ibm.com",
+              "name": "Yacov Manevich",
+              "username": "yacovm"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1546165036,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yacovm@il.ibm.com",
+              "name": "Yacov Manevich",
+              "username": "yacovm"
+            },
+            "grantedOn": 1546165463,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yacovm@il.ibm.com",
+              "name": "Yacov Manevich",
+              "username": "yacovm"
+            },
+            "description": "Verified",
+            "grantedOn": 1546165461,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1546162632,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "6b78f7a22d950103fb2669aabb969f56d42d283b"
+        ],
+        "ref": "refs/changes/09/28409/1",
+        "revision": "5ccba6eab8d6b39aa2cdd88db202bba0e25da5d7",
+        "sizeDeletions": 0,
+        "sizeInsertions": 26,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      }
+    ],
+    "project": "fabric-amcl",
+    "status": "MERGED",
+    "subject": "Configure Stale ProBot",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-amcl/+/28409"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "28409",
+    "project_name": "fabric-amcl",
+    "review_hash": "Ib044f398b575ac30f077f254ffd496557e7e0859"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1546165463,
+  "uuid": "8466913eb7b44da9f86451f046158cc8e2b9edf5"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1567194293
+      },
+      {
+        "message": "Patch Set 2: Published edit on patch set 1.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1567278041
+      },
+      {
+        "message": "Patch Set 3: Published edit on patch set 2.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1567451712
+      },
+      {
+        "message": "Patch Set 3: Code-Review+2",
+        "reviewer": {
+          "email": "jyellick@us.ibm.com",
+          "name": "Jason Yellick",
+          "username": "jyellick"
+        },
+        "timestamp": 1567536643
+      },
+      {
+        "message": "Patch Set 3: Verified+1",
+        "reviewer": {
+          "email": "jyellick@us.ibm.com",
+          "name": "Jason Yellick",
+          "username": "jyellick"
+        },
+        "timestamp": 1567536650
+      },
+      {
+        "message": "Change has been successfully merged by Jason Yellick",
+        "reviewer": {
+          "email": "jyellick@us.ibm.com",
+          "name": "Jason Yellick",
+          "username": "jyellick"
+        },
+        "timestamp": 1567536667
+      }
+    ],
+    "commitMessage": "[FAB-16489] Add CODEOWNERS\n\nSigned-off-by: Ry Jones <ry@linux.com>\nChange-Id: Ic9206c73609c076fe28a9153bc0594409998c89d\n",
+    "createdOn": 1567194293,
+    "id": "Ic9206c73609c076fe28a9153bc0594409998c89d",
+    "lastUpdated": 1567536667,
+    "number": 33306,
+    "open": false,
+    "owner": {
+      "email": "ry@linux.com",
+      "name": "Ry Jones",
+      "username": "ryjones"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1567194293,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "5ccba6eab8d6b39aa2cdd88db202bba0e25da5d7"
+        ],
+        "ref": "refs/changes/06/33306/1",
+        "revision": "762547f187ee6fb7bc683aa96a75e0e9b903e23e",
+        "sizeDeletions": 0,
+        "sizeInsertions": 2,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      },
+      {
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1567278041,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "5ccba6eab8d6b39aa2cdd88db202bba0e25da5d7"
+        ],
+        "ref": "refs/changes/06/33306/2",
+        "revision": "7c59807abfa8cdaa21649686617d7c5172f9f7a4",
+        "sizeDeletions": 0,
+        "sizeInsertions": 4,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jyellick@us.ibm.com",
+              "name": "Jason Yellick",
+              "username": "jyellick"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1567536643,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jyellick@us.ibm.com",
+              "name": "Jason Yellick",
+              "username": "jyellick"
+            },
+            "grantedOn": 1567536667,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "jyellick@us.ibm.com",
+              "name": "Jason Yellick",
+              "username": "jyellick"
+            },
+            "description": "Verified",
+            "grantedOn": 1567536650,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1567451712,
+        "kind": "REWORK",
+        "number": 3,
+        "parents": [
+          "5ccba6eab8d6b39aa2cdd88db202bba0e25da5d7"
+        ],
+        "ref": "refs/changes/06/33306/3",
+        "revision": "f66264322317494540fb3601fe63420a30fc0ce4",
+        "sizeDeletions": 0,
+        "sizeInsertions": 4,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      }
+    ],
+    "project": "fabric-amcl",
+    "status": "MERGED",
+    "subject": "[FAB-16489] Add CODEOWNERS",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-amcl/+/33306"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "33306",
+    "project_name": "fabric-amcl",
+    "review_hash": "Ic9206c73609c076fe28a9153bc0594409998c89d"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1567536667,
+  "uuid": "2ae0a470747208a815de60d61c48f6fce7d87d97"
+}]

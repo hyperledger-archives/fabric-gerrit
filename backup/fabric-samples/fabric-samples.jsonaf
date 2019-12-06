@@ -1,0 +1,3188 @@
+[{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "release-1.4",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "tock@il.ibm.com",
+          "name": "Yoav Tock",
+          "username": "tock"
+        },
+        "timestamp": 1553430395
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/129/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1553430403
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/129/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/129",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1553431613
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1553509828
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1553514204
+      },
+      {
+        "message": "Change has been successfully merged by Yacov Manevich",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1553514208
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-merge-x86_64/26/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-merge-x86_64/26",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1553515465
+      }
+    ],
+    "commitMessage": "FAB-12762 Add etcd/raft consensus option to BYFN\n\nAugment the fabric-samples first-network sample to include an option\nto choose etcd/raft as consensus-type.\n\nExtend the -o flag so that it allows users to choose between the\nsolo, kafka, or etcdraft consensus-type for the ordering service.\n\nUse three orderer nodes.\n\nChange-Id: Ibc4c3564220466aef0a87baee4a2d594e5554a62\nSigned-off-by: Yoav Tock <tock@il.ibm.com>\n",
+    "createdOn": 1553430395,
+    "id": "Ibc4c3564220466aef0a87baee4a2d594e5554a62",
+    "lastUpdated": 1553515465,
+    "number": 30347,
+    "open": false,
+    "owner": {
+      "email": "tock@il.ibm.com",
+      "name": "Yoav Tock",
+      "username": "tock"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1553431613,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yacovm@il.ibm.com",
+              "name": "Yacov Manevich",
+              "username": "yacovm"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1553514204,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yacovm@il.ibm.com",
+              "name": "Yacov Manevich",
+              "username": "yacovm"
+            },
+            "grantedOn": 1553514208,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1553509828,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "tock@il.ibm.com",
+          "name": "Yoav Tock",
+          "username": "tock"
+        },
+        "createdOn": 1553430395,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "026aa9ec01ad8e0826635230bca917ae054620d1"
+        ],
+        "ref": "refs/changes/47/30347/1",
+        "revision": "83fe6c32df2d8ad4a3dbe19caf5331242f5c9cb1",
+        "sizeDeletions": -27,
+        "sizeInsertions": 144,
+        "uploader": {
+          "email": "tock@il.ibm.com",
+          "name": "Yoav Tock",
+          "username": "tock"
+        }
+      }
+    ],
+    "project": "fabric-samples",
+    "status": "MERGED",
+    "subject": "FAB-12762 Add etcd/raft consensus option to BYFN",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-samples/+/30347"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "30347",
+    "project_name": "fabric-samples",
+    "review_hash": "Ibc4c3564220466aef0a87baee4a2d594e5554a62"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1553515465,
+  "uuid": "62389117cd37a0c1a44de064dce8d8e7a6106f6a"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "release-1.4",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "varunagarwal315@gmail.com",
+          "name": "Varun Agarwal",
+          "username": "varunagarwal"
+        },
+        "timestamp": 1566723172
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/514/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1566723180
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/514/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/514",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1566725157
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1566743631
+      },
+      {
+        "message": "Change has been successfully merged by David Enyeart",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1566743632
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-merge-x86_64/134/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-merge-x86_64/134",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1566745414
+      }
+    ],
+    "commitMessage": "[FAB-16390] Added filter for invalid transactions\n\nSigned-off-by: Varun Agarwal <varunagarwal315@gmail.com>\nChange-Id: Idb6c57e047bba9a176b312f86d05c2ee21aeb175\n",
+    "createdOn": 1566723172,
+    "id": "Idb6c57e047bba9a176b312f86d05c2ee21aeb175",
+    "lastUpdated": 1566745414,
+    "number": 33175,
+    "open": false,
+    "owner": {
+      "email": "varunagarwal315@gmail.com",
+      "name": "Varun Agarwal",
+      "username": "varunagarwal"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1566725157,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1566743631,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "grantedOn": 1566743632,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "varunagarwal315@gmail.com",
+          "name": "Varun Agarwal",
+          "username": "varunagarwal"
+        },
+        "createdOn": 1566723172,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "a9639903132f9fe5c9f55f19a0823bd506b748ed"
+        ],
+        "ref": "refs/changes/75/33175/1",
+        "revision": "f86ec95726cdb9d015b0ca1d4d95d583050fa6b4",
+        "sizeDeletions": -6,
+        "sizeInsertions": 21,
+        "uploader": {
+          "email": "varunagarwal315@gmail.com",
+          "name": "Varun Agarwal",
+          "username": "varunagarwal"
+        }
+      }
+    ],
+    "project": "fabric-samples",
+    "status": "MERGED",
+    "subject": "[FAB-16390] Added filter for invalid transactions",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-samples/+/33175"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "33175",
+    "project_name": "fabric-samples",
+    "review_hash": "Idb6c57e047bba9a176b312f86d05c2ee21aeb175"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1566745414,
+  "uuid": "9dda9a69586c87e513f5e1f084788935de4b6378"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "release-1.4",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "vijaypunugubati@gmail.com",
+          "name": "VIJAY BABU PUNUGUBATI",
+          "username": "vijaypunugubati"
+        },
+        "timestamp": 1566487031
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/505/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1566487038
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/505/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/505",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1566488663
+      },
+      {
+        "message": "Patch Set 1:\n\nreverify",
+        "reviewer": {
+          "email": "vijaypunugubati@gmail.com",
+          "name": "VIJAY BABU PUNUGUBATI",
+          "username": "vijaypunugubati"
+        },
+        "timestamp": 1566498503
+      },
+      {
+        "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/507/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1566498509
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/507/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/507",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1566500444
+      },
+      {
+        "message": "Patch Set 1:\n\nreverify",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1566552100
+      },
+      {
+        "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/508/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1566552109
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/508/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/508",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1566553460
+      },
+      {
+        "message": "Patch Set 1: Verified+1 Code-Review+2\n\nFailing for unrelated reason. Manually verifying this change.",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1566597085
+      },
+      {
+        "message": "Removed Verified-1 by Hyperledger Jobbuilder <jobbuilder@jenkins.hyperledger.org>\n",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1566597087
+      },
+      {
+        "message": "Change has been successfully merged by David Enyeart",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1566597089
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-merge-x86_64/132/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1566597098
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-merge-x86_64/132/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-merge-x86_64/132",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1566598925
+      }
+    ],
+    "commitMessage": "Remove AnsiColor wrapper in Fabric Samples\n\nFABCI-402 #done\n\nSigned-off-by: vijaypunugubati <vijaypunugubati@gmail.com>\nChange-Id: Ie4ee8c1eecc63d959b2a8d188d737c5b03face67\n",
+    "createdOn": 1566487031,
+    "id": "Ie4ee8c1eecc63d959b2a8d188d737c5b03face67",
+    "lastUpdated": 1566598925,
+    "number": 33129,
+    "open": false,
+    "owner": {
+      "email": "vijaypunugubati@gmail.com",
+      "name": "VIJAY BABU PUNUGUBATI",
+      "username": "vijaypunugubati"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1566597085,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "grantedOn": 1566597089,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "description": "Verified",
+            "grantedOn": 1566597085,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vijaypunugubati@gmail.com",
+          "name": "VIJAY BABU PUNUGUBATI",
+          "username": "vijaypunugubati"
+        },
+        "createdOn": 1566487031,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "fc5975b2859be9bea8c8d9f70a888dc55e0369ce"
+        ],
+        "ref": "refs/changes/29/33129/1",
+        "revision": "549e9fdd09c56325650dcbc9078fddc5837e1a64",
+        "sizeDeletions": -6,
+        "sizeInsertions": 6,
+        "uploader": {
+          "email": "vijaypunugubati@gmail.com",
+          "name": "VIJAY BABU PUNUGUBATI",
+          "username": "vijaypunugubati"
+        }
+      }
+    ],
+    "project": "fabric-samples",
+    "status": "MERGED",
+    "subject": "Remove AnsiColor wrapper in Fabric Samples",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-samples/+/33129"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "33129",
+    "project_name": "fabric-samples",
+    "review_hash": "Ie4ee8c1eecc63d959b2a8d188d737c5b03face67"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1566598925,
+  "uuid": "612f0c7f4e9e44cd06a26f164d45fa3ad59aefb7"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "release-1.4",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "vijaypunugubati@gmail.com",
+          "name": "VIJAY BABU PUNUGUBATI",
+          "username": "vijaypunugubati"
+        },
+        "timestamp": 1568640864
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/553/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1568640870
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/553/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/553",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1568641994
+      },
+      {
+        "message": "Patch Set 1:\n\nreverify",
+        "reviewer": {
+          "email": "vijaypunugubati@gmail.com",
+          "name": "VIJAY BABU PUNUGUBATI",
+          "username": "vijaypunugubati"
+        },
+        "timestamp": 1568643994
+      },
+      {
+        "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/554/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1568644000
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/554/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/554",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1568645426
+      },
+      {
+        "message": "Patch Set 1: Code-Review+1",
+        "reviewer": {
+          "email": "brett.t.logan@ibm.com",
+          "name": "Brett Logan",
+          "username": "btl5037"
+        },
+        "timestamp": 1568645883
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1568646608
+      },
+      {
+        "message": "Change has been successfully merged by David Enyeart",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1568646609
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-merge-x86_64/147/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-merge-x86_64/147",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1568648421
+      }
+    ],
+    "commitMessage": "FAB-16608 Update base_version on ci.prop\n\nUpdate ci.prop file to bring 1.4.4-stables images from\nnexus on verify and merge jobs.\n\nSigned-off-by: vijaypunugubati <vijaypunugubati@gmail.com>\nChange-Id: I25a1ed222aae5bbf7fad79002b18ea59b19c0d89\n",
+    "createdOn": 1568640864,
+    "id": "I25a1ed222aae5bbf7fad79002b18ea59b19c0d89",
+    "lastUpdated": 1568648421,
+    "number": 33530,
+    "open": false,
+    "owner": {
+      "email": "vijaypunugubati@gmail.com",
+      "name": "VIJAY BABU PUNUGUBATI",
+      "username": "vijaypunugubati"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1568645426,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1568646608,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "grantedOn": 1568646609,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "brett.t.logan@ibm.com",
+              "name": "Brett Logan",
+              "username": "btl5037"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1568645883,
+            "type": "Code-Review",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vijaypunugubati@gmail.com",
+          "name": "VIJAY BABU PUNUGUBATI",
+          "username": "vijaypunugubati"
+        },
+        "createdOn": 1568640864,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "0b980ebda7538723a83a59902c3977d7febbb0cc"
+        ],
+        "ref": "refs/changes/30/33530/1",
+        "revision": "ddf013ba01c81109a63a9f1f6eb325688fc6a2a4",
+        "sizeDeletions": -2,
+        "sizeInsertions": 2,
+        "uploader": {
+          "email": "vijaypunugubati@gmail.com",
+          "name": "VIJAY BABU PUNUGUBATI",
+          "username": "vijaypunugubati"
+        }
+      }
+    ],
+    "project": "fabric-samples",
+    "status": "MERGED",
+    "subject": "FAB-16608 Update base_version on ci.prop",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-samples/+/33530"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "33530",
+    "project_name": "fabric-samples",
+    "review_hash": "I25a1ed222aae5bbf7fad79002b18ea59b19c0d89"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1568648421,
+  "uuid": "77700d232ec44658072c1226831906e73d3e555c"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "release-1.4",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1549463604
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/30/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1549463614
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/30/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/30",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1549465226
+      },
+      {
+        "message": "Abandoned",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1549466076
+      }
+    ],
+    "commitMessage": "[FAB-13823] Commercial Paper fixes\n\nChange-Id: I35e3e02fe9672ea79bd96e4d49926c900dfa627d\nSigned-off-by: Matthew B. White <whitemat@uk.ibm.com>\n\n[FAB-13823] Commercial Paper fixes\n\nChange-Id: Ib6b90440a737a144eafab37392494d0e8ed4c73a\nSigned-off-by: Matthew B. White <whitemat@uk.ibm.com>\n",
+    "createdOn": 1549463604,
+    "id": "Ib6b90440a737a144eafab37392494d0e8ed4c73a",
+    "lastUpdated": 1549466076,
+    "number": 29158,
+    "open": false,
+    "owner": {
+      "email": "whitemat@uk.ibm.com",
+      "name": "Matthew White",
+      "username": "mbwhite"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1549465226,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1549463604,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "881ba56c8e9b1c30349dfaf88a27ac26dc302cd6"
+        ],
+        "ref": "refs/changes/58/29158/1",
+        "revision": "f1f43b1dd117e0d02f68430cff6f772c6a8261ae",
+        "sizeDeletions": -53,
+        "sizeInsertions": 280,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      }
+    ],
+    "project": "fabric-samples",
+    "status": "ABANDONED",
+    "subject": "[FAB-13823] Commercial Paper fixes",
+    "topic": "commercial-paper-fixes",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-samples/+/29158"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "29158",
+    "project_name": "fabric-samples",
+    "review_hash": "Ib6b90440a737a144eafab37392494d0e8ed4c73a"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1549466076,
+  "uuid": "218b7d43d3caba3385397110870d948674fc516a"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "release-1.4",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1549465341
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/31/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1549465350
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1549466267
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/31/ : ABORTED\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/31",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1549466272
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/32/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1549466273
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/32/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/32",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1549467655
+      },
+      {
+        "message": "Patch Set 2:\n\nI've updated the code - tests are a bigger thing; not hit those yet.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1549468400
+      },
+      {
+        "message": "Patch Set 2: Code-Review-1\n\n(1 comment)",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1551795131
+      },
+      {
+        "message": "Patch Set 2:\n\n(1 comment)",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1551796843
+      },
+      {
+        "message": "Uploaded patch set 3.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1551879066
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/68/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1551879076
+      },
+      {
+        "message": "Patch Set 2:\n\n(1 comment)\n\nLGTM now metadata.js has been removed!",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1551879276
+      },
+      {
+        "message": "Patch Set 3:\n\nreverify",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1551879555
+      },
+      {
+        "message": "Patch Set 3: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/68/ : ABORTED\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/68",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1551879558
+      },
+      {
+        "message": "Patch Set 3: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/69/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1551879561
+      },
+      {
+        "message": "Patch Set 3: Code-Review+1\n\nLGTM!",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1551879583
+      },
+      {
+        "message": "Patch Set 3: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/69/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/69",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1551880798
+      },
+      {
+        "message": "Patch Set 3: Code-Review+2",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1556128860
+      },
+      {
+        "message": "Change has been successfully merged by Simon Stone",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1556128866
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-merge-x86_64/40/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-merge-x86_64/40",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1556130192
+      }
+    ],
+    "commitMessage": "[FAB-13823] Commercial Paper fixes\n\nChange-Id: I35e3e02fe9672ea79bd96e4d49926c900dfa627d\nSigned-off-by: Matthew B. White <whitemat@uk.ibm.com>\n",
+    "createdOn": 1549465341,
+    "id": "I35e3e02fe9672ea79bd96e4d49926c900dfa627d",
+    "lastUpdated": 1556130192,
+    "number": 29160,
+    "open": false,
+    "owner": {
+      "email": "whitemat@uk.ibm.com",
+      "name": "Matthew White",
+      "username": "mbwhite"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1549466272,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1549465341,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "881ba56c8e9b1c30349dfaf88a27ac26dc302cd6"
+        ],
+        "ref": "refs/changes/60/29160/1",
+        "revision": "c27583dcc8efec8e1868e775cccf8b50a9469292",
+        "sizeDeletions": -11,
+        "sizeInsertions": 379,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1549467655,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1551795131,
+            "type": "Code-Review",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "comments": [
+          {
+            "file": "commercial-paper/organization/magnetocorp/application/metadata.js",
+            "line": 1,
+            "message": "What's this application for? Is it useful outside of testing? It talks about the \"issue program\" at the end.",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/magnetocorp/application/metadata.js",
+            "line": 1,
+            "message": "Was used to getting metadata out to add; worth keeping (and correcting the name) - or is this a different sample...(probably is).   It's not mentioned in the docs",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/magnetocorp/application/metadata.js",
+            "line": 1,
+            "message": "I think it belongs elsewhere, as part of a sample that demonstrates doing something with the metadata - at the moment it's more of a snippet that could just go in the contract API docs.",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          }
+        ],
+        "createdOn": 1549466267,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "881ba56c8e9b1c30349dfaf88a27ac26dc302cd6"
+        ],
+        "ref": "refs/changes/60/29160/2",
+        "revision": "9a98449c9a79929ea952ac9c494e205c5049bbc9",
+        "sizeDeletions": -11,
+        "sizeInsertions": 379,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1551880798,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1556128860,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            },
+            "grantedOn": 1556128866,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1551879066,
+        "kind": "REWORK",
+        "number": 3,
+        "parents": [
+          "026aa9ec01ad8e0826635230bca917ae054620d1"
+        ],
+        "ref": "refs/changes/60/29160/3",
+        "revision": "6c28eca339891bfacf2b8710d9f9ba8385a297b0",
+        "sizeDeletions": -11,
+        "sizeInsertions": 293,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      }
+    ],
+    "project": "fabric-samples",
+    "status": "MERGED",
+    "subject": "[FAB-13823] Commercial Paper fixes",
+    "topic": "commercial-paper-fixes",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-samples/+/29160"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "29160",
+    "project_name": "fabric-samples",
+    "review_hash": "I35e3e02fe9672ea79bd96e4d49926c900dfa627d"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1556130192,
+  "uuid": "6099d547961f963ff85095aad67fad262a53cbe0"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "release-1.4",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564391326
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/387/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564391337
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/387/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/387",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564392004
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564396187
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/391/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564396198
+      },
+      {
+        "message": "Patch Set 2: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/391/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/391",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564397368
+      },
+      {
+        "message": "Uploaded patch set 3.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564399534
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/393/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564399543
+      },
+      {
+        "message": "Patch Set 3: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/393/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/393",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564401042
+      },
+      {
+        "message": "Uploaded patch set 4.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564403175
+      },
+      {
+        "message": "Patch Set 4:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/395/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564403183
+      },
+      {
+        "message": "Patch Set 4: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/395/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/395",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564404621
+      },
+      {
+        "message": "Patch Set 4:\n\n(2 comments)",
+        "reviewer": {
+          "email": "jamest@uk.ibm.com",
+          "name": "James Taylor",
+          "username": "jtonline"
+        },
+        "timestamp": 1564410811
+      },
+      {
+        "message": "Uploaded patch set 5.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564412728
+      },
+      {
+        "message": "Patch Set 5:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/396/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564412740
+      },
+      {
+        "message": "Patch Set 5: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/396/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/396",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564413934
+      },
+      {
+        "message": "Uploaded patch set 6.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564474711
+      },
+      {
+        "message": "Patch Set 6:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/397/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564474719
+      },
+      {
+        "message": "Patch Set 6: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/397/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/397",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564476417
+      },
+      {
+        "message": "Uploaded patch set 7.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564487012
+      },
+      {
+        "message": "Patch Set 7:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/405/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564487025
+      },
+      {
+        "message": "Patch Set 7: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/405/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/405",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564488271
+      },
+      {
+        "message": "Patch Set 7:\n\n(3 comments)",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1564490081
+      },
+      {
+        "message": "Uploaded patch set 8.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564491912
+      },
+      {
+        "message": "Patch Set 8:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/408/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564491920
+      },
+      {
+        "message": "Uploaded patch set 9.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564491992
+      },
+      {
+        "message": "Patch Set 8: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/408/ : ABORTED\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/408",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564491995
+      },
+      {
+        "message": "Patch Set 9:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/409/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564492000
+      },
+      {
+        "message": "Uploaded patch set 10.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564492334
+      },
+      {
+        "message": "Patch Set 9: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/409/ : ABORTED\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/409",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564492339
+      },
+      {
+        "message": "Patch Set 10:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/411/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564492345
+      },
+      {
+        "message": "Patch Set 10:\n\n(2 comments)",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1564492534
+      },
+      {
+        "message": "Patch Set 10:\n\n(5 comments)",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1564492959
+      },
+      {
+        "message": "Patch Set 10:\n\nsome caps issues - should be DigiBank and MagnetoCorp - few Digibank and Magnetocorp references: \n\n$ grep -R Digibank commercial-paper\ncommercial-paper/README.md:3) Run client applications in the roles of MagnetoCorp and Digibank to trade the commecial paper\ncommercial-paper/README.md:This is running as *Digibank*; you've not acted as this organization before so in your 'Digibank' window run the following command\n\n$ grep -R Magnetocorp commercial-paper\ncommercial-paper/roles/digibank.sh: Install and Instantiate a Smart Contract as 'Magnetocorp'\ncommercial-paper/README.md:   - Issue the Paper as Magnetocorp",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1564493002
+      },
+      {
+        "message": "Uploaded patch set 11.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564493605
+      },
+      {
+        "message": "Patch Set 10: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/411/ : ABORTED\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/411",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564493611
+      },
+      {
+        "message": "Patch Set 11:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/412/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564493615
+      },
+      {
+        "message": "Patch Set 11:\n\n(19 comments)",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1564493941
+      },
+      {
+        "message": "Uploaded patch set 12.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564494466
+      },
+      {
+        "message": "Patch Set 11: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/412/ : ABORTED\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/412",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564494470
+      },
+      {
+        "message": "Patch Set 12:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/414/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564494475
+      },
+      {
+        "message": "Patch Set 12:\n\n(15 comments)\n\nUpdated",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564495212
+      },
+      {
+        "message": "Patch Set 12:\n\nreverify",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564496148
+      },
+      {
+        "message": "Patch Set 12:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/415/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564496156
+      },
+      {
+        "message": "Patch Set 12: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/414/ : ABORTED\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/414",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564496158
+      },
+      {
+        "message": "Patch Set 12:\n\nreverify",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564496216
+      },
+      {
+        "message": "Patch Set 12: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/415/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/415",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564497784
+      },
+      {
+        "message": "Patch Set 12: Code-Review+2",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1564502544
+      },
+      {
+        "message": "Change has been successfully merged by Simon Stone",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1564502547
+      },
+      {
+        "message": "Patch Set 12:\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-merge-x86_64/104/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-merge-x86_64/104",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564504069
+      }
+    ],
+    "commitMessage": "[FAB-15213] Update Commercial Paper for Java\n\nUpdate with Java Contract\n\nChange-Id: I1a70473f038576d741c8c9ac83e527b5e51e88ca\nSigned-off-by: Matthew B. White <whitemat@uk.ibm.com>\n\n[FAB-15213] Update Commercial Paper for Java\n\nChange-Id: Ie116962a6c3952e52269323492f5f292e9b65e95\nSigned-off-by: Matthew B. White <whitemat@uk.ibm.com>\n",
+    "createdOn": 1564391326,
+    "id": "Ie116962a6c3952e52269323492f5f292e9b65e95",
+    "lastUpdated": 1564504069,
+    "number": 32554,
+    "open": false,
+    "owner": {
+      "email": "whitemat@uk.ibm.com",
+      "name": "Matthew White",
+      "username": "mbwhite"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564392004,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1564391326,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "8c057e951bfdb06ef23009873177cabd00841596"
+        ],
+        "ref": "refs/changes/54/32554/1",
+        "revision": "e4675a4250075cf30251da6213aedaa94548d041",
+        "sizeDeletions": -385,
+        "sizeInsertions": 8167,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564397368,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1564396187,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "8c057e951bfdb06ef23009873177cabd00841596"
+        ],
+        "ref": "refs/changes/54/32554/2",
+        "revision": "80564460b81226ecc829c2e5d091e7a3b22bce42",
+        "sizeDeletions": -385,
+        "sizeInsertions": 8175,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564401042,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1564399534,
+        "kind": "REWORK",
+        "number": 3,
+        "parents": [
+          "8c057e951bfdb06ef23009873177cabd00841596"
+        ],
+        "ref": "refs/changes/54/32554/3",
+        "revision": "d8d7ab37ceaa3d59e85d3f9ca74fc10b2e5931a0",
+        "sizeDeletions": -389,
+        "sizeInsertions": 8186,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564404621,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "comments": [
+          {
+            "file": "commercial-paper/README.md",
+            "line": 106,
+            "message": "There's a double backtick here which looks wrong",
+            "reviewer": {
+              "email": "jamest@uk.ibm.com",
+              "name": "James Taylor",
+              "username": "jtonline"
+            }
+          },
+          {
+            "file": "commercial-paper/README.md",
+            "line": 112,
+            "message": "Ewww",
+            "reviewer": {
+              "email": "jamest@uk.ibm.com",
+              "name": "James Taylor",
+              "username": "jtonline"
+            }
+          }
+        ],
+        "createdOn": 1564403175,
+        "kind": "REWORK",
+        "number": 4,
+        "parents": [
+          "8c057e951bfdb06ef23009873177cabd00841596"
+        ],
+        "ref": "refs/changes/54/32554/4",
+        "revision": "b90933bf0384b1ffaca8c55ee230595698111bad",
+        "sizeDeletions": -390,
+        "sizeInsertions": 8187,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564413934,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1564412728,
+        "kind": "REWORK",
+        "number": 5,
+        "parents": [
+          "8c057e951bfdb06ef23009873177cabd00841596"
+        ],
+        "ref": "refs/changes/54/32554/5",
+        "revision": "f70263e65accce123baded756cc11596a15a9259",
+        "sizeDeletions": -390,
+        "sizeInsertions": 8186,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564476417,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1564474711,
+        "kind": "REWORK",
+        "number": 6,
+        "parents": [
+          "8c057e951bfdb06ef23009873177cabd00841596"
+        ],
+        "ref": "refs/changes/54/32554/6",
+        "revision": "4129416d90d85c04bc9c680b41f162c0cfa4ae74",
+        "sizeDeletions": -390,
+        "sizeInsertions": 8184,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564488271,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "comments": [
+          {
+            "file": "chaincode/chaincode_example02/java/.classpath",
+            "line": 1,
+            "message": "not sure this is meant to be here",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "chaincode/chaincode_example02/java/.gitignore",
+            "line": 1,
+            "message": "not sure this is meant to be here",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "chaincode/chaincode_example02/java/.settings/org.eclipse.buildship.core.prefs",
+            "line": 1,
+            "message": "not sure this is meant to be here",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/roles/network-starter.sh",
+            "line": 1,
+            "message": "I'm unsure about having this file in the same directory as the other roles; unlike the other roles, you don't \"source\" this file, you just execute it.",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          }
+        ],
+        "createdOn": 1564487012,
+        "kind": "REWORK",
+        "number": 7,
+        "parents": [
+          "8c057e951bfdb06ef23009873177cabd00841596"
+        ],
+        "ref": "refs/changes/54/32554/7",
+        "revision": "81e2a00a9736dab229e2468eb997cfde7b05b9a9",
+        "sizeDeletions": -390,
+        "sizeInsertions": 8207,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564491995,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1564491912,
+        "kind": "REWORK",
+        "number": 8,
+        "parents": [
+          "8c057e951bfdb06ef23009873177cabd00841596"
+        ],
+        "ref": "refs/changes/54/32554/8",
+        "revision": "c6c7316dc69fecb4e0b8a32dd61a68dd7570f097",
+        "sizeDeletions": -390,
+        "sizeInsertions": 8236,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564492339,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1564491992,
+        "kind": "REWORK",
+        "number": 9,
+        "parents": [
+          "8c057e951bfdb06ef23009873177cabd00841596"
+        ],
+        "ref": "refs/changes/54/32554/9",
+        "revision": "65c20970d8ff9b22360c5ca6421f92c177f208bf",
+        "sizeDeletions": -390,
+        "sizeInsertions": 8180,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564493611,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "comments": [
+          {
+            "file": "commercial-paper/README.md",
+            "line": 106,
+            "message": "too many backticks",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/README.md",
+            "line": 126,
+            "message": "might be worth making clear what directory you have to be in to run this, I just followed on from above and it wasn't in the application-java directory I was in",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/README.md",
+            "line": 126,
+            "message": "Ack",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          },
+          {
+            "file": "commercial-paper/README.md",
+            "line": 128,
+            "message": "should be roles",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/README.md",
+            "line": 128,
+            "message": "Ack",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          },
+          {
+            "file": "commercial-paper/README.md",
+            "line": 149,
+            "message": "random *",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/README.md",
+            "line": 149,
+            "message": "Ack",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/.classpath",
+            "line": 1,
+            "message": "delete",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/.classpath",
+            "line": 1,
+            "message": "Ack",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/.settings/org.eclipse.buildship.core.prefs",
+            "line": 1,
+            "message": "delete",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/.settings/org.eclipse.buildship.core.prefs",
+            "line": 1,
+            "message": "Ack",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          }
+        ],
+        "createdOn": 1564492334,
+        "kind": "REWORK",
+        "number": 10,
+        "parents": [
+          "8c057e951bfdb06ef23009873177cabd00841596"
+        ],
+        "ref": "refs/changes/54/32554/10",
+        "revision": "8ebffa6023444ad156c681113ab6128f98910b5f",
+        "sizeDeletions": -390,
+        "sizeInsertions": 8180,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564494470,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "comments": [
+          {
+            "file": "commercial-paper/organization/digibank/application-java/src/org/papernet/CommercialPaper.java",
+            "line": 2,
+            "message": "Should be Apache-2.0",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/application-java/src/org/papernet/CommercialPaper.java",
+            "line": 2,
+            "message": "Ack",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/src/main/java/org/example/CommercialPaper.java",
+            "line": 2,
+            "message": "Should be Apache-2.0",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/src/main/java/org/example/CommercialPaper.java",
+            "line": 2,
+            "message": "Ack",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/src/main/java/org/example/CommercialPaperContext.java",
+            "line": 1,
+            "message": "no license header",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/src/main/java/org/example/CommercialPaperContext.java",
+            "line": 1,
+            "message": "Ack",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/src/main/java/org/example/ledgerapi/StateDeserializer.java",
+            "line": 0,
+            "message": "no license header",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/src/main/java/org/example/ledgerapi/StateDeserializer.java",
+            "line": 0,
+            "message": "Ack",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/src/main/java/org/example/ledgerapi/StateList.java",
+            "line": 9,
+            "message": "should be at the top",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/src/main/java/org/example/ledgerapi/StateList.java",
+            "line": 9,
+            "message": "Ack",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/src/main/java/org/example/ledgerapi/impl/StateListImpl.java",
+            "line": 13,
+            "message": "this should be at the top",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/src/main/java/org/example/ledgerapi/impl/StateListImpl.java",
+            "line": 13,
+            "message": "Ack",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/src/test/java/org/hyperledger/fabric/DevRouter.java",
+            "line": 1,
+            "message": "I thought we dropped the need for this class? Also, no license header.",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/src/test/java/org/hyperledger/fabric/example/CommercialPaperContractTest.java",
+            "line": 2,
+            "message": "Should be Apache-2.0",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/digibank/contract-java/src/test/java/org/hyperledger/fabric/example/CommercialPaperContractTest.java",
+            "line": 2,
+            "message": "Ack",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/magnetocorp/application-java/src/org/papernet/CommercialPaper.java",
+            "line": 2,
+            "message": "Should be Apache-2.0",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/magnetocorp/application-java/src/org/papernet/CommercialPaper.java",
+            "line": 2,
+            "message": "Ack",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/magnetocorp/contract-java/src/main/java/org/example/CommercialPaper.java",
+            "line": 2,
+            "message": "Should be Apache-2.0",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/magnetocorp/contract-java/src/main/java/org/example/CommercialPaperContext.java",
+            "line": 0,
+            "message": "no license header",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/magnetocorp/contract-java/src/main/java/org/example/ledgerapi/StateDeserializer.java",
+            "line": 1,
+            "message": "no license header",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/magnetocorp/contract-java/src/main/java/org/example/ledgerapi/StateList.java",
+            "line": 9,
+            "message": "move to top",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/magnetocorp/contract-java/src/main/java/org/example/ledgerapi/impl/StateListImpl.java",
+            "line": 13,
+            "message": "move to top",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/magnetocorp/contract-java/src/test/java/org/hyperledger/fabric/DevRouter.java",
+            "line": 1,
+            "message": "no license header + why is this here",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/organization/magnetocorp/contract-java/src/test/java/org/hyperledger/fabric/example/CommercialPaperContractTest.java",
+            "line": 2,
+            "message": "should be Apache-2.0",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/roles/digibank.sh",
+            "line": 3,
+            "message": "this can just be an SPDX one liner",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/roles/magentocorp.sh",
+            "line": 2,
+            "message": "this can just be an SPDX one liner",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/roles/magentocorp.sh",
+            "line": 2,
+            "message": "Done",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          },
+          {
+            "file": "commercial-paper/roles/network-starter.sh",
+            "line": 2,
+            "message": "this can just be an SPDX one liner",
+            "reviewer": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            }
+          },
+          {
+            "file": "commercial-paper/roles/network-starter.sh",
+            "line": 2,
+            "message": "Done",
+            "reviewer": {
+              "email": "whitemat@uk.ibm.com",
+              "name": "Matthew White",
+              "username": "mbwhite"
+            }
+          }
+        ],
+        "createdOn": 1564493605,
+        "kind": "REWORK",
+        "number": 11,
+        "parents": [
+          "8c057e951bfdb06ef23009873177cabd00841596"
+        ],
+        "ref": "refs/changes/54/32554/11",
+        "revision": "50ff5b1f5278c986f9f827ccc464d0b12249a73c",
+        "sizeDeletions": -390,
+        "sizeInsertions": 8161,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564497784,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1564502544,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            },
+            "grantedOn": 1564502547,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1564494466,
+        "kind": "REWORK",
+        "number": 12,
+        "parents": [
+          "8c057e951bfdb06ef23009873177cabd00841596"
+        ],
+        "ref": "refs/changes/54/32554/12",
+        "revision": "dcce485561ef3b3876f67cd1d5553ebe90ac69ef",
+        "sizeDeletions": -390,
+        "sizeInsertions": 8124,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      }
+    ],
+    "project": "fabric-samples",
+    "status": "MERGED",
+    "subject": "[FAB-15213] Update Commercial Paper for Java",
+    "topic": "commercial-paper-java",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-samples/+/32554"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "32554",
+    "project_name": "fabric-samples",
+    "review_hash": "Ie116962a6c3952e52269323492f5f292e9b65e95"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1564504069,
+  "uuid": "59c6c4dc2028a6b05433196d204a7928b3723826"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "release-1.4",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564562724
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/424/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564562733
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/424/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/424",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564564481
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564570061
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/425/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564570069
+      },
+      {
+        "message": "Patch Set 2: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/425/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/425",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564571245
+      },
+      {
+        "message": "Patch Set 2:\n\nreverify",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564574155
+      },
+      {
+        "message": "Patch Set 2: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/426/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564574164
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/426/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/426",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564575658
+      },
+      {
+        "message": "Removed reviewer Hyperledger Jobbuilder with the following votes:\n\n* Verified+1 by Hyperledger Jobbuilder <jobbuilder@jenkins.hyperledger.org>\n",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564577040
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1564585809
+      },
+      {
+        "message": "Patch Set 2:\n\nreverify",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1564587920
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/428/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564587931
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/428/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/428",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564589531
+      },
+      {
+        "message": "Change has been successfully merged by Simon Stone",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1564738268
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-merge-x86_64/108/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-merge-x86_64/108",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564738858
+      },
+      {
+        "message": "Patch Set 2:\n\nremerge",
+        "reviewer": {
+          "email": "vijaypunugubati@gmail.com",
+          "name": "VIJAY BABU PUNUGUBATI",
+          "username": "vijaypunugubati"
+        },
+        "timestamp": 1565292074
+      }
+    ],
+    "commitMessage": "[FAB-16147] Compilation and Lint Checks\n\nAdd in makefile to call the compilation and liniting\nOnly the applications and contracts currently\nTesting needs to follow\n\nChange-Id: I5604a71ea025cd01a1f27968122ea119697db7a5\nSigned-off-by: Matthew B. White <whitemat@uk.ibm.com>\n",
+    "createdOn": 1564562724,
+    "id": "I5604a71ea025cd01a1f27968122ea119697db7a5",
+    "lastUpdated": 1565292074,
+    "number": 32602,
+    "open": false,
+    "owner": {
+      "email": "whitemat@uk.ibm.com",
+      "name": "Matthew White",
+      "username": "mbwhite"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1564562724,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "9040e28b55cf524d68284a180ab3584074e594da"
+        ],
+        "ref": "refs/changes/02/32602/1",
+        "revision": "c3db1a9aa8865000b35a80dcb023a0018bd4fe4b",
+        "sizeDeletions": -47,
+        "sizeInsertions": 9586,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564589531,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1564585809,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            },
+            "grantedOn": 1564738268,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1564570061,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "9040e28b55cf524d68284a180ab3584074e594da"
+        ],
+        "ref": "refs/changes/02/32602/2",
+        "revision": "11d6ee14a9fe73c0bd00e8050aa86c1259fa73c3",
+        "sizeDeletions": -47,
+        "sizeInsertions": 9617,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      }
+    ],
+    "project": "fabric-samples",
+    "status": "MERGED",
+    "subject": "[FAB-16147] Compilation and Lint Checks",
+    "topic": "version-bump-java",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-samples/+/32602"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "32602",
+    "project_name": "fabric-samples",
+    "review_hash": "I5604a71ea025cd01a1f27968122ea119697db7a5"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1565292074,
+  "uuid": "66061540f10db11482b8aa3d7b23476104494e57"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "release-1.4",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1571219785
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/599/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1571219795
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/599/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/599",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1571221224
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1571222920
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/600/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1571222927
+      },
+      {
+        "message": "Patch Set 2: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/600/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/600",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1571224288
+      },
+      {
+        "message": "Patch Set 2:\n\nreverify",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1571224691
+      },
+      {
+        "message": "Patch Set 2: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/601/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1571224701
+      },
+      {
+        "message": "Patch Set 2: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/601/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/601",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1571227132
+      },
+      {
+        "message": "Patch Set 2:\n\nreverify",
+        "reviewer": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "timestamp": 1571300134
+      },
+      {
+        "message": "Patch Set 2: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/606/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1571300141
+      },
+      {
+        "message": "Patch Set 2: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/606/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/606",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1571302187
+      },
+      {
+        "message": "Patch Set 2:\n\nreverify",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1571303510
+      },
+      {
+        "message": "Patch Set 2: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/608/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1571303517
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-verify-x86_64/608/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-verify-x86_64/608",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1571305327
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1571305403
+      },
+      {
+        "message": "Change has been successfully merged by Simon Stone",
+        "reviewer": {
+          "email": "sstone1@uk.ibm.com",
+          "name": "Simon Stone",
+          "username": "sstone1"
+        },
+        "timestamp": 1571305407
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-samples-merge-x86_64/169/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-samples-merge-x86_64/169",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1571307082
+      }
+    ],
+    "commitMessage": "[FAB-16844] Modify pattern for cc images\n\n- remove images that match dev-*\n- correcting a dependency\n\nChange-Id: I603dc822260be827ca36677e5c05aa5f196858ae\nSigned-off-by: Matthew B. White <whitemat@uk.ibm.com>\n",
+    "createdOn": 1571219785,
+    "id": "I603dc822260be827ca36677e5c05aa5f196858ae",
+    "lastUpdated": 1571307082,
+    "number": 33985,
+    "open": false,
+    "owner": {
+      "email": "whitemat@uk.ibm.com",
+      "name": "Matthew White",
+      "username": "mbwhite"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1571221224,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1571219785,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "ca5bcb27ae72b09a518c7cf9e4a05e3b1de4b668"
+        ],
+        "ref": "refs/changes/85/33985/1",
+        "revision": "b02e0aa51db197168862fee12b7c0aefb7605fb1",
+        "sizeDeletions": -2,
+        "sizeInsertions": 2,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1571305327,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1571305403,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "sstone1@uk.ibm.com",
+              "name": "Simon Stone",
+              "username": "sstone1"
+            },
+            "grantedOn": 1571305407,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        },
+        "createdOn": 1571222920,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "ca5bcb27ae72b09a518c7cf9e4a05e3b1de4b668"
+        ],
+        "ref": "refs/changes/85/33985/2",
+        "revision": "9915995df7b767a08549a267b8052bcd1d868fb4",
+        "sizeDeletions": -3,
+        "sizeInsertions": 3,
+        "uploader": {
+          "email": "whitemat@uk.ibm.com",
+          "name": "Matthew White",
+          "username": "mbwhite"
+        }
+      }
+    ],
+    "project": "fabric-samples",
+    "status": "MERGED",
+    "subject": "[FAB-16844] Modify pattern for cc images",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-samples/+/33985"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "33985",
+    "project_name": "fabric-samples",
+    "review_hash": "I603dc822260be827ca36677e5c05aa5f196858ae"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1571307082,
+  "uuid": "e8669722f6fda4db1f9216d0c93e92806e0671da"
+}]

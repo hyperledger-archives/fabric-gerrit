@@ -1,0 +1,2375 @@
+[{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1469635532
+      },
+      {
+        "message": "Patch Set 1: Code-Review+1",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1469635689
+      },
+      {
+        "message": "Patch Set 1: -Code-Review Verified+1",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1469635826
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1469635838
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "zsolt@digitalasset.com",
+          "name": "Zsolt Szilágyi",
+          "username": "esgott"
+        },
+        "timestamp": 1469645595
+      },
+      {
+        "message": "Change has been successfully merged by Gabor Hosszu",
+        "reviewer": {
+          "email": "gerrit@hyperledger.org",
+          "name": "Gerrit Code Review"
+        },
+        "timestamp": 1469711164
+      }
+    ],
+    "commitMessage": "Transfer from Github to Gerrit\n\nCopied from commit sha 13b1b44dec536e7835ddefe671581342cbdca93e\nGitHub/hyperledger/fabric-api to Gerrit.\n\nChange-Id: I28f52399cf7cf203770b91847af3127c724e8a67\nSigned-off-by: Gabor Hosszu <gabor@digitalasset.com>\n",
+    "createdOn": 1469635532,
+    "id": "I28f52399cf7cf203770b91847af3127c724e8a67",
+    "lastUpdated": 1469711164,
+    "number": 283,
+    "open": false,
+    "owner": {
+      "email": "gabor@digitalasset.com",
+      "name": "Gabor Hosszu",
+      "username": "hgabre"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1469635838,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            },
+            "grantedOn": 1469711164,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            },
+            "description": "Verified",
+            "grantedOn": 1469635826,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "zsolt@digitalasset.com",
+              "name": "Zsolt Szilágyi",
+              "username": "esgott"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1469645595,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "createdOn": 1469635532,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "cf86aec5e213f64c399e13667e0e9f62f60a0869"
+        ],
+        "ref": "refs/changes/83/283/1",
+        "revision": "973cb88cf93c539d7110af2d23026500e01a2c31",
+        "sizeDeletions": 0,
+        "sizeInsertions": 6191,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      }
+    ],
+    "project": "fabric-api",
+    "status": "MERGED",
+    "subject": "Transfer from Github to Gerrit",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-api/+/283"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "283",
+    "project_name": "fabric-api",
+    "review_hash": "I28f52399cf7cf203770b91847af3127c724e8a67"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1469711164,
+  "uuid": "354c828de99287978ff1cabad6e56be3f44f9bab"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1469825898
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/2/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1469825944
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/2/ : FAILURE",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1469825949
+      },
+      {
+        "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/3/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1469828204
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/3/ : FAILURE",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1469828314
+      },
+      {
+        "message": "Patch Set 1: Code-Review+1\n\n(1 comment)\n\nI would like to see the 80 char limit addressed, but otherwise LGTM",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1469841951
+      },
+      {
+        "message": "Patch Set 1: Code-Review+1",
+        "reviewer": {
+          "email": "sranderson@gmail.com",
+          "name": "Sheehan Anderson",
+          "username": "sheehan"
+        },
+        "timestamp": 1469911003
+      },
+      {
+        "message": "Patch Set 1:\n\n(1 comment)\n\nBetter fix the comment first.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1469939405
+      },
+      {
+        "message": "Patch Set 1: Code-Review+1",
+        "reviewer": {
+          "email": "jonathan@hacera.com",
+          "name": "Jonathan Levi (HACERA)",
+          "username": "JonathanLevi"
+        },
+        "timestamp": 1470073141
+      },
+      {
+        "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/4/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1470155193
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/4/ : FAILURE",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1470155325
+      },
+      {
+        "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/5/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1470209477
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/5/ : FAILURE",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1470209607
+      },
+      {
+        "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/6/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1470659820
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/6/ : FAILURE",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1470659993
+      },
+      {
+        "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/7/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1470663964
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/7/ : FAILURE",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1470664101
+      },
+      {
+        "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/8/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1470666902
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/8/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1470667097
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1470904224
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/9/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1470904233
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/9/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1470904362
+      },
+      {
+        "message": "Uploaded patch set 3.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1470904386
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/10/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1470904393
+      },
+      {
+        "message": "Patch Set 3: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/10/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1470904414
+      },
+      {
+        "message": "Patch Set 3: Code-Review+2",
+        "reviewer": {
+          "email": "zsolt@digitalasset.com",
+          "name": "Zsolt Szilágyi",
+          "username": "esgott"
+        },
+        "timestamp": 1470914786
+      },
+      {
+        "message": "Patch Set 3: Code-Review+1\n\nLGTM",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1470919512
+      },
+      {
+        "message": "Change has been successfully merged by Gabor Hosszu",
+        "reviewer": {
+          "email": "gerrit@hyperledger.org",
+          "name": "Gerrit Code Review"
+        },
+        "timestamp": 1470986039
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/19/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471472344
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/19/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471472476
+      }
+    ],
+    "commitMessage": "Fix typo in README\n\nChange-Id: I42a72de4d1931352ff8d53ce13a0205aeaabd696\nSigned-off-by: Gabor Hosszu <gabor@digitalasset.com>\n",
+    "createdOn": 1469825898,
+    "id": "I42a72de4d1931352ff8d53ce13a0205aeaabd696",
+    "lastUpdated": 1471472476,
+    "number": 339,
+    "open": false,
+    "owner": {
+      "email": "gabor@digitalasset.com",
+      "name": "Gabor Hosszu",
+      "username": "hgabre"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1469841951,
+            "type": "Code-Review",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1470667097,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "sranderson@gmail.com",
+              "name": "Sheehan Anderson",
+              "username": "sheehan"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1469911003,
+            "type": "Code-Review",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "jonathan@hacera.com",
+              "name": "Jonathan Levi (HACERA)",
+              "username": "JonathanLevi"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1470073141,
+            "type": "Code-Review",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "comments": [
+          {
+            "file": "README.md",
+            "line": 7,
+            "message": "we should be keeping markdown at 80 chars per line to make reviews and diffs easier.",
+            "reviewer": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            }
+          },
+          {
+            "file": "README.md",
+            "line": 7,
+            "message": "+1",
+            "reviewer": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            }
+          }
+        ],
+        "createdOn": 1469825898,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "973cb88cf93c539d7110af2d23026500e01a2c31"
+        ],
+        "ref": "refs/changes/39/339/1",
+        "revision": "be70d34dac70cc8d8a3257490598cd3aefb52694",
+        "sizeDeletions": -1,
+        "sizeInsertions": 1,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1470904362,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "createdOn": 1470904224,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "973cb88cf93c539d7110af2d23026500e01a2c31"
+        ],
+        "ref": "refs/changes/39/339/2",
+        "revision": "0ec7b775ab433776fd0176530499e8568c40a7a1",
+        "sizeDeletions": -8,
+        "sizeInsertions": 25,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1470919512,
+            "type": "Code-Review",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1470904414,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            },
+            "grantedOn": 1470986039,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "zsolt@digitalasset.com",
+              "name": "Zsolt Szilágyi",
+              "username": "esgott"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1470914786,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "createdOn": 1470904386,
+        "kind": "REWORK",
+        "number": 3,
+        "parents": [
+          "973cb88cf93c539d7110af2d23026500e01a2c31"
+        ],
+        "ref": "refs/changes/39/339/3",
+        "revision": "230640806b31edafe8db3a97555bc144d77fc5d4",
+        "sizeDeletions": -8,
+        "sizeInsertions": 25,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      }
+    ],
+    "project": "fabric-api",
+    "status": "MERGED",
+    "subject": "Fix typo in README",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-api/+/339"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "339",
+    "project_name": "fabric-api",
+    "review_hash": "I42a72de4d1931352ff8d53ce13a0205aeaabd696"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1471472476,
+  "uuid": "23aeef6255ce1c89f1bf5f0217775ea050b2acee"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1471255004
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/12/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471330391
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/12/ : FAILURE",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471330397
+      },
+      {
+        "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/14/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471383335
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/14/ : FAILURE",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471383347
+      },
+      {
+        "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/15/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471384253
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/15/ : FAILURE",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471384256
+      },
+      {
+        "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/16/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471391092
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/16/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471391242
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1471439454
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/17/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471439782
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/17/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471439970
+      },
+      {
+        "message": "Patch Set 2: Code-Review+1",
+        "reviewer": {
+          "email": "sranderson@gmail.com",
+          "name": "Sheehan Anderson",
+          "username": "sheehan"
+        },
+        "timestamp": 1471449440
+      },
+      {
+        "message": "Patch Set 2: Code-Review+1",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1471490052
+      },
+      {
+        "message": "Patch Set 2: Code-Review-1\n\n(3 comments)",
+        "reviewer": {
+          "email": "zsolt@digitalasset.com",
+          "name": "Zsolt Szilágyi",
+          "username": "esgott"
+        },
+        "timestamp": 1471517267
+      },
+      {
+        "message": "Uploaded patch set 3.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1471534028
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/22/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471534036
+      },
+      {
+        "message": "Patch Set 2:\n\n(3 comments)",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1471534061
+      },
+      {
+        "message": "Patch Set 3: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/22/ : FAILURE",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471534135
+      },
+      {
+        "message": "Uploaded patch set 4.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1471593910
+      },
+      {
+        "message": "Patch Set 4:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/23/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471594124
+      },
+      {
+        "message": "Patch Set 4: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/23/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471594301
+      },
+      {
+        "message": "Patch Set 4: Code-Review+2",
+        "reviewer": {
+          "email": "zsolt@digitalasset.com",
+          "name": "Zsolt Szilágyi",
+          "username": "esgott"
+        },
+        "timestamp": 1471596615
+      },
+      {
+        "message": "Change has been successfully merged by Gabor Hosszu",
+        "reviewer": {
+          "email": "gerrit@hyperledger.org",
+          "name": "Gerrit Code Review"
+        },
+        "timestamp": 1471602298
+      }
+    ],
+    "commitMessage": "Update proto files and related code\n\nChange-Id: I4e385a822225781efcb34938d21443fff6170766\nSigned-off-by: Gabor Hosszu <gabor@digitalasset.com>\n",
+    "createdOn": 1471255004,
+    "id": "I4e385a822225781efcb34938d21443fff6170766",
+    "lastUpdated": 1471602298,
+    "number": 503,
+    "open": false,
+    "owner": {
+      "email": "gabor@digitalasset.com",
+      "name": "Gabor Hosszu",
+      "username": "hgabre"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1471391242,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "createdOn": 1471255004,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "230640806b31edafe8db3a97555bc144d77fc5d4"
+        ],
+        "ref": "refs/changes/03/503/1",
+        "revision": "a192e9dc861b2fecaebe784af1e7b54f6ba60990",
+        "sizeDeletions": -20,
+        "sizeInsertions": 22,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1471439970,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "sranderson@gmail.com",
+              "name": "Sheehan Anderson",
+              "username": "sheehan"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1471449440,
+            "type": "Code-Review",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "zsolt@digitalasset.com",
+              "name": "Zsolt Szilágyi",
+              "username": "esgott"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1471517267,
+            "type": "Code-Review",
+            "value": "-1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1471490052,
+            "type": "Code-Review",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "comments": [
+          {
+            "file": "api/src/main/java/org/hyperledger/api/connector/GRPCClient.java",
+            "line": 92,
+            "message": "Instead of using StreamSupport, you can change the parameter, so you can call args.stream(). Also, please name this thing, and not embed this into the parameter.",
+            "reviewer": {
+              "email": "zsolt@digitalasset.com",
+              "name": "Zsolt Szilágyi",
+              "username": "esgott"
+            }
+          },
+          {
+            "file": "api/src/main/java/org/hyperledger/api/connector/GRPCClient.java",
+            "line": 92,
+            "message": "Done",
+            "reviewer": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            }
+          },
+          {
+            "file": "api/src/main/java/org/hyperledger/api/connector/GRPCClient.java",
+            "line": 93,
+            "message": "This can be replaced with a method reference. Please check your warnings in your IDE :)",
+            "reviewer": {
+              "email": "zsolt@digitalasset.com",
+              "name": "Zsolt Szilágyi",
+              "username": "esgott"
+            }
+          },
+          {
+            "file": "api/src/main/java/org/hyperledger/api/connector/GRPCClient.java",
+            "line": 93,
+            "message": "Done",
+            "reviewer": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            }
+          },
+          {
+            "file": "api/src/main/java/org/hyperledger/api/connector/GRPCObserver.java",
+            "line": 137,
+            "message": "Please format this line (we usually use IntelliJ default formatting). Is this transaction valid? Why don't we throw an error in this case?",
+            "reviewer": {
+              "email": "zsolt@digitalasset.com",
+              "name": "Zsolt Szilágyi",
+              "username": "esgott"
+            }
+          },
+          {
+            "file": "api/src/main/java/org/hyperledger/api/connector/GRPCObserver.java",
+            "line": 137,
+            "message": "I have reformatted it using IntelliJ's formatter,",
+            "reviewer": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            }
+          }
+        ],
+        "createdOn": 1471439454,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "230640806b31edafe8db3a97555bc144d77fc5d4"
+        ],
+        "ref": "refs/changes/03/503/2",
+        "revision": "2c286fd7184b951f74ef33902caf993a99c65cdc",
+        "sizeDeletions": -47,
+        "sizeInsertions": 50,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1471534135,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "createdOn": 1471534028,
+        "kind": "REWORK",
+        "number": 3,
+        "parents": [
+          "230640806b31edafe8db3a97555bc144d77fc5d4"
+        ],
+        "ref": "refs/changes/03/503/3",
+        "revision": "70710da6468c36ce11435c3077df33ea155d1869",
+        "sizeDeletions": -63,
+        "sizeInsertions": 65,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1471594301,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            },
+            "grantedOn": 1471602298,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "zsolt@digitalasset.com",
+              "name": "Zsolt Szilágyi",
+              "username": "esgott"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1471596615,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "createdOn": 1471593910,
+        "kind": "REWORK",
+        "number": 4,
+        "parents": [
+          "230640806b31edafe8db3a97555bc144d77fc5d4"
+        ],
+        "ref": "refs/changes/03/503/4",
+        "revision": "3e7e56d715d6c8c72a1f7070cd684914e6a9ee17",
+        "sizeDeletions": -51,
+        "sizeInsertions": 54,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      }
+    ],
+    "project": "fabric-api",
+    "status": "MERGED",
+    "subject": "Update proto files and related code",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-api/+/503"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "503",
+    "project_name": "fabric-api",
+    "review_hash": "I4e385a822225781efcb34938d21443fff6170766"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1471602298,
+  "uuid": "9c2171cd99b44b893cd22dae8c674ddd6c76f613"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1471257193
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/11/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471330339
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/11/ : FAILURE",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471330390
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1471353530
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/13/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471382902
+      },
+      {
+        "message": "Patch Set 2: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/13/ : FAILURE",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471382913
+      },
+      {
+        "message": "Patch Set 2:\n\ncould I ask you to make a small change to this to generate a new patch? for some reason jenkins no longer sees patch 2",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1471391965
+      },
+      {
+        "message": "Uploaded patch set 3.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1471442451
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/18/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471442742
+      },
+      {
+        "message": "Patch Set 3: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/18/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471442893
+      },
+      {
+        "message": "Patch Set 3: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/20/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471472477
+      },
+      {
+        "message": "Patch Set 3: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/20/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471472495
+      },
+      {
+        "message": "Patch Set 3: Code-Review+1",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1471487783
+      },
+      {
+        "message": "Patch Set 3:\n\n(1 comment)",
+        "reviewer": {
+          "email": "zsolt@digitalasset.com",
+          "name": "Zsolt Szilágyi",
+          "username": "esgott"
+        },
+        "timestamp": 1471507244
+      },
+      {
+        "message": "Patch Set 4: Published edit on patch set 3.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1471511174
+      },
+      {
+        "message": "Patch Set 3:\n\n(1 comment)",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1471511214
+      },
+      {
+        "message": "Patch Set 4:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/21/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471511301
+      },
+      {
+        "message": "Patch Set 4: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/21/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471511441
+      },
+      {
+        "message": "Patch Set 4: Code-Review+2",
+        "reviewer": {
+          "email": "zsolt@digitalasset.com",
+          "name": "Zsolt Szilágyi",
+          "username": "esgott"
+        },
+        "timestamp": 1471512095
+      },
+      {
+        "message": "Patch Set 4: Code-Review+1\n\n(1 comment)\n\nreally needs an improved commit message, but otherwise LGTM",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1471523036
+      },
+      {
+        "message": "Patch Set 5: Commit message was updated.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1471609273
+      },
+      {
+        "message": "Patch Set 5:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/24/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471609335
+      },
+      {
+        "message": "Patch Set 5: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/24/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471609511
+      },
+      {
+        "message": "Patch Set 5: Code-Review+2",
+        "reviewer": {
+          "email": "zsolt@digitalasset.com",
+          "name": "Zsolt Szilágyi",
+          "username": "esgott"
+        },
+        "timestamp": 1471610038
+      },
+      {
+        "message": "Uploaded patch set 6.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1471612553
+      },
+      {
+        "message": "Patch Set 6:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/25/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471612913
+      },
+      {
+        "message": "Patch Set 6: Code-Review+2",
+        "reviewer": {
+          "email": "zsolt@digitalasset.com",
+          "name": "Zsolt Szilágyi",
+          "username": "esgott"
+        },
+        "timestamp": 1471612981
+      },
+      {
+        "message": "Patch Set 6: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/25/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1471613069
+      },
+      {
+        "message": "Change has been successfully merged by Gabor Hosszu",
+        "reviewer": {
+          "email": "gerrit@hyperledger.org",
+          "name": "Gerrit Code Review"
+        },
+        "timestamp": 1471614272
+      }
+    ],
+    "commitMessage": "Use Peer API instead of Devops API\n\nThe Devops API of Fabric will be deprecated so this commit starts using\nPeer API like Fabric's NodeSDK does.\n\nChange-Id: Iff8cafd2d95772512dc271212dce96299aba617a\nSigned-off-by: Gabor Hosszu <gabor@digitalasset.com>\n",
+    "createdOn": 1471257193,
+    "id": "Iff8cafd2d95772512dc271212dce96299aba617a",
+    "lastUpdated": 1471614272,
+    "number": 505,
+    "open": false,
+    "owner": {
+      "email": "gabor@digitalasset.com",
+      "name": "Gabor Hosszu",
+      "username": "hgabre"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1471330390,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "createdOn": 1471257193,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "a192e9dc861b2fecaebe784af1e7b54f6ba60990"
+        ],
+        "ref": "refs/changes/05/505/1",
+        "revision": "eb1957be7830b14fdba99ea22f81a9793dd6f247",
+        "sizeDeletions": -12,
+        "sizeInsertions": 15,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1471382913,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "createdOn": 1471353530,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "a192e9dc861b2fecaebe784af1e7b54f6ba60990"
+        ],
+        "ref": "refs/changes/05/505/2",
+        "revision": "51843daa6980c14cdb5e173428dfc6f4ea22f84c",
+        "sizeDeletions": -23,
+        "sizeInsertions": 26,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1471472495,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1471487783,
+            "type": "Code-Review",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "comments": [
+          {
+            "file": "api/src/test/java/org/hyperledger/api/connector/GRPCClientTest.java",
+            "line": 43,
+            "message": "please remove this from the commit",
+            "reviewer": {
+              "email": "zsolt@digitalasset.com",
+              "name": "Zsolt Szilágyi",
+              "username": "esgott"
+            }
+          },
+          {
+            "file": "api/src/test/java/org/hyperledger/api/connector/GRPCClientTest.java",
+            "line": 43,
+            "message": "Done",
+            "reviewer": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            }
+          }
+        ],
+        "createdOn": 1471442451,
+        "kind": "REWORK",
+        "number": 3,
+        "parents": [
+          "2c286fd7184b951f74ef33902caf993a99c65cdc"
+        ],
+        "ref": "refs/changes/05/505/3",
+        "revision": "bc131c23a2eee734e1f86e4d8e9d663571c86d1d",
+        "sizeDeletions": -24,
+        "sizeInsertions": 28,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1471523036,
+            "type": "Code-Review",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1471511441,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "zsolt@digitalasset.com",
+              "name": "Zsolt Szilágyi",
+              "username": "esgott"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1471512095,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "comments": [
+          {
+            "file": "/COMMIT_MSG",
+            "line": 7,
+            "message": "really could use more detail and rationale in the commit message.",
+            "reviewer": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            }
+          }
+        ],
+        "createdOn": 1471511174,
+        "kind": "REWORK",
+        "number": 4,
+        "parents": [
+          "2c286fd7184b951f74ef33902caf993a99c65cdc"
+        ],
+        "ref": "refs/changes/05/505/4",
+        "revision": "652639b210ac4c48be5e9b38babc56bc236febc8",
+        "sizeDeletions": -24,
+        "sizeInsertions": 27,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1471609511,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "zsolt@digitalasset.com",
+              "name": "Zsolt Szilágyi",
+              "username": "esgott"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1471610038,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "createdOn": 1471609273,
+        "kind": "NO_CODE_CHANGE",
+        "number": 5,
+        "parents": [
+          "2c286fd7184b951f74ef33902caf993a99c65cdc"
+        ],
+        "ref": "refs/changes/05/505/5",
+        "revision": "2ce8d25634444bf7e76a0f2a44874af1b80c4edd",
+        "sizeDeletions": -24,
+        "sizeInsertions": 27,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1471613069,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            },
+            "grantedOn": 1471614272,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "zsolt@digitalasset.com",
+              "name": "Zsolt Szilágyi",
+              "username": "esgott"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1471612981,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "createdOn": 1471612553,
+        "kind": "REWORK",
+        "number": 6,
+        "parents": [
+          "3e7e56d715d6c8c72a1f7070cd684914e6a9ee17"
+        ],
+        "ref": "refs/changes/05/505/6",
+        "revision": "f52ab45835b05ebedacfa59cdef8335ad21bc762",
+        "sizeDeletions": -23,
+        "sizeInsertions": 27,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      }
+    ],
+    "project": "fabric-api",
+    "status": "MERGED",
+    "subject": "Use Peer API instead of Devops API",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-api/+/505"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "505",
+    "project_name": "fabric-api",
+    "review_hash": "Iff8cafd2d95772512dc271212dce96299aba617a"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1471614272,
+  "uuid": "e30e9518c5f6dfef729903699e735634a84c09cb"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1472564100
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/26/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1472566418
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/26/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1472566712
+      },
+      {
+        "message": "Patch Set 1: Code-Review+1\n\nha ha Java, long time no see :-)",
+        "reviewer": {
+          "email": "binh1010010110@gmail.com",
+          "name": "Binh Nguyen",
+          "username": "binhn"
+        },
+        "timestamp": 1472614208
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "zsolt@digitalasset.com",
+          "name": "Zsolt Szilágyi",
+          "username": "esgott"
+        },
+        "timestamp": 1472717404
+      },
+      {
+        "message": "Change has been successfully merged by Gabor Hosszu",
+        "reviewer": {
+          "email": "gerrit@hyperledger.org",
+          "name": "Gerrit Code Review"
+        },
+        "timestamp": 1472718662
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/27/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1479519670
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/27/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1479519808
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/28/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1479525548
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/28/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1479525685
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/29/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1482024674
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/29/ : FAILURE",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1482024686
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/30/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1482025086
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/30/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1482025220
+      }
+    ],
+    "commitMessage": "Update code to make it work with Fabric\n\nCorresponding Fabric change ID is\nI5049db0210502355a3f11154e4bfaf04f9b2b17b\n\nChange-Id: I97aeeb66a7fd0c5386fe21d4a6f7a33823abe9c5\nSigned-off-by: Gabor Hosszu <gabor@digitalasset.com>\n",
+    "createdOn": 1472564100,
+    "id": "I97aeeb66a7fd0c5386fe21d4a6f7a33823abe9c5",
+    "lastUpdated": 1482025220,
+    "number": 787,
+    "open": false,
+    "owner": {
+      "email": "gabor@digitalasset.com",
+      "name": "Gabor Hosszu",
+      "username": "hgabre"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1472566712,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            },
+            "grantedOn": 1472718662,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "zsolt@digitalasset.com",
+              "name": "Zsolt Szilágyi",
+              "username": "esgott"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1472717404,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "binh1010010110@gmail.com",
+              "name": "Binh Nguyen",
+              "username": "binhn"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1472614208,
+            "type": "Code-Review",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "createdOn": 1472564100,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "f52ab45835b05ebedacfa59cdef8335ad21bc762"
+        ],
+        "ref": "refs/changes/87/787/1",
+        "revision": "e947fac371a48e524025e221de4e7dd7da16e018",
+        "sizeDeletions": -5,
+        "sizeInsertions": 2,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      }
+    ],
+    "project": "fabric-api",
+    "status": "MERGED",
+    "subject": "Update code to make it work with Fabric",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-api/+/787"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "787",
+    "project_name": "fabric-api",
+    "review_hash": "I97aeeb66a7fd0c5386fe21d4a6f7a33823abe9c5"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1482025220,
+  "uuid": "bf29c9996e2ef86910e72f6d78bb68a08f76225b"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1486494616
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/36/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1486494676
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/36/ : FAILURE",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1486494793
+      },
+      {
+        "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/37/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1486496950
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-api-verify-x86_64/37/ : SUCCESS",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1486497086
+      },
+      {
+        "message": "Patch Set 1: Code-Review+1",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1486497311
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1487868159
+      },
+      {
+        "message": "Change has been successfully merged by Gabor Hosszu",
+        "reviewer": {
+          "email": "gerrit@hyperledger.org",
+          "name": "Gerrit Code Review"
+        },
+        "timestamp": 1487868163
+      }
+    ],
+    "commitMessage": "Update docs slack->chat\n\nChange-Id: I4a4565a6c65f99cae49529fc660e3e9fe44589e4\nSigned-off-by: Ry Jones <rjones@linuxfoundation.org>\n",
+    "createdOn": 1486494616,
+    "id": "I4a4565a6c65f99cae49529fc660e3e9fe44589e4",
+    "lastUpdated": 1487868163,
+    "number": 5665,
+    "open": false,
+    "owner": {
+      "email": "ry@linux.com",
+      "name": "Ry Jones",
+      "username": "ryjones"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1486497311,
+            "type": "Code-Review",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1486497086,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1487868159,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "gabor@digitalasset.com",
+              "name": "Gabor Hosszu",
+              "username": "hgabre"
+            },
+            "grantedOn": 1487868163,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "rjones@linuxfoundation.org",
+          "name": "Ry Jones",
+          "username": ""
+        },
+        "createdOn": 1486494616,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "e947fac371a48e524025e221de4e7dd7da16e018"
+        ],
+        "ref": "refs/changes/65/5665/1",
+        "revision": "81b7a13134e4abc7357aae26fa90004c0478607a",
+        "sizeDeletions": -3,
+        "sizeInsertions": 3,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      }
+    ],
+    "project": "fabric-api",
+    "status": "MERGED",
+    "subject": "Update docs slack->chat",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-api/+/5665"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "5665",
+    "project_name": "fabric-api",
+    "review_hash": "I4a4565a6c65f99cae49529fc660e3e9fe44589e4"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1487868163,
+  "uuid": "b44a6778c6b95fd6092a7aec4af5adb5de9d71bf"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "refs/meta/config",
+    "comments": [
+      {
+        "message": "Abandoned",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1469638632
+      }
+    ],
+    "commitMessage": "Modify access rules\n\nChange-Id: I98d671fd15294b3d54aa07ce439fac77e940b6e8\n",
+    "createdOn": 1469638520,
+    "id": "I98d671fd15294b3d54aa07ce439fac77e940b6e8",
+    "lastUpdated": 1469638632,
+    "number": 287,
+    "open": false,
+    "owner": {
+      "email": "ry@linux.com",
+      "name": "Ry Jones",
+      "username": "ryjones"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "rjones@linuxfoundation.org",
+          "name": "Ry Jones",
+          "username": ""
+        },
+        "createdOn": 1469638520,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "73d26cd4cb3863bd19b7740edfc1966fa6a51d4f"
+        ],
+        "ref": "refs/changes/87/287/1",
+        "revision": "3f939954bf6c17aa550b868b54e416f657c2ad60",
+        "sizeDeletions": -3,
+        "sizeInsertions": 0,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      }
+    ],
+    "project": "fabric-api",
+    "status": "ABANDONED",
+    "subject": "Modify access rules",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-api/+/287"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "287",
+    "project_name": "fabric-api",
+    "review_hash": "I98d671fd15294b3d54aa07ce439fac77e940b6e8"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1469638632,
+  "uuid": "d8a67afe7d7346fa4e9ab4c20fb46e134d77368d"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "refs/meta/config",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1469636604
+      },
+      {
+        "message": "Abandoned",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1469636860
+      },
+      {
+        "message": "Restored",
+        "reviewer": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "timestamp": 1469637641
+      },
+      {
+        "message": "Change has been successfully pushed.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1469638277
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1469638277
+      }
+    ],
+    "commitMessage": "Add two hand rule\n\nChange-Id: I5f2d47a8903f8aad6112113f06cce4cdec133130\nSigned-off-by: Gabor Hosszu <gabor@digitalasset.com>\nSigned-off-by: Ry Jones <rjones@linuxfoundation.org>\n",
+    "createdOn": 1469636604,
+    "id": "I5f2d47a8903f8aad6112113f06cce4cdec133130",
+    "lastUpdated": 1469638277,
+    "number": 285,
+    "open": false,
+    "owner": {
+      "email": "gabor@digitalasset.com",
+      "name": "Gabor Hosszu",
+      "username": "hgabre"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        },
+        "createdOn": 1469636604,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "88a6bd6ce2ffe4e7a63a698d75a001612c3386ee"
+        ],
+        "ref": "refs/changes/85/285/1",
+        "revision": "8a0cf1aec76791bc2c7621e9e02e6e6646ddb525",
+        "sizeDeletions": 0,
+        "sizeInsertions": 12,
+        "uploader": {
+          "email": "gabor@digitalasset.com",
+          "name": "Gabor Hosszu",
+          "username": "hgabre"
+        }
+      },
+      {
+        "author": {
+          "email": "rjones@linuxfoundation.org",
+          "name": "Ry Jones",
+          "username": ""
+        },
+        "createdOn": 1469638277,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "012744ec566d619a528aa2229db913064a96d675"
+        ],
+        "ref": "refs/changes/85/285/2",
+        "revision": "73d26cd4cb3863bd19b7740edfc1966fa6a51d4f",
+        "sizeDeletions": 0,
+        "sizeInsertions": 12,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      }
+    ],
+    "project": "fabric-api",
+    "status": "MERGED",
+    "subject": "Add two hand rule",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-api/+/285"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "285",
+    "project_name": "fabric-api",
+    "review_hash": "I5f2d47a8903f8aad6112113f06cce4cdec133130"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1469638277,
+  "uuid": "cb2bdc9cb86512459de2ef3ade01e5a3ca8f0a55"
+}]

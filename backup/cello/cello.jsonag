@@ -1,0 +1,5696 @@
+[{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1518503667
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/583/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1518503677
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/583/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/583",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1518503980
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1518596264
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1518609835
+      },
+      {
+        "message": "Patch Set 1:\n\nCode-Review+2",
+        "reviewer": {
+          "email": "602840159@qq.com",
+          "name": "yoyo zhang",
+          "username": "yoyokeen"
+        },
+        "timestamp": 1518612638
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1518677370
+      }
+    ],
+    "commitMessage": "[CE-275] Support pulling newer images\n\nSupport pulling newer images from dockerhub even local exist.\n\n* Allow pulling newer images even local exist;\n* Add `make dockerhub-pull` command for shortcut;\n* Update documentation.\n\nChange-Id: I84d6c46781af738a1873f851accb41d5c7662608\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1518503667,
+    "id": "I84d6c46781af738a1873f851accb41d5c7662608",
+    "lastUpdated": 1518677370,
+    "number": 17833,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1518503980,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1518596264,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1518677370,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1518609835,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1518503667,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "72b04011ebdfe7a4157f4d4dd954b3389805a234"
+        ],
+        "ref": "refs/changes/33/17833/1",
+        "revision": "e3726b94a52e2f3c79f10b2211ba4940a96a93fc",
+        "sizeDeletions": -11,
+        "sizeInsertions": 14,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-275] Support pulling newer images",
+    "topic": "dev",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/17833"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "17833",
+    "project_name": "cello",
+    "review_hash": "I84d6c46781af738a1873f851accb41d5c7662608"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1518677370,
+  "uuid": "c31aeb5bb595bcc5eb85df0fd49640c96e7ad399"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1519267276
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/588/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1519267517
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/588/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/588",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1519268227
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1519271433
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1519272031
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1519272034
+      }
+    ],
+    "commitMessage": "[CE-278] Disable nginx frontend\n\nThe existing nginx config has bugs to block dashboard access.\n\nThe nginx way is not perfect for authentication.\n\nWe will implement membership management inside the flask framework.\n\nHence will disable nginx but allow users to adopt it manually.\n\nChange-Id: I908bd034dd11b216795d2dbab50a1ba8276eb637\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1519267276,
+    "id": "I908bd034dd11b216795d2dbab50a1ba8276eb637",
+    "lastUpdated": 1519272034,
+    "number": 18195,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1519268227,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1519272031,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1519272034,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1519271433,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1519267276,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "389a8e34bf9fd4b96c82f487a546e4beae1bf467"
+        ],
+        "ref": "refs/changes/95/18195/1",
+        "revision": "fe513ab6df331c990c94c95f9f8e174473f487f5",
+        "sizeDeletions": -26,
+        "sizeInsertions": 26,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-278] Disable nginx frontend",
+    "topic": "CE-278",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/18195"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "18195",
+    "project_name": "cello",
+    "review_hash": "I908bd034dd11b216795d2dbab50a1ba8276eb637"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1519272034,
+  "uuid": "ddda01b1ac3841975cfafe0ee1aeb0862739c482"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1519392386
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/589/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1519392657
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/589/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/589",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1519393071
+      },
+      {
+        "message": "Patch Set 1: Code-Review-1\n\n(1 comment)",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1519780844
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1519781810
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/593/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1519782019
+      },
+      {
+        "message": "Patch Set 1:\n\n(1 comment)",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1519782081
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/593/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/593",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1519782458
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1519784892
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1519801371
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1519801374
+      }
+    ],
+    "commitMessage": "[CE-279] Start clean unused code\n\nClean used pymongo code.\n\nChange-Id: Ia97007178db8bfff5f49e7cbbdb8b287dfdbda78\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1519392386,
+    "id": "Ia97007178db8bfff5f49e7cbbdb8b287dfdbda78",
+    "lastUpdated": 1519801374,
+    "number": 18249,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1519393071,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1519780844,
+            "type": "Code-Review",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "comments": [
+          {
+            "file": "src/resources/host_api.py",
+            "line": 48,
+            "message": "I think this should use host_handler.schema(host_handler.get_by_id(host_id)), if you want to return json response.",
+            "reviewer": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            }
+          },
+          {
+            "file": "src/resources/host_api.py",
+            "line": 48,
+            "message": "Done",
+            "reviewer": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            }
+          }
+        ],
+        "createdOn": 1519392386,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "fe513ab6df331c990c94c95f9f8e174473f487f5"
+        ],
+        "ref": "refs/changes/49/18249/1",
+        "revision": "0818b3280f995f7c1810ec31660602c3e80ce95f",
+        "sizeDeletions": -37,
+        "sizeInsertions": 26,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1519782458,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1519801371,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1519801374,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1519784892,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1519781810,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "fe513ab6df331c990c94c95f9f8e174473f487f5"
+        ],
+        "ref": "refs/changes/49/18249/2",
+        "revision": "df23ce4e23977bef9f34c56162934bbf7ab99491",
+        "sizeDeletions": -37,
+        "sizeInsertions": 26,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-279] Start clean unused code",
+    "topic": "CE-279",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/18249"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "18249",
+    "project_name": "cello",
+    "review_hash": "Ia97007178db8bfff5f49e7cbbdb8b287dfdbda78"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1519801374,
+  "uuid": "8df563cddad01de6502df00ea65a9578c006534b"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1522291278
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/645/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1522291502
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/645/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/645",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1522292067
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1522292129
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1522292740
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1522292757
+      }
+    ],
+    "commitMessage": "[CE-325] Fix version mismatch in docker images\n\nCello images in v0.8.0 still use x86_64-0.8.0-beta tag as base, need to\nfix to x86_64-0.8.0\n\nChange-Id: Ic4f40c0d2c01713625215e100387f19abb2046a1\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1522291278,
+    "id": "Ic4f40c0d2c01713625215e100387f19abb2046a1",
+    "lastUpdated": 1522292757,
+    "number": 19893,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1522292067,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1522292129,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1522292757,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1522292740,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1522291278,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "15077ee24760006675ae3daee1b9b82a4c1586ca"
+        ],
+        "ref": "refs/changes/93/19893/1",
+        "revision": "c68e333acdc8ab36eb9704b09f36feaf0b4f67b6",
+        "sizeDeletions": -13,
+        "sizeInsertions": 13,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-325] Fix version mismatch in docker images",
+    "topic": "CE-325",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/19893"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "19893",
+    "project_name": "cello",
+    "review_hash": "Ic4f40c0d2c01713625215e100387f19abb2046a1"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1522292757,
+  "uuid": "414d935adb5dcf672d55aaed07ca1f11155dcea9"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1525928981
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/708/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1525929273
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/708/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/708",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1525930082
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1525963042
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1526043772
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1526043777
+      }
+    ],
+    "commitMessage": "[CE-358] Fix static port mapping of explorer\n\nIn fabric kafka mode, now we use a static port mapping of the explorer\nservice, which will result in port conflicts with multiple chains inside\nthe same host.\n\nThis patchset use the EXPLORER_PORT for dynamic mapping.\n\nChange-Id: Ibcb8f29aff8b06d30e7cfa29f8f9004e42731c60\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1525928981,
+    "id": "Ibcb8f29aff8b06d30e7cfa29f8f9004e42731c60",
+    "lastUpdated": 1526043777,
+    "number": 21661,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1525930082,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1526043772,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1526043777,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1525963042,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1525928981,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "47f3cc63574d010d2a8a3f79e3d31ab4e8605ce1"
+        ],
+        "ref": "refs/changes/61/21661/1",
+        "revision": "31f058ecacc0fdacc9d208a72ead8f777929e217",
+        "sizeDeletions": -9,
+        "sizeInsertions": 8,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-358] Fix static port mapping of explorer",
+    "topic": "CE-358",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/21661"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "21661",
+    "project_name": "cello",
+    "review_hash": "Ibcb8f29aff8b06d30e7cfa29f8f9004e42731c60"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1526043777,
+  "uuid": "96157727d6f3e0aa87a519494428878bc1fc7912"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1529471696
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/769/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1529471914
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/769/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/769",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1529472762
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1529474156
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1529474181
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1529474184
+      }
+    ],
+    "commitMessage": "[CE-388] Clean up unused nginx images\n\nThe nginx image is deprecated after v0.8.0.\n\nThis patchset:\n\n* cleans the unused images and usage.\n* Rename v0.8.0 images to v0.9.0 to prepare for the coming release.\n\nChange-Id: Ibb1a1f16d8f814a31824a9aff0faa721e29c618f\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1529471696,
+    "id": "Ibb1a1f16d8f814a31824a9aff0faa721e29c618f",
+    "lastUpdated": 1529474184,
+    "number": 23365,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1529472762,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1529474181,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1529474184,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1529474156,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1529471696,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "d6475e5f9652be779819252f11ad7f4ed2b7a667"
+        ],
+        "ref": "refs/changes/65/23365/1",
+        "revision": "cc7e2ac46d8a094d39d9baf204704571bca04d8b",
+        "sizeDeletions": -670,
+        "sizeInsertions": 5414,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-388] Clean up unused nginx images",
+    "topic": "CE-388",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/23365"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "23365",
+    "project_name": "cello",
+    "review_hash": "Ibb1a1f16d8f814a31824a9aff0faa721e29c618f"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1529474184,
+  "uuid": "09f333505c576479f9547105b546a8b17b3ddfe8"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1529674204
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/780/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1529674397
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/780/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/780",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1529675444
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1529721855
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1529804003
+      },
+      {
+        "message": "Change has been successfully merged by Haitao Yue",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1529910229
+      }
+    ],
+    "commitMessage": "[CE-301] Update terminologies and figures\n\nUpdate the terminology of Worker as support cluster now.\nAlso update the deployment figures.\n\nChange-Id: Ib0e59fe0a42a23dc1fa834833c8843d22909a1c9\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1529674204,
+    "id": "Ib0e59fe0a42a23dc1fa834833c8843d22909a1c9",
+    "lastUpdated": 1529910229,
+    "number": 23523,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1529675444,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1529804003,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1529721855,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "grantedOn": 1529910229,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1529674204,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "5162a2bb668897d2a50d4c634f71eb6c6882471d"
+        ],
+        "ref": "refs/changes/23/23523/1",
+        "revision": "fb5d8cb5f6fb8aadb131ab35f84ecb6f22da0456",
+        "sizeDeletions": -8,
+        "sizeInsertions": 8,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-301] Update terminologies and figures",
+    "topic": "CE-301",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/23523"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "23523",
+    "project_name": "cello",
+    "review_hash": "Ib0e59fe0a42a23dc1fa834833c8843d22909a1c9"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1529910229,
+  "uuid": "804498f38b96f80321257bcdd2375afdd3df3146"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1531623283
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/827/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531623475
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1531623498
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/827/ : ABORTED\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.hyperledger.org/job/cello-verify-x86_64/827/ )\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/827",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531623522
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/828/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531623522
+      },
+      {
+        "message": "Patch Set 2: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/828/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.hyperledger.org/job/cello-verify-x86_64/828/ )\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/828",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531623606
+      },
+      {
+        "message": "Patch Set 2:\n\nrecheck",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1531630296
+      },
+      {
+        "message": "Patch Set 3: Commit message was updated.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1531636098
+      },
+      {
+        "message": "Removed reviewer Hyperledger Jobbuilder with the following votes:\n\n* Verified-1 by Hyperledger Jobbuilder <jobbuilder@jenkins.hyperledger.org>\n",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1531636235
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/829/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531636299
+      },
+      {
+        "message": "Patch Set 3: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/829/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.hyperledger.org/job/cello-verify-x86_64/829/ )\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/829",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531636388
+      },
+      {
+        "message": "Removed Verified-1 by Hyperledger Jobbuilder <jobbuilder@jenkins.hyperledger.org>\n",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1531636520
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/830/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531636700
+      },
+      {
+        "message": "Patch Set 3: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/830/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.hyperledger.org/job/cello-verify-x86_64/830/ )\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/830",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531636791
+      },
+      {
+        "message": "Patch Set 3:\n\nrecheck",
+        "reviewer": {
+          "email": "jphelps@linuxfoundation.org",
+          "name": "Jeremy Phelps",
+          "username": "jeremyphelps"
+        },
+        "timestamp": 1531678674
+      },
+      {
+        "message": "Removed Verified-1 by Hyperledger Jobbuilder <jobbuilder@jenkins.hyperledger.org>\n",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1531680072
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/831/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531680349
+      },
+      {
+        "message": "Patch Set 3: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/831/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.hyperledger.org/job/cello-verify-x86_64/831/ )\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/831",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531680438
+      },
+      {
+        "message": "Patch Set 3: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/832/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531680457
+      },
+      {
+        "message": "Patch Set 3: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/832/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.hyperledger.org/job/cello-verify-x86_64/832/ )\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/832",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531680540
+      },
+      {
+        "message": "Removed Verified-1 by Hyperledger Jobbuilder <jobbuilder@jenkins.hyperledger.org>\n",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1531680550
+      },
+      {
+        "message": "Patch Set 4: Commit message was updated.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1531681017
+      },
+      {
+        "message": "Patch Set 4:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/833/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531681197
+      },
+      {
+        "message": "Patch Set 4: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/833/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.hyperledger.org/job/cello-verify-x86_64/833/ )\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/833",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531681285
+      },
+      {
+        "message": "Patch Set 4: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/834/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531683150
+      },
+      {
+        "message": "Patch Set 4: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/834/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/834",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1531684076
+      },
+      {
+        "message": "Patch Set 4: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1531711044
+      },
+      {
+        "message": "Patch Set 4: Code-Review+2",
+        "reviewer": {
+          "email": "litong01@us.ibm.com",
+          "name": "tong  li",
+          "username": "tongliofcary"
+        },
+        "timestamp": 1531779343
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1531796132
+      }
+    ],
+    "commitMessage": "[CE-416] Nominate Luke Chen as new maintainer\n\nLuke Chen has been contributing to Hyperledger Cello for several\nmonths, in terms of code, answering questions and reviewing patchsets.\n\nHe did quite a good job on creating the new vsphere agent and\nk8s agents.\n\nChange-Id: I98b35e05a18e4ea68de65ebc2bbeaa123619624a\nSigned-off-by: Haitao Yue <hightall@me.com>\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\nSigned-off-by: Ry Jones <ry@linux.com>\n",
+    "createdOn": 1531623283,
+    "id": "I98b35e05a18e4ea68de65ebc2bbeaa123619624a",
+    "lastUpdated": 1531796132,
+    "number": 24429,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1531623283,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "33087f1549c17a4700eee6e3ea0d079a0b1c2c96"
+        ],
+        "ref": "refs/changes/29/24429/1",
+        "revision": "52dca64b8af277c76f50589da0da957d1eb21cc1",
+        "sizeDeletions": 0,
+        "sizeInsertions": 1,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      },
+      {
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1531623498,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "33087f1549c17a4700eee6e3ea0d079a0b1c2c96"
+        ],
+        "ref": "refs/changes/29/24429/2",
+        "revision": "6dbc5ab4b00115fb76dea09829bf0810b383b86e",
+        "sizeDeletions": 0,
+        "sizeInsertions": 1,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      },
+      {
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1531636098,
+        "kind": "NO_CODE_CHANGE",
+        "number": 3,
+        "parents": [
+          "33087f1549c17a4700eee6e3ea0d079a0b1c2c96"
+        ],
+        "ref": "refs/changes/29/24429/3",
+        "revision": "036ae4f814913e6ea3f2a579d4d7c547971e9f6e",
+        "sizeDeletions": 0,
+        "sizeInsertions": 1,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1531684076,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1531711044,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1531796132,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "litong01@us.ibm.com",
+              "name": "tong  li",
+              "username": "tongliofcary"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1531779343,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1531681017,
+        "kind": "NO_CODE_CHANGE",
+        "number": 4,
+        "parents": [
+          "33087f1549c17a4700eee6e3ea0d079a0b1c2c96"
+        ],
+        "ref": "refs/changes/29/24429/4",
+        "revision": "b9098c362b71e6a7538729fbe4a9390c558f03e3",
+        "sizeDeletions": 0,
+        "sizeInsertions": 1,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-416] Nominate Luke Chen as new maintainer",
+    "topic": "CE-416",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/24429"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "24429",
+    "project_name": "cello",
+    "review_hash": "I98b35e05a18e4ea68de65ebc2bbeaa123619624a"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1531796132,
+  "uuid": "0f47b5f7d20e43a090557fd498a0f08d50d55469"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532348760
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/838/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1532349146
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/838/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/838",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1532350979
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532352497
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/839/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1532352849
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/839/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/839",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1532354205
+      },
+      {
+        "message": "Uploaded patch set 3.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532354242
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/840/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1532354579
+      },
+      {
+        "message": "Patch Set 3: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/840/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/840",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1532356303
+      },
+      {
+        "message": "Patch Set 3: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532415937
+      },
+      {
+        "message": "Patch Set 3: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1532437951
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532483264
+      }
+    ],
+    "commitMessage": "[CE-417] Clean up the setup steps\n\nClean up the setup steps of master node and worker node.\n\nUpdate doc content accordingly.\n\nChange-Id: I2647a6f3ebb999ff728fda2328e85c10e7bbcae3\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1532348760,
+    "id": "I2647a6f3ebb999ff728fda2328e85c10e7bbcae3",
+    "lastUpdated": 1532483264,
+    "number": 24653,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1532350979,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1532348760,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "b5c0e9b74fcd9ba5a7ad3c246c16b29a94322f51"
+        ],
+        "ref": "refs/changes/53/24653/1",
+        "revision": "25d740652effabad497a4439808c6c6cd06a18cc",
+        "sizeDeletions": -38,
+        "sizeInsertions": 62,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1532354205,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1532352497,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "b5c0e9b74fcd9ba5a7ad3c246c16b29a94322f51"
+        ],
+        "ref": "refs/changes/53/24653/2",
+        "revision": "38d9772fdfd9046d0b639be99adf5871fdda963e",
+        "sizeDeletions": -38,
+        "sizeInsertions": 63,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1532356303,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1532415937,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1532483264,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1532437951,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1532354242,
+        "kind": "REWORK",
+        "number": 3,
+        "parents": [
+          "b5c0e9b74fcd9ba5a7ad3c246c16b29a94322f51"
+        ],
+        "ref": "refs/changes/53/24653/3",
+        "revision": "abe30dbee725de9be27afaae2a8be3bc937db64f",
+        "sizeDeletions": -82,
+        "sizeInsertions": 110,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-417] Clean up the setup steps",
+    "topic": "CE-417",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/24653"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "24653",
+    "project_name": "cello",
+    "review_hash": "I2647a6f3ebb999ff728fda2328e85c10e7bbcae3"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1532483264,
+  "uuid": "df47ae566da4a725882c078c2b660e6f7d77ff57"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532592610
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/843/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1532592802
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/843/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/843",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1532593712
+      },
+      {
+        "message": "Uploaded patch set 2: Commit message was updated.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532647645
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2\n\n(3 comments)",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1532742024
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532752622
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532752633
+      }
+    ],
+    "commitMessage": "[CE-419] Clean up startup\n\nThis patchset cleans up the environment setup script.\n\nNow if you wanna run in dev mode, can just use:\nMODE=dev make start\nIf you wanna run in prod mode, can just use:\nMODE=prod make start\n\nCE-419 #done\n\nChange-Id: I0316315c47b7c6d431cef584df41b63791ec3272\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1532592610,
+    "id": "I0316315c47b7c6d431cef584df41b63791ec3272",
+    "lastUpdated": 1532752633,
+    "number": 24795,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1532593712,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1532592610,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "7e17a2751e80984ecbdf183b5a8faacb2020d819"
+        ],
+        "ref": "refs/changes/95/24795/1",
+        "revision": "28fa953e6677248dbefdf83938f7c6c300d37e5c",
+        "sizeDeletions": -46,
+        "sizeInsertions": 68,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1532593712,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1532752622,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1532752633,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1532742024,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "comments": [
+          {
+            "file": "docker-compose-dev.yml",
+            "line": 48,
+            "message": "the default value for mongo host is set to mongo in dashboard.py",
+            "reviewer": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            }
+          },
+          {
+            "file": "docker-compose-dev.yml",
+            "line": 50,
+            "message": "I think you need add the connect port in dashboard.py.",
+            "reviewer": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            }
+          },
+          {
+            "file": "docker-compose-dev.yml",
+            "line": 74,
+            "message": "I remember NODE_ENV don't need set to dev, dev mode is default value? if you want to run product mode, you must set to product.",
+            "reviewer": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            }
+          }
+        ],
+        "createdOn": 1532647645,
+        "kind": "NO_CODE_CHANGE",
+        "number": 2,
+        "parents": [
+          "7e17a2751e80984ecbdf183b5a8faacb2020d819"
+        ],
+        "ref": "refs/changes/95/24795/2",
+        "revision": "40617d211c824b53deddfc5b35bdd71649fca861",
+        "sizeDeletions": -46,
+        "sizeInsertions": 68,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-419] Clean up startup",
+    "topic": "CE-419",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/24795"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "24795",
+    "project_name": "cello",
+    "review_hash": "I0316315c47b7c6d431cef584df41b63791ec3272"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1532752633,
+  "uuid": "185db51e637908f17b7d77a365d7fd1a81da8b87"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532764250
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/845/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1532764356
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/845/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/845",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1532765305
+      },
+      {
+        "message": "Patch Set 1: Code-Review+1",
+        "reviewer": {
+          "email": "jiahaochen1993@gmail.com",
+          "name": "Luke Chan",
+          "username": "LordGoodman"
+        },
+        "timestamp": 1532792945
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "jiahaochen1993@gmail.com",
+          "name": "Luke Chan",
+          "username": "LordGoodman"
+        },
+        "timestamp": 1532830730
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1532856589
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532872499
+      }
+    ],
+    "commitMessage": "[CE-423] Update the contribution doc\n\nDeveloper can add `CE-1234 #done` at commit msg, to trigger the\njira issue to close automatically after the commit is merged.\n\nCE-423 #done.\n\nChange-Id: I2c6e7da5c59cdc0fd1295b389eb163ba41a3007b\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1532764250,
+    "id": "I2c6e7da5c59cdc0fd1295b389eb163ba41a3007b",
+    "lastUpdated": 1532872499,
+    "number": 24883,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1532765305,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1532872499,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1532856589,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jiahaochen1993@gmail.com",
+              "name": "Luke Chan",
+              "username": "LordGoodman"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1532830730,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1532764250,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "47c2eb00a068e6fede6cb975f9b198172c214d9a"
+        ],
+        "ref": "refs/changes/83/24883/1",
+        "revision": "a3707b57d018fc4bfad1c3bdd384d21078451185",
+        "sizeDeletions": -4,
+        "sizeInsertions": 4,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-423] Update the contribution doc",
+    "topic": "CE-423",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/24883"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "24883",
+    "project_name": "cello",
+    "review_hash": "I2c6e7da5c59cdc0fd1295b389eb163ba41a3007b"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1532872499,
+  "uuid": "e50528c86f2bb71b955c6ab4c0b58786badc2744"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532764836
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/846/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1532765060
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/846/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/846",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1532766225
+      },
+      {
+        "message": "Patch Set 1: Code-Review+1",
+        "reviewer": {
+          "email": "jiahaochen1993@gmail.com",
+          "name": "Luke Chan",
+          "username": "LordGoodman"
+        },
+        "timestamp": 1532792834
+      },
+      {
+        "message": "Patch Set 1: Code-Review-1\n\n(1 comment)",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1532856567
+      },
+      {
+        "message": "Patch Set 1:\n\n(1 comment)",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532872456
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2\n\n(1 comment)",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1532915074
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532916543
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1532916547
+      }
+    ],
+    "commitMessage": "[CE-424] Add make build-admin-js cmd in dev mode\n\nIn dev mode, when run make start, need to trigger\n`make build-admin-js` to update the local js files if necessary.\n\nCE-424 #done.\n\nChange-Id: I1f2d6ea64e52c8728acd1a5aa636bb9f870033cd\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1532764836,
+    "id": "I1f2d6ea64e52c8728acd1a5aa636bb9f870033cd",
+    "lastUpdated": 1532916547,
+    "number": 24885,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1532766225,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1532916543,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1532916547,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1532915074,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jiahaochen1993@gmail.com",
+              "name": "Luke Chan",
+              "username": "LordGoodman"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1532792834,
+            "type": "Code-Review",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "comments": [
+          {
+            "file": "Makefile",
+            "line": 220,
+            "message": "so build admin js will do at every time make start DEV=True, my design is that check whether the combined js is generated, if not existed will build-admin-js.",
+            "reviewer": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            }
+          },
+          {
+            "file": "Makefile",
+            "line": 220,
+            "message": "Yes, i suppose that if the generated js latest, then make build-admin-js will do nothing? As this should be guaranteed by the make cmd?",
+            "reviewer": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            }
+          },
+          {
+            "file": "Makefile",
+            "line": 220,
+            "message": "ok, I think we can refine it later",
+            "reviewer": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            }
+          }
+        ],
+        "createdOn": 1532764836,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "47c2eb00a068e6fede6cb975f9b198172c214d9a"
+        ],
+        "ref": "refs/changes/85/24885/1",
+        "revision": "092e6d07234b44d5b336cabe991da0375fa91df8",
+        "sizeDeletions": -1,
+        "sizeInsertions": 5,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-424] Add make build-admin-js cmd in dev mode",
+    "topic": "CE-424",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/24885"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "24885",
+    "project_name": "cello",
+    "review_hash": "I1f2d6ea64e52c8728acd1a5aa636bb9f870033cd"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1532916547,
+  "uuid": "a2349270de6fbec7c33ff81e453e2b95922ef89a"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1534817583
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/853/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1534817874
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/853/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/853",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1534818871
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1534829765
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1534829819
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1534829822
+      }
+    ],
+    "commitMessage": "[CE-342] Fix systemd config update doc\n\n* Fix the systemd config update doc under ubuntu 18.04;\n* And update the grammar indicator from 'sh' to 'bash'.\n\nCE-342 #done\n\nChange-Id: I2cd6eef062a29fcb5c289337beeab47526e64dfd\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1534817583,
+    "id": "I2cd6eef062a29fcb5c289337beeab47526e64dfd",
+    "lastUpdated": 1534829822,
+    "number": 25743,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1534818871,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1534829819,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1534829822,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1534829765,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1534817583,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "a318849cb0279a59dfc2d6011a9677b66149142b"
+        ],
+        "ref": "refs/changes/43/25743/1",
+        "revision": "2c5821db86084c53b04451a90d0741e353b19f27",
+        "sizeDeletions": -43,
+        "sizeInsertions": 41,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-342] Fix systemd config update doc",
+    "topic": "CE-342",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/25743"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "25743",
+    "project_name": "cello",
+    "review_hash": "I2cd6eef062a29fcb5c289337beeab47526e64dfd"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1534829822,
+  "uuid": "2e3980969818032f44efb82d88211c0a8ead6168"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1535096336
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/864/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1535096635
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/864/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/864",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1535097608
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "jiahaochen1993@gmail.com",
+          "name": "Luke Chan",
+          "username": "LordGoodman"
+        },
+        "timestamp": 1535098684
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1535100851
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1535100854
+      }
+    ],
+    "commitMessage": "[CE-435] Improve docs of setup and tutorial\n\nRecently, there're some questions related to the setup and tutorial process.\nThis patchset updates the docs to make it easier to follow.\n\nCE-435 #done\n\nChange-Id: I4431b763b5a6e6cbdb75e8c290c6c3126ee3e5ef\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1535096336,
+    "id": "I4431b763b5a6e6cbdb75e8c290c6c3126ee3e5ef",
+    "lastUpdated": 1535100854,
+    "number": 25853,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1535097608,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1535100851,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1535100854,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "jiahaochen1993@gmail.com",
+              "name": "Luke Chan",
+              "username": "LordGoodman"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1535098684,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1535096336,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "a79109808f8cefde0bfd2a312f330f07efeaac8a"
+        ],
+        "ref": "refs/changes/53/25853/1",
+        "revision": "d16f929e54db5434f8ea86f7ba2adbbbc8bc8b98",
+        "sizeDeletions": -57,
+        "sizeInsertions": 52,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-435] Improve docs of setup and tutorial",
+    "topic": "doc",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/25853"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "25853",
+    "project_name": "cello",
+    "review_hash": "I4431b763b5a6e6cbdb75e8c290c6c3126ee3e5ef"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1535100854,
+  "uuid": "fb54790524da4fbef82d597e36244d4817437f9a"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1536330980
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/914/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1536331265
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/914/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/914",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1536332233
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1536393298
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1536470475
+      },
+      {
+        "message": "Change has been successfully merged by Haitao Yue",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1536470487
+      }
+    ],
+    "commitMessage": "[CE-468] Add envsubst install to doc\n\nWhen starting master service, it requires the envsubst command.\n\nHowever, macOS does not have that tool, add into doc how to install\nit.\n\nChange-Id: Iae18bd5892abd49e94622cd2c994bd678bbdc7b9\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1536330980,
+    "id": "Iae18bd5892abd49e94622cd2c994bd678bbdc7b9",
+    "lastUpdated": 1536470487,
+    "number": 26164,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1536332233,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1536393298,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1536470475,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "grantedOn": 1536470487,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1536330980,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "c74ff8d6713d76c06f7d841c5927321a544a3592"
+        ],
+        "ref": "refs/changes/64/26164/1",
+        "revision": "987d36c4c866ec61b16ea52c5bda6300ad018908",
+        "sizeDeletions": -2,
+        "sizeInsertions": 14,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-468] Add envsubst install to doc",
+    "topic": "CE-468",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/26164"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "26164",
+    "project_name": "cello",
+    "review_hash": "Iae18bd5892abd49e94622cd2c994bd678bbdc7b9"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1536470487,
+  "uuid": "443998bdcceccc6ca65f4ba37eef237cd9ca141b"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1536566670
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/917/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1536566847
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/917/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/917",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1536567894
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1536568558
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "jiahaochen1993@gmail.com",
+          "name": "Luke Chan",
+          "username": "LordGoodman"
+        },
+        "timestamp": 1536569070
+      },
+      {
+        "message": "Change has been successfully merged by Luke Chan",
+        "reviewer": {
+          "email": "jiahaochen1993@gmail.com",
+          "name": "Luke Chan",
+          "username": "LordGoodman"
+        },
+        "timestamp": 1536569107
+      }
+    ],
+    "commitMessage": "[CE-470] Fix NFS port mapping\n\nCurrently, the nfs uses a local host network, which is too broad.\n\nWe change it to port mapping.\n\nChange-Id: Ibc52db5575e3e6c76c10cf6c0728097c6475f99a\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1536566670,
+    "id": "Ibc52db5575e3e6c76c10cf6c0728097c6475f99a",
+    "lastUpdated": 1536569107,
+    "number": 26186,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1536567894,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1536568558,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jiahaochen1993@gmail.com",
+              "name": "Luke Chan",
+              "username": "LordGoodman"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1536569070,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jiahaochen1993@gmail.com",
+              "name": "Luke Chan",
+              "username": "LordGoodman"
+            },
+            "grantedOn": 1536569107,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1536566670,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "987d36c4c866ec61b16ea52c5bda6300ad018908"
+        ],
+        "ref": "refs/changes/86/26186/1",
+        "revision": "7a7772facd9c25f0f38b3b78d5a1844e5e390363",
+        "sizeDeletions": -2,
+        "sizeInsertions": 4,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-470] Fix NFS port mapping",
+    "topic": "CE-470",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/26186"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "26186",
+    "project_name": "cello",
+    "review_hash": "Ibc52db5575e3e6c76c10cf6c0728097c6475f99a"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1536569107,
+  "uuid": "4ba763a083962a2ad329777e9db26f37c27874eb"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1536568666
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/918/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1536568848
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/918/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/918",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1536569947
+      },
+      {
+        "message": "Abandoned\n\nnfs will be removed later.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1540122104
+      }
+    ],
+    "commitMessage": "[CE-475] Fix nfs stop\n\nWhen run `make stop`, the nfs will keep on running.\n\nShould stop nfs when run `make stop`.\n\nCE-475 #done.\n\nChange-Id: I253f9406fe4a3cc676e2e684da39d87ed5cd2095\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1536568666,
+    "id": "I253f9406fe4a3cc676e2e684da39d87ed5cd2095",
+    "lastUpdated": 1540122104,
+    "number": 26187,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1536569947,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1536568666,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "987d36c4c866ec61b16ea52c5bda6300ad018908"
+        ],
+        "ref": "refs/changes/87/26187/1",
+        "revision": "f2232d99309ed1b6c63a2ae0ef4eaf9c314954ad",
+        "sizeDeletions": 0,
+        "sizeInsertions": 1,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "ABANDONED",
+    "subject": "[CE-475] Fix nfs stop",
+    "topic": "CE-475",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/26187"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "26187",
+    "project_name": "cello",
+    "review_hash": "I253f9406fe4a3cc676e2e684da39d87ed5cd2095"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1540122104,
+  "uuid": "4e258ffde53ba13b251ef358d46762d5342016ab"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1541166353
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/977/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1541166670
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "litong01@us.ibm.com",
+          "name": "tong  li",
+          "username": "tongliofcary"
+        },
+        "timestamp": 1541166735
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/977/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/977",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1541167715
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1541304967
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1541304972
+      }
+    ],
+    "commitMessage": "[CE-483] Fix docker version range\n\nFix docker version range to 1.10+.\n\nChange-Id: I283c89bbaec9b0ed3b768780298889c3009c4be9\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1541166353,
+    "id": "I283c89bbaec9b0ed3b768780298889c3009c4be9",
+    "lastUpdated": 1541304972,
+    "number": 27331,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1541167715,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1541304967,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1541304972,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "litong01@us.ibm.com",
+              "name": "tong  li",
+              "username": "tongliofcary"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1541166735,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1541166353,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "be8d6b611bb467c9741590060ddfeb79955eb001"
+        ],
+        "ref": "refs/changes/31/27331/1",
+        "revision": "00f23e75c8642cb6b4d7b1abe85422ddfff14bd0",
+        "sizeDeletions": -2,
+        "sizeInsertions": 2,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-483] Fix docker version range",
+    "topic": "CE-483",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/27331"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "27331",
+    "project_name": "cello",
+    "review_hash": "I283c89bbaec9b0ed3b768780298889c3009c4be9"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1541304972,
+  "uuid": "004d60dde0bbdb1cebf4bd11c258ca78fdf252c3"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1550131070
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/1061/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1550131329
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1550131404
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/1061/ : ABORTED\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/1061",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1550131451
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/1062/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1550131644
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/1062/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/1062",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1550133297
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1550133776
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1550236175
+      },
+      {
+        "message": "Change has been successfully merged by Haitao Yue",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1550236197
+      }
+    ],
+    "commitMessage": "[CE-552] Clean up documentation structure\n\nMake the generated doc in readthedocs.org more clear and easy to find.\n\nChange-Id: Ibf3af3a86a58ea39142316eeb13eec6894b0fba5\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1550131070,
+    "id": "Ibf3af3a86a58ea39142316eeb13eec6894b0fba5",
+    "lastUpdated": 1550236197,
+    "number": 29298,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1550131451,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1550131070,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "68158f572c688f1710813c4df47fad28c3d4276c"
+        ],
+        "ref": "refs/changes/98/29298/1",
+        "revision": "c6a260cd52dd3a8c2dd8d166115c04d610137b4c",
+        "sizeDeletions": -29,
+        "sizeInsertions": 28,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1550133297,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1550133776,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1550236175,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "grantedOn": 1550236197,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1550131404,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "68158f572c688f1710813c4df47fad28c3d4276c"
+        ],
+        "ref": "refs/changes/98/29298/2",
+        "revision": "c9bcf2d867448a9e7b9445ccfdcde8f41434573c",
+        "sizeDeletions": -33,
+        "sizeInsertions": 32,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-552] Clean up documentation structure",
+    "topic": "fix_doc",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/29298"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "29298",
+    "project_name": "cello",
+    "review_hash": "Ibf3af3a86a58ea39142316eeb13eec6894b0fba5"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1550236197,
+  "uuid": "0cd5869c22506446453fca67816ea753aa2da189"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1550285765
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/1063/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1550286005
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/1063/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/1063",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1550286090
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1550287134
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/1064/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1550287445
+      },
+      {
+        "message": "Patch Set 2:\n\nreverify",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1550288251
+      },
+      {
+        "message": "Patch Set 2: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/1064/ : ABORTED\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/1064",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1550288326
+      },
+      {
+        "message": "Patch Set 2: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/1065/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1550288580
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/1065/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/1065",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1550290212
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1550299193
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "litong01@us.ibm.com",
+          "name": "tong  li",
+          "username": "tongliofcary"
+        },
+        "timestamp": 1550320384
+      },
+      {
+        "message": "Change has been successfully merged by tong  li",
+        "reviewer": {
+          "email": "litong01@us.ibm.com",
+          "name": "tong  li",
+          "username": "tongliofcary"
+        },
+        "timestamp": 1550320390
+      }
+    ],
+    "commitMessage": "[CE-554] Refine setup process\n\n* Clean up the script and documentation;\n* Add new added images.\n\nChange-Id: Iec805d0cc47eb3f7512eef264a21e88ec2d35b8b\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1550285765,
+    "id": "Iec805d0cc47eb3f7512eef264a21e88ec2d35b8b",
+    "lastUpdated": 1550320390,
+    "number": 29338,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1550286090,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1550285765,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "c9bcf2d867448a9e7b9445ccfdcde8f41434573c"
+        ],
+        "ref": "refs/changes/38/29338/1",
+        "revision": "d4274c5a037033aa9b34a05db1ee8ab231041b5a",
+        "sizeDeletions": -28,
+        "sizeInsertions": 55,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1550290212,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1550299193,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "litong01@us.ibm.com",
+              "name": "tong  li",
+              "username": "tongliofcary"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1550320384,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "litong01@us.ibm.com",
+              "name": "tong  li",
+              "username": "tongliofcary"
+            },
+            "grantedOn": 1550320390,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1550287134,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "c9bcf2d867448a9e7b9445ccfdcde8f41434573c"
+        ],
+        "ref": "refs/changes/38/29338/2",
+        "revision": "5f4f79a4c03a4e1f50e8f8ac8f3d8587410358dc",
+        "sizeDeletions": -28,
+        "sizeInsertions": 55,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-554] Refine setup process",
+    "topic": "dev",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/29338"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "29338",
+    "project_name": "cello",
+    "review_hash": "Iec805d0cc47eb3f7512eef264a21e88ec2d35b8b"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1550320390,
+  "uuid": "e247c6b5916099b11bbfc1946dbfcafff5377849"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1550375932
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/1068/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1550376318
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/1068/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/1068",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1550377270
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1550377959
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/1069/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1550378217
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/1069/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/1069",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1550379775
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1550380916
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1550398543
+      },
+      {
+        "message": "Change has been successfully merged by Haitao Yue",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1550398546
+      }
+    ],
+    "commitMessage": "[CE-555] Add make reset for development\n\nRecently, there're several issues caused by the old data.\n\nHence, we add `make reset` to do clean up and remove local storage.\n\nNoted, this cmd should only be used in development, as it will\nremove all local data and reset Cello service to clean state.\n\nRelated documentations are updated, too.\n\nChange-Id: I4977c047726d6d126b552e3e2a7936ac131a070d\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1550375932,
+    "id": "I4977c047726d6d126b552e3e2a7936ac131a070d",
+    "lastUpdated": 1550398546,
+    "number": 29341,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1550377270,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1550375932,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "7b75ff6d50c24be81c70f53f99c607a708aa128d"
+        ],
+        "ref": "refs/changes/41/29341/1",
+        "revision": "186e22cc979b46ee28b7c43c785bf599351c17a1",
+        "sizeDeletions": -3,
+        "sizeInsertions": 17,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1550379775,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1550380916,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1550398543,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "grantedOn": 1550398546,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1550377959,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "7b75ff6d50c24be81c70f53f99c607a708aa128d"
+        ],
+        "ref": "refs/changes/41/29341/2",
+        "revision": "20c5753ea9294be7ed3c8649d3c6403d57399899",
+        "sizeDeletions": -3,
+        "sizeInsertions": 17,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-555] Add make reset for development",
+    "topic": "CE-555",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/29341"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "29341",
+    "project_name": "cello",
+    "review_hash": "I4977c047726d6d126b552e3e2a7936ac131a070d"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1550398546,
+  "uuid": "36991d317f08a4e4faee44c27bc0575412267136"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1552020807
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/1098/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1552021010
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/1098/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/1098",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1552021685
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1552026103
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/1099/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1552026328
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/1099/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/1099",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1552027055
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1552028383
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1552028442
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1552028450
+      }
+    ],
+    "commitMessage": "[CE-573] Refine startup process\n\nImprove documentation and scripts.\n\nChange-Id: I48aa2d2a18a46c24242e50b459cba4b763f79b98\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1552020807,
+    "id": "I48aa2d2a18a46c24242e50b459cba4b763f79b98",
+    "lastUpdated": 1552028450,
+    "number": 29951,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1552021685,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1552020807,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "e67a2044e41178cc3f154d6c204bbc4470f17a5e"
+        ],
+        "ref": "refs/changes/51/29951/1",
+        "revision": "39a21de70c35a9501b9d4d7d8978c9f3e6120e15",
+        "sizeDeletions": -15,
+        "sizeInsertions": 19,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1552027055,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1552028442,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1552028450,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1552028383,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1552026103,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "e67a2044e41178cc3f154d6c204bbc4470f17a5e"
+        ],
+        "ref": "refs/changes/51/29951/2",
+        "revision": "d27f13f6c3ce3160e4db22be0177bc9cb047eeaf",
+        "sizeDeletions": -21,
+        "sizeInsertions": 12,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-573] Refine startup process",
+    "topic": "CE-573",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/29951"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "29951",
+    "project_name": "cello",
+    "review_hash": "I48aa2d2a18a46c24242e50b459cba4b763f79b98"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1552028450,
+  "uuid": "8c282f34ae0ca23b653632372f90edf2ec2ae518"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1552721112
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/1104/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1552721205
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/1104/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/1104",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1552721672
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1552723306
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "jiahaochen1993@gmail.com",
+          "name": "Luke Chan",
+          "username": "LordGoodman"
+        },
+        "timestamp": 1552725709
+      },
+      {
+        "message": "Change has been successfully merged by Luke Chan",
+        "reviewer": {
+          "email": "jiahaochen1993@gmail.com",
+          "name": "Luke Chan",
+          "username": "LordGoodman"
+        },
+        "timestamp": 1552725788
+      }
+    ],
+    "commitMessage": "[CE-582] Add doc on dashboard URL\n\nThe dashboard needs to be accessed via the public IP, instead of\nlocal host.\n\nChange-Id: Ib2bbc97862fae8a9322b2bd53f72a9873d334d94\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1552721112,
+    "id": "Ib2bbc97862fae8a9322b2bd53f72a9873d334d94",
+    "lastUpdated": 1552725788,
+    "number": 30132,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1552721672,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1552723306,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jiahaochen1993@gmail.com",
+              "name": "Luke Chan",
+              "username": "LordGoodman"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1552725709,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jiahaochen1993@gmail.com",
+              "name": "Luke Chan",
+              "username": "LordGoodman"
+            },
+            "grantedOn": 1552725788,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1552721112,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "df84a71676c1f4f0978faae9926d0c10b616cff7"
+        ],
+        "ref": "refs/changes/32/30132/1",
+        "revision": "39738d7158ace8b61085048bcc3e5ec92f925c95",
+        "sizeDeletions": -3,
+        "sizeInsertions": 3,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-582] Add doc on dashboard URL",
+    "topic": "CE-582",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/30132"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "30132",
+    "project_name": "cello",
+    "review_hash": "Ib2bbc97862fae8a9322b2bd53f72a9873d334d94"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1552725788,
+  "uuid": "5ae9a4bbea3aa17bef29f00960baf82e79b14da0"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1554372745
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/1117/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1554372937
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/1117/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/1117",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1554372993
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1554373285
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/1118/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1554373532
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/1118/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/1118",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1554373984
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1554377321
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1554472712
+      },
+      {
+        "message": "Change has been successfully merged by Haitao Yue",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1554472735
+      }
+    ],
+    "commitMessage": "[CE-586] Fix v0.9.0 operator dashboar image\n\nAdd a patch on v0.9.0 code to make npm happy during the docker image\nbuilding.\n\nChange-Id: I76a08dc627a7cdb3525978c231ec329ba5e05f5f\nSigned-off-by: Baohua Yang <yangbaohua@gmail.com>\n",
+    "createdOn": 1554372745,
+    "id": "I76a08dc627a7cdb3525978c231ec329ba5e05f5f",
+    "lastUpdated": 1554472735,
+    "number": 30721,
+    "open": false,
+    "owner": {
+      "email": "yangbaohua@gmail.com",
+      "name": "Baohua Yang",
+      "username": "baohua"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1554372993,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1554372745,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "7d1c024302b0d1c5e21344add1fb90eed2aab8c6"
+        ],
+        "ref": "refs/changes/21/30721/1",
+        "revision": "3018d9c52c0e49542be3d063c51f38e45eb5ad09",
+        "sizeDeletions": -1,
+        "sizeInsertions": 47,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1554373984,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1554377321,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1554472712,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "grantedOn": 1554472735,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "createdOn": 1554373285,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "7d1c024302b0d1c5e21344add1fb90eed2aab8c6"
+        ],
+        "ref": "refs/changes/21/30721/2",
+        "revision": "0b49b8e6c8857a57f33a78ea3aa8b21418cadd3f",
+        "sizeDeletions": -1,
+        "sizeInsertions": 46,
+        "uploader": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-586] Fix v0.9.0 operator dashboar image",
+    "topic": "CE-586",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/30721"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "30721",
+    "project_name": "cello",
+    "review_hash": "I76a08dc627a7cdb3525978c231ec329ba5e05f5f"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1554472735,
+  "uuid": "8e7d12cb761c6e93bb75f6fdc0b1c63e7c3eb202"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yanko.zh@gmail.com",
+          "name": "Yanko Zhivkov",
+          "username": "yzhivkov"
+        },
+        "timestamp": 1533581228
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/851/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1533581373
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/851/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/851",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1533582133
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1533605162
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "jiahaochen1993@gmail.com",
+          "name": "Luke Chan",
+          "username": "LordGoodman"
+        },
+        "timestamp": 1533623827
+      },
+      {
+        "message": "Change has been successfully merged by Luke Chan",
+        "reviewer": {
+          "email": "jiahaochen1993@gmail.com",
+          "name": "Luke Chan",
+          "username": "LordGoodman"
+        },
+        "timestamp": 1533623833
+      }
+    ],
+    "commitMessage": "[CE-371] Remove wrong command in docker-compose.yml\n\nChange-Id: I3978f7c6687f97627b1e6fc3a733091aa9dd1ac4\nSigned-off-by: Yanko Zhivkov <yanko.zh@gmail.com>\n",
+    "createdOn": 1533581228,
+    "id": "I3978f7c6687f97627b1e6fc3a733091aa9dd1ac4",
+    "lastUpdated": 1533623833,
+    "number": 25167,
+    "open": false,
+    "owner": {
+      "email": "yanko.zh@gmail.com",
+      "name": "Yanko Zhivkov",
+      "username": "yzhivkov"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1533582133,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1533605162,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jiahaochen1993@gmail.com",
+              "name": "Luke Chan",
+              "username": "LordGoodman"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1533623827,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jiahaochen1993@gmail.com",
+              "name": "Luke Chan",
+              "username": "LordGoodman"
+            },
+            "grantedOn": 1533623833,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yanko.zh@gmail.com",
+          "name": "Yanko Zhivkov",
+          "username": "yzhivkov"
+        },
+        "createdOn": 1533581228,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "55a019047e7e4753b168aa923a2e27e045d83475"
+        ],
+        "ref": "refs/changes/67/25167/1",
+        "revision": "073278b1c72b4e0f47640841cd625470053a6ee5",
+        "sizeDeletions": -2,
+        "sizeInsertions": 0,
+        "uploader": {
+          "email": "yanko.zh@gmail.com",
+          "name": "Yanko Zhivkov",
+          "username": "yzhivkov"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-371] Remove wrong command in docker-compose.yml",
+    "topic": "CE-371",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/25167"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "25167",
+    "project_name": "cello",
+    "review_hash": "I3978f7c6687f97627b1e6fc3a733091aa9dd1ac4"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1533623833,
+  "uuid": "5124079ceea9b2a4801e540438d6850184b835c5"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yopep@yahoo.com",
+          "name": "Christopher Giles A. Lim",
+          "username": "yopep"
+        },
+        "timestamp": 1520781425
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/610/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1520781647
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/610/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.hyperledger.org/job/cello-verify-x86_64/610/ )\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/610",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1520781693
+      },
+      {
+        "message": "Uploaded patch set 2: Commit message was updated.",
+        "reviewer": {
+          "email": "yopep@yahoo.com",
+          "name": "Christopher Giles A. Lim",
+          "username": "yopep"
+        },
+        "timestamp": 1520782279
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/611/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1520782444
+      },
+      {
+        "message": "Patch Set 2: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/611/ : FAILURE\n\nNo problems were identified. If you know why this problem occurred, please add a suitable Cause for it. ( https://jenkins.hyperledger.org/job/cello-verify-x86_64/611/ )\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/611",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1520782482
+      },
+      {
+        "message": "Uploaded patch set 3: Commit message was updated.",
+        "reviewer": {
+          "email": "yopep@yahoo.com",
+          "name": "Christopher Giles A. Lim",
+          "username": "yopep"
+        },
+        "timestamp": 1520782685
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/612/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1520782939
+      },
+      {
+        "message": "Patch Set 3: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/612/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/612",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1520783423
+      },
+      {
+        "message": "Patch Set 3: Code-Review-1\n\n(1 comment)\n\nPlease update commit message.",
+        "reviewer": {
+          "email": "krishvoor@in.ibm.com",
+          "name": "Krishna Harsha Voora",
+          "username": "harsha544"
+        },
+        "timestamp": 1520818430
+      },
+      {
+        "message": "Uploaded patch set 4: Commit message was updated.",
+        "reviewer": {
+          "email": "yopep@yahoo.com",
+          "name": "Christopher Giles A. Lim",
+          "username": "yopep"
+        },
+        "timestamp": 1520819830
+      },
+      {
+        "message": "Patch Set 4: Code-Review+1\n\nLGTM.",
+        "reviewer": {
+          "email": "krishvoor@in.ibm.com",
+          "name": "Krishna Harsha Voora",
+          "username": "harsha544"
+        },
+        "timestamp": 1520819970
+      },
+      {
+        "message": "Patch Set 4:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/615/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1520820372
+      },
+      {
+        "message": "Patch Set 4: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/615/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/615",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1520821189
+      },
+      {
+        "message": "Patch Set 4: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1520832484
+      },
+      {
+        "message": "Patch Set 4: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1520857863
+      },
+      {
+        "message": "Change has been successfully merged by Baohua Yang",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1520858586
+      }
+    ],
+    "commitMessage": "[CE-296] Documentation typos\n\nVarious documentation typo fixes.\n\nChange-Id: I02129335f209a293d487a07444d35b3859d50862\nSigned-off-by: Chris Lim <yopep@yahoo.com>\n",
+    "createdOn": 1520781425,
+    "id": "I02129335f209a293d487a07444d35b3859d50862",
+    "lastUpdated": 1520858586,
+    "number": 19047,
+    "open": false,
+    "owner": {
+      "email": "yopep@yahoo.com",
+      "name": "Christopher Giles A. Lim",
+      "username": "yopep"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1520781693,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "yopep@yahoo.com",
+          "name": "Christopher Giles A. Lim",
+          "username": "yopep"
+        },
+        "createdOn": 1520781425,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "7799713da9ebba073b70bf9e520f4b49577127ed"
+        ],
+        "ref": "refs/changes/47/19047/1",
+        "revision": "be14ebdc057e6f0fa290c864e03fb8a80b2bc2fc",
+        "sizeDeletions": -17,
+        "sizeInsertions": 17,
+        "uploader": {
+          "email": "yopep@yahoo.com",
+          "name": "Christopher Giles A. Lim",
+          "username": "yopep"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1520782482,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "yopep@yahoo.com",
+          "name": "Christopher Giles A. Lim",
+          "username": "yopep"
+        },
+        "createdOn": 1520782279,
+        "kind": "NO_CODE_CHANGE",
+        "number": 2,
+        "parents": [
+          "7799713da9ebba073b70bf9e520f4b49577127ed"
+        ],
+        "ref": "refs/changes/47/19047/2",
+        "revision": "f12d921e833f4b4e6ec2791310736a102df70d8a",
+        "sizeDeletions": -17,
+        "sizeInsertions": 17,
+        "uploader": {
+          "email": "yopep@yahoo.com",
+          "name": "Christopher Giles A. Lim",
+          "username": "yopep"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1520783423,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "krishvoor@in.ibm.com",
+              "name": "Krishna Harsha Voora",
+              "username": "harsha544"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1520818430,
+            "type": "Code-Review",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "yopep@yahoo.com",
+          "name": "Christopher Giles A. Lim",
+          "username": "yopep"
+        },
+        "comments": [
+          {
+            "file": "/COMMIT_MSG",
+            "line": 11,
+            "message": "Please remove this, as JIRA number is mentioned at start of Commit Message.",
+            "reviewer": {
+              "email": "krishvoor@in.ibm.com",
+              "name": "Krishna Harsha Voora",
+              "username": "harsha544"
+            }
+          }
+        ],
+        "createdOn": 1520782685,
+        "kind": "NO_CODE_CHANGE",
+        "number": 3,
+        "parents": [
+          "7799713da9ebba073b70bf9e520f4b49577127ed"
+        ],
+        "ref": "refs/changes/47/19047/3",
+        "revision": "f42a5ed5017f74c8b35d2dc95dd23e187aa226f4",
+        "sizeDeletions": -17,
+        "sizeInsertions": 17,
+        "uploader": {
+          "email": "yopep@yahoo.com",
+          "name": "Christopher Giles A. Lim",
+          "username": "yopep"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1520821189,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1520832484,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "grantedOn": 1520858586,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "krishvoor@in.ibm.com",
+              "name": "Krishna Harsha Voora",
+              "username": "harsha544"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1520819970,
+            "type": "Code-Review",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1520857863,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "yopep@yahoo.com",
+          "name": "Christopher Giles A. Lim",
+          "username": "yopep"
+        },
+        "createdOn": 1520819830,
+        "kind": "NO_CODE_CHANGE",
+        "number": 4,
+        "parents": [
+          "7799713da9ebba073b70bf9e520f4b49577127ed"
+        ],
+        "ref": "refs/changes/47/19047/4",
+        "revision": "810dfbc26d8895d879ebbd56a837d2c12659b412",
+        "sizeDeletions": -17,
+        "sizeInsertions": 17,
+        "uploader": {
+          "email": "yopep@yahoo.com",
+          "name": "Christopher Giles A. Lim",
+          "username": "yopep"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-296] Documentation typos",
+    "topic": "CE-296",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/19047"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "19047",
+    "project_name": "cello",
+    "review_hash": "I02129335f209a293d487a07444d35b3859d50862"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1520858586,
+  "uuid": "d24cf66ef9415b15dff98146d53841f55f817f66"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "zch@cn.ibm.com",
+          "name": "Chaohua Zhang",
+          "username": "andyz"
+        },
+        "timestamp": 1501238283
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/177/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1501238578
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/177/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-1/cello-verify-x86_64/177",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1501239900
+      },
+      {
+        "message": "Patch Set 1: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/178/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1501269310
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/178/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-1/cello-verify-x86_64/178",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1501269934
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1501766302
+      },
+      {
+        "message": "Change has been successfully merged by yue haitao",
+        "reviewer": {
+          "email": "hightall@me.com",
+          "name": "Haitao Yue",
+          "username": "hightall"
+        },
+        "timestamp": 1501766309
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1501767072
+      }
+    ],
+    "commitMessage": "[CE-100] Fix broken links in some docs\n\nChange-Id: Ibc33e28d7ee005aa1ce2af71790aeec4eaa99bc1\nSigned-off-by: Andy Zhang <zch@cn.ibm.com>\n",
+    "createdOn": 1501238283,
+    "id": "Ibc33e28d7ee005aa1ce2af71790aeec4eaa99bc1",
+    "lastUpdated": 1501767072,
+    "number": 12009,
+    "open": false,
+    "owner": {
+      "email": "zch@cn.ibm.com",
+      "name": "Chaohua Zhang",
+      "username": "andyz"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1501269934,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1501767072,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1501766302,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "hightall@me.com",
+              "name": "Haitao Yue",
+              "username": "hightall"
+            },
+            "grantedOn": 1501766309,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "zch@cn.ibm.com",
+          "name": "Chaohua Zhang",
+          "username": "andyz"
+        },
+        "createdOn": 1501238283,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "679518900872db793a6c7cd8befc1b8448e0379b"
+        ],
+        "ref": "refs/changes/09/12009/1",
+        "revision": "cac5ca78c9018292f86a1c114a85665686c7c0e7",
+        "sizeDeletions": -7,
+        "sizeInsertions": 7,
+        "uploader": {
+          "email": "zch@cn.ibm.com",
+          "name": "Chaohua Zhang",
+          "username": "andyz"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-100] Fix broken links in some docs",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/12009"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "12009",
+    "project_name": "cello",
+    "review_hash": "Ibc33e28d7ee005aa1ce2af71790aeec4eaa99bc1"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1501767072,
+  "uuid": "0b6f3fcdc3d72529d1c43ba6bfefc5adb1acee2f"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "zhangx.fnst@cn.fujitsu.com",
+          "name": "fnst- zhangxin",
+          "username": "fnst_zhangxin"
+        },
+        "timestamp": 1540198663
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/cello-verify-x86_64/954/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1540198670
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/cello-verify-x86_64/954/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/cello-verify-x86_64/954",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1540199717
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "yangbaohua@gmail.com",
+          "name": "Baohua Yang",
+          "username": "baohua"
+        },
+        "timestamp": 1540526797
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "jiahaochen1993@gmail.com",
+          "name": "Luke Chan",
+          "username": "LordGoodman"
+        },
+        "timestamp": 1540526980
+      },
+      {
+        "message": "Change has been successfully merged by Luke Chan",
+        "reviewer": {
+          "email": "jiahaochen1993@gmail.com",
+          "name": "Luke Chan",
+          "username": "LordGoodman"
+        },
+        "timestamp": 1540527008
+      }
+    ],
+    "commitMessage": "[CE-484] updata how set docker on ubuntu16.04\n\nthe old method \"Alternatively\" is invaild on ubuntu16.04,but the\nnew method is vaild.\n\nCE-484 #done\n\nChange-Id: Ie01458ce946e142e424632b5e0836022da4ee5b1\nSigned-off-by: fnst-zhangxin <zhangx.fnst@cn.fujitsu.com>\n",
+    "createdOn": 1540198663,
+    "id": "Ie01458ce946e142e424632b5e0836022da4ee5b1",
+    "lastUpdated": 1540527008,
+    "number": 27146,
+    "open": false,
+    "owner": {
+      "email": "zhangx.fnst@cn.fujitsu.com",
+      "name": "fnst- zhangxin",
+      "username": "fnst_zhangxin"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1540199717,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "yangbaohua@gmail.com",
+              "name": "Baohua Yang",
+              "username": "baohua"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1540526797,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jiahaochen1993@gmail.com",
+              "name": "Luke Chan",
+              "username": "LordGoodman"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1540526980,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jiahaochen1993@gmail.com",
+              "name": "Luke Chan",
+              "username": "LordGoodman"
+            },
+            "grantedOn": 1540527008,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "zhangx.fnst@cn.fujitsu.com",
+          "name": "fnst- zhangxin",
+          "username": "fnst_zhangxin"
+        },
+        "createdOn": 1540198663,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "bf212da757c2fe3771c0c7261114d6968e5cf485"
+        ],
+        "ref": "refs/changes/46/27146/1",
+        "revision": "ca0cd5aa6e2a4d2f389fb77300c9b275960a3969",
+        "sizeDeletions": 0,
+        "sizeInsertions": 8,
+        "uploader": {
+          "email": "zhangx.fnst@cn.fujitsu.com",
+          "name": "fnst- zhangxin",
+          "username": "fnst_zhangxin"
+        }
+      }
+    ],
+    "project": "cello",
+    "status": "MERGED",
+    "subject": "[CE-484] updata how set docker on ubuntu16.04",
+    "topic": "CE-484",
+    "url": "https://gerrit.hyperledger.org/r/c/cello/+/27146"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "27146",
+    "project_name": "cello",
+    "review_hash": "Ie01458ce946e142e424632b5e0836022da4ee5b1"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1540527008,
+  "uuid": "4347d31d70300d97909f5d52127e15bdfa6f6f69"
+}]

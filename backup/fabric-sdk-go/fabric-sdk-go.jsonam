@@ -1,0 +1,3718 @@
+[{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        },
+        "timestamp": 1555113608
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/154/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1555113617
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/116/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1555113837
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/154/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/154\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/116/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/116",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1555114246
+      },
+      {
+        "message": "Patch Set 1:\n\nWhen you update a change you should use git —-amend. This will need to be rebased on master and the others abandoned.",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1555115045
+      },
+      {
+        "message": "Abandoned\n\nAbandoning old changes. Please open a new change if it is still relevant.",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1568812725
+      }
+    ],
+    "commitMessage": "[FABG-854] Add possible values to configType\n\nAdd possible parameters to docs for config.FromRaw function\n\nChange-Id: I04186278994dd9996a6e8e143c73c07065de631d\nSigned-off-by: Vieira Neto <vieiranetoc@gmail.com>\n",
+    "createdOn": 1555113608,
+    "id": "I04186278994dd9996a6e8e143c73c07065de631d",
+    "lastUpdated": 1568812725,
+    "number": 30933,
+    "open": false,
+    "owner": {
+      "email": "vieiranetoc@gmail.com",
+      "name": "Vieira Neto",
+      "username": "vieiramanoel"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1555114246,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        },
+        "createdOn": 1555113608,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "79e2b843a58936990369d234fe347dec3d394b4e"
+        ],
+        "ref": "refs/changes/33/30933/1",
+        "revision": "8022aa679d3962fb997ccd3f4c5aa2fd4907e2bb",
+        "sizeDeletions": -1,
+        "sizeInsertions": 1,
+        "uploader": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        }
+      }
+    ],
+    "project": "fabric-sdk-go",
+    "status": "ABANDONED",
+    "subject": "[FABG-854] Add possible values to configType",
+    "topic": "FABG-854",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-sdk-go/+/30933"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "30933",
+    "project_name": "fabric-sdk-go",
+    "review_hash": "I04186278994dd9996a6e8e143c73c07065de631d"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1568812725,
+  "uuid": "f97663c157be3bde755372a3caa40706f4f6c6cc"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        },
+        "timestamp": 1555471890
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/155/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1555471900
+      },
+      {
+        "message": "Uploaded patch set 2: Commit message was updated.",
+        "reviewer": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        },
+        "timestamp": 1555471940
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/117/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1555472170
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/155/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/155\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/117/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/117",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1555472551
+      },
+      {
+        "message": "Abandoned",
+        "reviewer": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        },
+        "timestamp": 1555472829
+      }
+    ],
+    "commitMessage": "[FABG-856] Provide support to set SAN at enrollment\n\nAdd WithDNSNames function\nAdd dnsNames attr to enrollmentOptions\nAdd CSR.Hosts to carqe at fabriccaadpter\n\nChange-Id: I437bb024e8e270261e8c0eba28849cde3abc412f\nSigned-off-by: Vieira Neto <vieiranetoc@gmail.com>\n",
+    "createdOn": 1555471890,
+    "id": "I437bb024e8e270261e8c0eba28849cde3abc412f",
+    "lastUpdated": 1555472829,
+    "number": 30974,
+    "open": false,
+    "owner": {
+      "email": "vieiranetoc@gmail.com",
+      "name": "Vieira Neto",
+      "username": "vieiramanoel"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1555472551,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        },
+        "createdOn": 1555471890,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "65e8296527e92fc515acff5b7cc482e7278ef43d"
+        ],
+        "ref": "refs/changes/74/30974/1",
+        "revision": "ef564df5fe6c4a5d1c7b58639a84508583330f61",
+        "sizeDeletions": -6,
+        "sizeInsertions": 20,
+        "uploader": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        }
+      },
+      {
+        "author": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        },
+        "createdOn": 1555471940,
+        "kind": "NO_CODE_CHANGE",
+        "number": 2,
+        "parents": [
+          "65e8296527e92fc515acff5b7cc482e7278ef43d"
+        ],
+        "ref": "refs/changes/74/30974/2",
+        "revision": "d828559d4e787e1461e9c1b7a9436e2481d1a945",
+        "sizeDeletions": -6,
+        "sizeInsertions": 20,
+        "uploader": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        }
+      }
+    ],
+    "project": "fabric-sdk-go",
+    "status": "ABANDONED",
+    "subject": "[FABG-856] Provide support to set SAN at enrollment",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-sdk-go/+/30974"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "30974",
+    "project_name": "fabric-sdk-go",
+    "review_hash": "I437bb024e8e270261e8c0eba28849cde3abc412f"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1555472829,
+  "uuid": "466ada5716ba1aa165ccd988b6ff2b34259a0635"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        },
+        "timestamp": 1555473070
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/156/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1555473080
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/118/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1555473342
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/156/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/156\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/118/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/118",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1555473694
+      },
+      {
+        "message": "Patch Set 1:\n\n(3 comments)",
+        "reviewer": {
+          "email": "baha.shaaban@securekey.com",
+          "name": "Baha A Shaaban",
+          "username": "Baha-sk"
+        },
+        "timestamp": 1555515247
+      },
+      {
+        "message": "Patch Set 1: Code-Review-2\n\nenrollmentOptions follows the structure of the EnrollmentRequest from the CA client API. If needed, it should be extended with CSRInfo (see https://github.com/hyperledger/fabric-ca/blob/ef74d7e4ff826781626559612c21053fb54152ad/api/client.go#L66) instead with its partial elements.",
+        "reviewer": {
+          "email": "aleksandar.likic@securekey.com",
+          "name": "Aleksandar Likic",
+          "username": "aleksandar.likic"
+        },
+        "timestamp": 1555515659
+      },
+      {
+        "message": "Patch Set 1:\n\nAlexander, what do you recommend, import CRSInfo from ca api or define it in msp api. In the first case we would need to import a struct from another package inside msp api, the second one make us rewrite code already written, what do you guys think is best?",
+        "reviewer": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        },
+        "timestamp": 1555545647
+      },
+      {
+        "message": "Patch Set 1:\n\nSDK client shouldn't depend on any Fabric interfaces. We should extend https://github.com/hyperledger/fabric-sdk-go/blob/master/pkg/msp/api/api.go with CSRInfo.\n\nNote that both Enroll and Reenroll need to be extended, for consistency. A little bit of mapping is to be implemented in https://github.com/hyperledger/fabric-sdk-go/blob/65e8296527e92fc515acff5b7cc482e7278ef43d/pkg/msp/fabcaadapter.go#L47, but it shouldn't be a big problem.\n\nAlso, unit tests and integration tests would have to be extended to cover CSRInfo.\n\nReusing existing Fabric CA structures by copying them from Fabric CA (during build) into some SDK package and importing from there is possible, but that would be another ticket.",
+        "reviewer": {
+          "email": "aleksandar.likic@securekey.com",
+          "name": "Aleksandar Likic",
+          "username": "aleksandar.likic"
+        },
+        "timestamp": 1555546723
+      },
+      {
+        "message": "Patch Set 1:\n\nOk, this is a bit of work. I'll update this commit as soon as possible",
+        "reviewer": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        },
+        "timestamp": 1555546869
+      },
+      {
+        "message": "Patch Set 1:\n\nThe JIRA ticket also needs to be updated to talk about CSRIfno.",
+        "reviewer": {
+          "email": "aleksandar.likic@securekey.com",
+          "name": "Aleksandar Likic",
+          "username": "aleksandar.likic"
+        },
+        "timestamp": 1555547100
+      },
+      {
+        "message": "Abandoned\n\nAbandoning old changes. Please open a new change if it is still relevant.",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1568812736
+      }
+    ],
+    "commitMessage": "[FABG-856] Provide support to set SAN at enroll\n\nAdd WithDNSNames function\nAdd dnsNames attr to enrollmentOptions\nAdd CSR.Hosts to careq at fabriccaadpter\n\nChange-Id: If3412507f289085d3b186d5377b40a430b3cf35c\nSigned-off-by: Vieira Neto <vieiranetoc@gmail.com>\n",
+    "createdOn": 1555473070,
+    "id": "If3412507f289085d3b186d5377b40a430b3cf35c",
+    "lastUpdated": 1568812736,
+    "number": 30976,
+    "open": false,
+    "owner": {
+      "email": "vieiranetoc@gmail.com",
+      "name": "Vieira Neto",
+      "username": "vieiramanoel"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1555473694,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "aleksandar.likic@securekey.com",
+              "name": "Aleksandar Likic",
+              "username": "aleksandar.likic"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1555515659,
+            "type": "Code-Review",
+            "value": "-2"
+          }
+        ],
+        "author": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        },
+        "comments": [
+          {
+            "file": "pkg/client/msp/client.go",
+            "line": 120,
+            "message": "please add unit-tests for this",
+            "reviewer": {
+              "email": "baha.shaaban@securekey.com",
+              "name": "Baha A Shaaban",
+              "username": "Baha-sk"
+            }
+          },
+          {
+            "file": "pkg/client/msp/client.go",
+            "line": 167,
+            "message": "please unit-test this new option",
+            "reviewer": {
+              "email": "baha.shaaban@securekey.com",
+              "name": "Baha A Shaaban",
+              "username": "Baha-sk"
+            }
+          },
+          {
+            "file": "pkg/client/msp/client.go",
+            "line": 390,
+            "message": "idem\n\nI also believe we need integration tests to make sure this is working properly with fabric-ca",
+            "reviewer": {
+              "email": "baha.shaaban@securekey.com",
+              "name": "Baha A Shaaban",
+              "username": "Baha-sk"
+            }
+          }
+        ],
+        "createdOn": 1555473070,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "65e8296527e92fc515acff5b7cc482e7278ef43d"
+        ],
+        "ref": "refs/changes/76/30976/1",
+        "revision": "74c3585d433998274f9960740b5923be415ea5bb",
+        "sizeDeletions": -6,
+        "sizeInsertions": 20,
+        "uploader": {
+          "email": "vieiranetoc@gmail.com",
+          "name": "Vieira Neto",
+          "username": "vieiramanoel"
+        }
+      }
+    ],
+    "project": "fabric-sdk-go",
+    "status": "ABANDONED",
+    "subject": "[FABG-856] Provide support to set SAN at enroll",
+    "topic": "FAB-856",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-sdk-go/+/30976"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "30976",
+    "project_name": "fabric-sdk-go",
+    "review_hash": "If3412507f289085d3b186d5377b40a430b3cf35c"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1568812736,
+  "uuid": "e9ca86759c4559a8257c02b86e43b18192062283"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564407668
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/234/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564407674
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/166/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564407773
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/166/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/166\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/234/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/234",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564408349
+      },
+      {
+        "message": "Patch Set 1: Code-Review+1",
+        "reviewer": {
+          "email": "nye@blockdaemon.com",
+          "name": "Nye Liu",
+          "username": "nyet"
+        },
+        "timestamp": 1564412345
+      },
+      {
+        "message": "Patch Set 1: Code-Review+1",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1564415029
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1564415169
+      },
+      {
+        "message": "Patch Set 1: Code-Review+1",
+        "reviewer": {
+          "email": "sudesh.shetty@securekey.com",
+          "name": "Sudesh Shetty",
+          "username": "sudeshrshetty"
+        },
+        "timestamp": 1564415616
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "bob.stasyszyn@securekey.com",
+          "name": "Bob Stasyszyn",
+          "username": "bstasyszyn"
+        },
+        "timestamp": 1564415726
+      },
+      {
+        "message": "Change has been successfully merged by Troy Ronda",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1564419479
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-merge-x86_64/41/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-merge-x86_64/41\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-merge-s390x/41/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-merge-s390x/41",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564420194
+      }
+    ],
+    "commitMessage": "[FABG-884] copy more fields when extract chConf\n\nVersion/ModPolicy are ignored when extracting channel config and building\nresponse. Fields initialized with default values.\n\nSigned-off-by: Vladyslav Kopaihorodskyi <vlad.kopaygorodsky@gmail.com>\nChange-Id: I8f9b9989e29097105df6748204852b6eedfa3043\n",
+    "createdOn": 1564407668,
+    "id": "I8f9b9989e29097105df6748204852b6eedfa3043",
+    "lastUpdated": 1564420194,
+    "number": 32556,
+    "open": false,
+    "owner": {
+      "email": "vlad.kopaygorodsky@gmail.com",
+      "name": "Vladyslav Kopaihorodskyi",
+      "username": "kopaygorodsky"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564408349,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "troy@troyronda.com",
+              "name": "Troy Ronda",
+              "username": "troyronda"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1564415169,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "troy@troyronda.com",
+              "name": "Troy Ronda",
+              "username": "troyronda"
+            },
+            "grantedOn": 1564419479,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "bob.stasyszyn@securekey.com",
+              "name": "Bob Stasyszyn",
+              "username": "bstasyszyn"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1564415726,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "sudesh.shetty@securekey.com",
+              "name": "Sudesh Shetty",
+              "username": "sudeshrshetty"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1564415616,
+            "type": "Code-Review",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "nye@blockdaemon.com",
+              "name": "Nye Liu",
+              "username": "nyet"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1564412345,
+            "type": "Code-Review",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564407668,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "e0aa15e4b4cc8b2914e396f17961c02227ec31cf"
+        ],
+        "ref": "refs/changes/56/32556/1",
+        "revision": "fb049b2a2306dcb305caa29907efad5ab7a37adf",
+        "sizeDeletions": 0,
+        "sizeInsertions": 3,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      }
+    ],
+    "project": "fabric-sdk-go",
+    "status": "MERGED",
+    "subject": "[FABG-884] copy more fields when extract chConf",
+    "topic": "FABG-884",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-sdk-go/+/32556"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "32556",
+    "project_name": "fabric-sdk-go",
+    "review_hash": "I8f9b9989e29097105df6748204852b6eedfa3043"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1564420194,
+  "uuid": "e6fbbfbbf5514c91becb501f05de3df82cb3044b"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564527446
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/235/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564527456
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/167/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564527565
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/167/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/167\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/235/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/235",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564528127
+      },
+      {
+        "message": "Patch Set 1:\n\nCould somebody review this PR about exposing Discovery Service client",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564528271
+      },
+      {
+        "message": "Patch Set 2: Commit message was updated.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564528609
+      },
+      {
+        "message": "Patch Set 2:\n\n(2 comments)\n\nYou'll need to provide some unit tests for the new code.",
+        "reviewer": {
+          "email": "bob.stasyszyn@securekey.com",
+          "name": "Bob Stasyszyn",
+          "username": "bstasyszyn"
+        },
+        "timestamp": 1564578977
+      },
+      {
+        "message": "Patch Set 2:\n\n(1 comment)",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1564579450
+      },
+      {
+        "message": "Abandoned\n\nTroy Ronda suggested another approach, will submit new review.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564668780
+      }
+    ],
+    "commitMessage": "[FABG-886] wrap internal discovery.Request\n\nPurpose of this commit is to expose internal Request\nand make Service Discovery client usable outside of sdk.\n - Public constructor for discovery.Request\n - Public method for creating ChaincodeCall\n - Public method for creating ChaincodeInterest\n\nSigned-off-by: kopaygorodsky <vlad.kopaygorodsky@gmail.com>\nChange-Id: Id543ecd7e29e0cf8b832fd03fc2122882f81a3a8\n",
+    "createdOn": 1564527446,
+    "id": "Id543ecd7e29e0cf8b832fd03fc2122882f81a3a8",
+    "lastUpdated": 1564668780,
+    "number": 32599,
+    "open": false,
+    "owner": {
+      "email": "vlad.kopaygorodsky@gmail.com",
+      "name": "Vladyslav Kopaihorodskyi",
+      "username": "kopaygorodsky"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564528127,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564527446,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "fb049b2a2306dcb305caa29907efad5ab7a37adf"
+        ],
+        "ref": "refs/changes/99/32599/1",
+        "revision": "6c00ba63c521fd6b1c4a91d916ea967fe6314249",
+        "sizeDeletions": 0,
+        "sizeInsertions": 33,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564528127,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "comments": [
+          {
+            "file": "pkg/fab/discovery/discovery.go",
+            "line": 58,
+            "message": "I think that if we're going to expose this structure then it should be moved out of the internal package and into third_party.",
+            "reviewer": {
+              "email": "bob.stasyszyn@securekey.com",
+              "name": "Bob Stasyszyn",
+              "username": "bstasyszyn"
+            }
+          },
+          {
+            "file": "pkg/fab/discovery/discovery.go",
+            "line": 58,
+            "message": "To avoid having to return an internal type, you could consider creating a wrapping struct.\n\nNewRequest returns the *<wrapping struct>. Send accepts this *<wrapping struct>.",
+            "reviewer": {
+              "email": "troy@troyronda.com",
+              "name": "Troy Ronda",
+              "username": "troyronda"
+            }
+          },
+          {
+            "file": "pkg/fab/discovery/discovery.go",
+            "line": 64,
+            "message": "The naming convention, \"WithXXX\", in the SDK implies that options are being returned that can be fed into a creator function. For example, NewRequest(WithCCCall(\"ccid\"), WithCCInterests(...)). See pkg/client/channel/chclient.go for example.",
+            "reviewer": {
+              "email": "bob.stasyszyn@securekey.com",
+              "name": "Bob Stasyszyn",
+              "username": "bstasyszyn"
+            }
+          }
+        ],
+        "createdOn": 1564528609,
+        "kind": "NO_CODE_CHANGE",
+        "number": 2,
+        "parents": [
+          "fb049b2a2306dcb305caa29907efad5ab7a37adf"
+        ],
+        "ref": "refs/changes/99/32599/2",
+        "revision": "322b5665165ba1a0edddf1e09d5745eb069c75a7",
+        "sizeDeletions": 0,
+        "sizeInsertions": 33,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      }
+    ],
+    "project": "fabric-sdk-go",
+    "status": "ABANDONED",
+    "subject": "[FABG-886] wrap internal discovery.Request",
+    "topic": "FABG-886",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-sdk-go/+/32599"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "32599",
+    "project_name": "fabric-sdk-go",
+    "review_hash": "Id543ecd7e29e0cf8b832fd03fc2122882f81a3a8"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1564668780,
+  "uuid": "a0fb8fd35b8b21bf21718f2f684c60eb29b2c9bb"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564668702
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/238/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564668713
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/170/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564668799
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/170/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/170\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/238/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/238",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564669076
+      },
+      {
+        "message": "Patch Set 2: Commit message was updated.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564681618
+      },
+      {
+        "message": "Uploaded patch set 3.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564682510
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/241/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564682520
+      },
+      {
+        "message": "Patch Set 4: Commit message was updated.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564682565
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/173/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564682611
+      },
+      {
+        "message": "Patch Set 3: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/173/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/173\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/241/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/241",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564683191
+      },
+      {
+        "message": "Patch Set 5: Patch Set 4 was rebased",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1564684300
+      },
+      {
+        "message": "Patch Set 5:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/242/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564684310
+      },
+      {
+        "message": "Patch Set 5:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/174/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564684400
+      },
+      {
+        "message": "Patch Set 5:\n\nThis PR is missing tests because there is no logic, just wrapping another struct. Also, I can't test the state of internal Request because it has no getters.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564684608
+      },
+      {
+        "message": "Patch Set 5: Code-Review+1",
+        "reviewer": {
+          "email": "sudesh.shetty@securekey.com",
+          "name": "Sudesh Shetty",
+          "username": "sudeshrshetty"
+        },
+        "timestamp": 1564684643
+      },
+      {
+        "message": "Patch Set 5: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/174/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/174\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/242/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/242",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564684778
+      },
+      {
+        "message": "Uploaded patch set 6.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564685294
+      },
+      {
+        "message": "Patch Set 6:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/243/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564685305
+      },
+      {
+        "message": "Patch Set 6:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/175/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564685400
+      },
+      {
+        "message": "Patch Set 6: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/175/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/175\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/243/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/243",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564685981
+      },
+      {
+        "message": "Patch Set 7: Patch Set 6 was rebased",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1564686448
+      },
+      {
+        "message": "Patch Set 7: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/244/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564686460
+      },
+      {
+        "message": "Patch Set 7:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/176/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564686548
+      },
+      {
+        "message": "Uploaded patch set 8.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564686718
+      },
+      {
+        "message": "Patch Set 7: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/176/ : ABORTED\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/176\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/244/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/244",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564686720
+      },
+      {
+        "message": "Patch Set 8:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/245/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564686725
+      },
+      {
+        "message": "Patch Set 9: Patch Set 8 was rebased",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1564686791
+      },
+      {
+        "message": "Patch Set 8: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/245/ : ABORTED\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/245",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564686794
+      },
+      {
+        "message": "Patch Set 9:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/246/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564686800
+      },
+      {
+        "message": "Patch Set 9:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/177/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564686807
+      },
+      {
+        "message": "Patch Set 9:\n\n(1 comment)",
+        "reviewer": {
+          "email": "bob.stasyszyn@securekey.com",
+          "name": "Bob Stasyszyn",
+          "username": "bstasyszyn"
+        },
+        "timestamp": 1564686900
+      },
+      {
+        "message": "Patch Set 9: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/177/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/177\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/246/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/246",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564687213
+      },
+      {
+        "message": "Uploaded patch set 10.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564687779
+      },
+      {
+        "message": "Patch Set 10:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/247/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564687790
+      },
+      {
+        "message": "Patch Set 10:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/178/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564687889
+      },
+      {
+        "message": "Patch Set 10: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/178/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/178\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/247/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/247",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564688430
+      },
+      {
+        "message": "Patch Set 10:\n\n(1 comment)\n\n> Patch Set 9:\n> \n> (1 comment)",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564689685
+      },
+      {
+        "message": "Patch Set 10:\n\n(1 comment)\n\n> Patch Set 10:\n> \n> (1 comment)\n> \n> > Patch Set 9:\n> > \n> > (1 comment)",
+        "reviewer": {
+          "email": "bob.stasyszyn@securekey.com",
+          "name": "Bob Stasyszyn",
+          "username": "bstasyszyn"
+        },
+        "timestamp": 1564690226
+      },
+      {
+        "message": "Uploaded patch set 11.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564690833
+      },
+      {
+        "message": "Patch Set 11:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/248/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564690840
+      },
+      {
+        "message": "Patch Set 11:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/179/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564690925
+      },
+      {
+        "message": "Patch Set 11: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/179/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/179\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/248/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/248",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564691484
+      },
+      {
+        "message": "Uploaded patch set 12.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564691574
+      },
+      {
+        "message": "Patch Set 12:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/249/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564691586
+      },
+      {
+        "message": "Patch Set 12:\n\nupdated according to comments.\nnow request is embedded as a ​private field.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564691658
+      },
+      {
+        "message": "Patch Set 12:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/180/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564691673
+      },
+      {
+        "message": "Patch Set 12: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/180/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/180\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/249/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/249",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564692254
+      },
+      {
+        "message": "Patch Set 13: Patch Set 12 was rebased",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564692478
+      },
+      {
+        "message": "Patch Set 13: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/250/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564692490
+      },
+      {
+        "message": "Patch Set 13:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/181/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564692568
+      },
+      {
+        "message": "Patch Set 13: Code-Review+2",
+        "reviewer": {
+          "email": "bob.stasyszyn@securekey.com",
+          "name": "Bob Stasyszyn",
+          "username": "bstasyszyn"
+        },
+        "timestamp": 1564692663
+      },
+      {
+        "message": "Uploaded patch set 14.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564693207
+      },
+      {
+        "message": "Patch Set 13: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/181/ : ABORTED\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/181\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/250/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/250",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564693209
+      },
+      {
+        "message": "Patch Set 14:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/251/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564693216
+      },
+      {
+        "message": "Patch Set 15: Patch Set 14 was rebased",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1564693230
+      },
+      {
+        "message": "Patch Set 14: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/251/ : ABORTED\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/251",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564693233
+      },
+      {
+        "message": "Patch Set 15:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/252/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564693241
+      },
+      {
+        "message": "Patch Set 15:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/182/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564693320
+      },
+      {
+        "message": "Patch Set 15: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/252/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/252\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/182/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/182",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564695041
+      },
+      {
+        "message": "Patch Set 15:\n\nreverify-z",
+        "reviewer": {
+          "email": "bob.stasyszyn@securekey.com",
+          "name": "Bob Stasyszyn",
+          "username": "bstasyszyn"
+        },
+        "timestamp": 1564695473
+      },
+      {
+        "message": "Patch Set 15: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/253/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564695481
+      },
+      {
+        "message": "Patch Set 15: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/253/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/253",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564696542
+      },
+      {
+        "message": "Patch Set 15: Code-Review+2",
+        "reviewer": {
+          "email": "bob.stasyszyn@securekey.com",
+          "name": "Bob Stasyszyn",
+          "username": "bstasyszyn"
+        },
+        "timestamp": 1564696555
+      },
+      {
+        "message": "Patch Set 15: Code-Review+2",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1564700152
+      },
+      {
+        "message": "Change has been successfully merged by Troy Ronda",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1564700203
+      },
+      {
+        "message": "Patch Set 15:\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-merge-x86_64/44/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-merge-x86_64/44\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-merge-s390x/44/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-merge-s390x/44",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1564700976
+      }
+    ],
+    "commitMessage": "[FABG-886] wrap internal discovery.Request\n\nPurpose of this commit is to expose internal Request\nand make Service Discovery client usable outside of sdk.\n - Wrapped internal Request\n - Proxied all the methods of internal Request\n - Added helper methods CcCalls CcInterests for building the Request obj\n - Fixed signatures of the Service Discovery client methods with wrapped Request\n - Fixed tests\n\nSigned-off-by: kopaygorodsky <vlad.kopaygorodsky@gmail.com>\nChange-Id: Id70bd1db0d4ddb6d3d567375602e11f4762b9f6c\n",
+    "createdOn": 1564668702,
+    "id": "Id70bd1db0d4ddb6d3d567375602e11f4762b9f6c",
+    "lastUpdated": 1564700976,
+    "number": 32632,
+    "open": false,
+    "owner": {
+      "email": "vlad.kopaygorodsky@gmail.com",
+      "name": "Vladyslav Kopaihorodskyi",
+      "username": "kopaygorodsky"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564669076,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564668702,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "759ef9d7b87950e123c0d2b5958e161937d38fac"
+        ],
+        "ref": "refs/changes/32/32632/1",
+        "revision": "f409b240120ac336029d5ae4b5807a7b2279f32c",
+        "sizeDeletions": -8,
+        "sizeInsertions": 75,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564669076,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564681618,
+        "kind": "NO_CODE_CHANGE",
+        "number": 2,
+        "parents": [
+          "759ef9d7b87950e123c0d2b5958e161937d38fac"
+        ],
+        "ref": "refs/changes/32/32632/2",
+        "revision": "025b26a692369672e64cc00f83fb3139a00e33f1",
+        "sizeDeletions": -8,
+        "sizeInsertions": 75,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564683191,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564682510,
+        "kind": "REWORK",
+        "number": 3,
+        "parents": [
+          "759ef9d7b87950e123c0d2b5958e161937d38fac"
+        ],
+        "ref": "refs/changes/32/32632/3",
+        "revision": "d149ffab5c89a23239c80aa5474d366216988945",
+        "sizeDeletions": -11,
+        "sizeInsertions": 83,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      },
+      {
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564682565,
+        "kind": "NO_CODE_CHANGE",
+        "number": 4,
+        "parents": [
+          "759ef9d7b87950e123c0d2b5958e161937d38fac"
+        ],
+        "ref": "refs/changes/32/32632/4",
+        "revision": "1e4c58c46d29dae4f0a1dd0a75d8b49f03f44c28",
+        "sizeDeletions": -11,
+        "sizeInsertions": 83,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564684778,
+            "type": "Verified",
+            "value": "-1"
+          },
+          {
+            "by": {
+              "email": "sudesh.shetty@securekey.com",
+              "name": "Sudesh Shetty",
+              "username": "sudeshrshetty"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1564684643,
+            "type": "Code-Review",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564684300,
+        "kind": "TRIVIAL_REBASE",
+        "number": 5,
+        "parents": [
+          "1ad92455b2f5d6ea3cd1002321a027d9f4c681da"
+        ],
+        "ref": "refs/changes/32/32632/5",
+        "revision": "8dd5c7fcc6808b2deac2e8101fc42c27f53ec567",
+        "sizeDeletions": -11,
+        "sizeInsertions": 83,
+        "uploader": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564685981,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "comments": [
+          {
+            "file": "pkg/fab/discovery/request.go",
+            "line": 25,
+            "message": "I don't think you need to redeclare these functions. Since you're embedding discclient.Request, you should be able to call the funcs on discclient.Request directly.",
+            "reviewer": {
+              "email": "bob.stasyszyn@securekey.com",
+              "name": "Bob Stasyszyn",
+              "username": "bstasyszyn"
+            }
+          },
+          {
+            "file": "pkg/fab/discovery/request.go",
+            "line": 25,
+            "message": "I just tried to keep chaining API and do not expose internal Request. So what to do? \nOptions: \n#1 expose internal Request\n#2 do not return Request and broke chaining API\n\nI think exposing an internal struct in any way is bad and I wouldn't go for #1 option.",
+            "reviewer": {
+              "email": "vlad.kopaygorodsky@gmail.com",
+              "name": "Vladyslav Kopaihorodskyi",
+              "username": "kopaygorodsky"
+            }
+          },
+          {
+            "file": "pkg/fab/discovery/request.go",
+            "line": 25,
+            "message": "If you don't want to expose the public functions of the internal struct then maybe you shouldn't embed discclient.Request (because doing so exposes all of the functions of discclient.Request) and declare a private field, i.e. type Request struct{ r *discclient.Request }. This way you can control the functions that are exposed.",
+            "reviewer": {
+              "email": "bob.stasyszyn@securekey.com",
+              "name": "Bob Stasyszyn",
+              "username": "bstasyszyn"
+            }
+          }
+        ],
+        "createdOn": 1564685294,
+        "kind": "REWORK",
+        "number": 6,
+        "parents": [
+          "759ef9d7b87950e123c0d2b5958e161937d38fac"
+        ],
+        "ref": "refs/changes/32/32632/6",
+        "revision": "33a47bbc469526a5985678d919f80ce1123b9361",
+        "sizeDeletions": -11,
+        "sizeInsertions": 94,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564686720,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564686448,
+        "kind": "TRIVIAL_REBASE",
+        "number": 7,
+        "parents": [
+          "1ad92455b2f5d6ea3cd1002321a027d9f4c681da"
+        ],
+        "ref": "refs/changes/32/32632/7",
+        "revision": "af091f609b56a92938912d6a75f272b90097e06a",
+        "sizeDeletions": -11,
+        "sizeInsertions": 94,
+        "uploader": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564686794,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564686718,
+        "kind": "REWORK",
+        "number": 8,
+        "parents": [
+          "759ef9d7b87950e123c0d2b5958e161937d38fac"
+        ],
+        "ref": "refs/changes/32/32632/8",
+        "revision": "883651b9d3f79c36e18e8a3b9b9747ff42f4cc82",
+        "sizeDeletions": -11,
+        "sizeInsertions": 94,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564687213,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564686791,
+        "kind": "TRIVIAL_REBASE",
+        "number": 9,
+        "parents": [
+          "1ad92455b2f5d6ea3cd1002321a027d9f4c681da"
+        ],
+        "ref": "refs/changes/32/32632/9",
+        "revision": "2b9bdce2ca08b35a9a96f490681b7cf11a119ac3",
+        "sizeDeletions": -11,
+        "sizeInsertions": 94,
+        "uploader": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564688430,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564687779,
+        "kind": "REWORK",
+        "number": 10,
+        "parents": [
+          "759ef9d7b87950e123c0d2b5958e161937d38fac"
+        ],
+        "ref": "refs/changes/32/32632/10",
+        "revision": "cb5af7be752f23071c389e5f66960c91302a9358",
+        "sizeDeletions": -11,
+        "sizeInsertions": 90,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564691484,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564690833,
+        "kind": "REWORK",
+        "number": 11,
+        "parents": [
+          "759ef9d7b87950e123c0d2b5958e161937d38fac"
+        ],
+        "ref": "refs/changes/32/32632/11",
+        "revision": "2f41c8b718b9e9bd0c8376a6ce01459d1eaebafa",
+        "sizeDeletions": -11,
+        "sizeInsertions": 90,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564692254,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564691574,
+        "kind": "REWORK",
+        "number": 12,
+        "parents": [
+          "759ef9d7b87950e123c0d2b5958e161937d38fac"
+        ],
+        "ref": "refs/changes/32/32632/12",
+        "revision": "e06f08d6ad39657c1c5fb4e7220aeb4d788093f6",
+        "sizeDeletions": -12,
+        "sizeInsertions": 91,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564693209,
+            "type": "Verified",
+            "value": "-1"
+          },
+          {
+            "by": {
+              "email": "bob.stasyszyn@securekey.com",
+              "name": "Bob Stasyszyn",
+              "username": "bstasyszyn"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1564692663,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564692478,
+        "kind": "TRIVIAL_REBASE",
+        "number": 13,
+        "parents": [
+          "1ad92455b2f5d6ea3cd1002321a027d9f4c681da"
+        ],
+        "ref": "refs/changes/32/32632/13",
+        "revision": "c5528f818b69fa74e0e1eaca9b5349e4e07af8f6",
+        "sizeDeletions": -12,
+        "sizeInsertions": 91,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564693233,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564693207,
+        "kind": "REWORK",
+        "number": 14,
+        "parents": [
+          "759ef9d7b87950e123c0d2b5958e161937d38fac"
+        ],
+        "ref": "refs/changes/32/32632/14",
+        "revision": "673f47c12169f1168f9920aedf656586df6933d1",
+        "sizeDeletions": -15,
+        "sizeInsertions": 94,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1564696542,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "troy@troyronda.com",
+              "name": "Troy Ronda",
+              "username": "troyronda"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1564700152,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "troy@troyronda.com",
+              "name": "Troy Ronda",
+              "username": "troyronda"
+            },
+            "grantedOn": 1564700203,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "bob.stasyszyn@securekey.com",
+              "name": "Bob Stasyszyn",
+              "username": "bstasyszyn"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1564696555,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1564693230,
+        "kind": "TRIVIAL_REBASE",
+        "number": 15,
+        "parents": [
+          "1ad92455b2f5d6ea3cd1002321a027d9f4c681da"
+        ],
+        "ref": "refs/changes/32/32632/15",
+        "revision": "8e3a900816ee5564a2985a16fe56326ae118214c",
+        "sizeDeletions": -15,
+        "sizeInsertions": 94,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      }
+    ],
+    "project": "fabric-sdk-go",
+    "status": "MERGED",
+    "subject": "[FABG-886] wrap internal discovery.Request",
+    "topic": "FABG-886",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-sdk-go/+/32632"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "32632",
+    "project_name": "fabric-sdk-go",
+    "review_hash": "Id70bd1db0d4ddb6d3d567375602e11f4762b9f6c"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1564700976,
+  "uuid": "b463fcfadbddcc1f48b2807250695be9fc90e37d"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1565125423
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/259/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1565125429
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/188/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1565125532
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/259/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/259\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/188/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/188",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1565127286
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1565127854
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/260/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1565127864
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/189/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1565127967
+      },
+      {
+        "message": "Patch Set 2: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/260/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/260\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/189/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/189",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1565129860
+      },
+      {
+        "message": "Patch Set 2:\n\nreverify-z",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1565134038
+      },
+      {
+        "message": "Patch Set 2: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/261/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1565134045
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/261/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/261",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1565135161
+      },
+      {
+        "message": "Patch Set 2:\n\n(2 comments)",
+        "reviewer": {
+          "email": "aleksandar.likic@securekey.com",
+          "name": "Aleksandar Likic",
+          "username": "aleksandar.likic"
+        },
+        "timestamp": 1565206254
+      },
+      {
+        "message": "Patch Set 2:\n\n(1 comment)",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1565213510
+      },
+      {
+        "message": "Patch Set 2:\n\n(1 comment)",
+        "reviewer": {
+          "email": "aleksandar.likic@securekey.com",
+          "name": "Aleksandar Likic",
+          "username": "aleksandar.likic"
+        },
+        "timestamp": 1565231195
+      },
+      {
+        "message": "Uploaded patch set 3.",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1565266798
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/263/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1565266813
+      },
+      {
+        "message": "Patch Set 3:\n\n(1 comment)",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1565266938
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/191/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1565267014
+      },
+      {
+        "message": "Patch Set 3: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/263/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/263\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-x86_64/191/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-x86_64/191",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1565268655
+      },
+      {
+        "message": "Patch Set 3:\n\nreverify-z",
+        "reviewer": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "timestamp": 1565272317
+      },
+      {
+        "message": "Patch Set 3: -Verified\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/264/",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1565272326
+      },
+      {
+        "message": "Patch Set 3: Code-Review+2",
+        "reviewer": {
+          "email": "aleksandar.likic@securekey.com",
+          "name": "Aleksandar Likic",
+          "username": "aleksandar.likic"
+        },
+        "timestamp": 1565273214
+      },
+      {
+        "message": "Patch Set 3: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-verify-s390x/264/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-verify-s390x/264",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1565273382
+      },
+      {
+        "message": "Patch Set 3:\n\n(1 comment)",
+        "reviewer": {
+          "email": "baha.shaaban@securekey.com",
+          "name": "Baha A Shaaban",
+          "username": "Baha-sk"
+        },
+        "timestamp": 1565278544
+      },
+      {
+        "message": "Patch Set 3: Code-Review+1\n\n(1 comment)",
+        "reviewer": {
+          "email": "baha.shaaban@securekey.com",
+          "name": "Baha A Shaaban",
+          "username": "Baha-sk"
+        },
+        "timestamp": 1565278762
+      },
+      {
+        "message": "Patch Set 3: Code-Review+2",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1565279327
+      },
+      {
+        "message": "Change has been successfully merged by Troy Ronda",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1565279337
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-merge-s390x/46/ : FAILURE\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-merge-s390x/46\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-merge-x86_64/46/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-merge-x86_64/46",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1565281487
+      }
+    ],
+    "commitMessage": "[FABG-889] add CreateConfigSignatureFromReader method\n\nPurpose of this commit is to add method to sign a config\nwhich is passed as io.Reader, not file path.\n\n - Added CreateConfigSignatureFromReader method\n - Added CreateConfigSignatureDataFromReader method\n - Made deprecated CreateConfigSignature, CreateConfigSignatureData\n - Fixed tests, old methods replaced\n\nSigned-off-by: kopaygorodsky <vlad.kopaygorodsky@gmail.com>\nChange-Id: I7eaea1e2835b7e0ef5fcf8b529f6076d1f34c454\n",
+    "createdOn": 1565125423,
+    "id": "I7eaea1e2835b7e0ef5fcf8b529f6076d1f34c454",
+    "lastUpdated": 1565281487,
+    "number": 32754,
+    "open": false,
+    "owner": {
+      "email": "vlad.kopaygorodsky@gmail.com",
+      "name": "Vladyslav Kopaihorodskyi",
+      "username": "kopaygorodsky"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1565127286,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "createdOn": 1565125423,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "5679961428c2b0f19386618693b3249d1b827971"
+        ],
+        "ref": "refs/changes/54/32754/1",
+        "revision": "72a0af4271d8cd3d6ff99cede77709db4496ac24",
+        "sizeDeletions": -11,
+        "sizeInsertions": 78,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1565135161,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "comments": [
+          {
+            "file": "pkg/client/resmgmt/resmgmt.go",
+            "line": 1040,
+            "message": "CreateConfigSignature should delegate to CreateConfigSignatureFromReader now.",
+            "reviewer": {
+              "email": "aleksandar.likic@securekey.com",
+              "name": "Aleksandar Likic",
+              "username": "aleksandar.likic"
+            }
+          },
+          {
+            "file": "pkg/client/resmgmt/resmgmt.go",
+            "line": 1084,
+            "message": "Since we are at it, we could deprecate this in favour of a new function CreateConfigSignatureDataFromReader. CreateConfigSignatureData would then delegate to CreateConfigSignatureDataFromReader. We could then remove readChConfigData(channelConfigPath) as no one would be using it.",
+            "reviewer": {
+              "email": "aleksandar.likic@securekey.com",
+              "name": "Aleksandar Likic",
+              "username": "aleksandar.likic"
+            }
+          },
+          {
+            "file": "pkg/client/resmgmt/resmgmt.go",
+            "line": 1084,
+            "message": "what do you mean with delegate? call inside? Then we need readChConfigData anyway because it looks for the path and opens it returning reader. Or maybe I didn't get your point.",
+            "reviewer": {
+              "email": "vlad.kopaygorodsky@gmail.com",
+              "name": "Vladyslav Kopaihorodskyi",
+              "username": "kopaygorodsky"
+            }
+          },
+          {
+            "file": "pkg/client/resmgmt/resmgmt.go",
+            "line": 1084,
+            "message": "Yes, call inside. readChConfigData doesn't return reader, it returns []byte with channel configuration. Just saying that, since we are changing this one function from (filename) to (reader) we could fix CreateConfigSignatureData which is also currently asking for (filename), as the complaint is the same. And then do some simple cleanup as necessary. I am assuming this is not a lot work.",
+            "reviewer": {
+              "email": "aleksandar.likic@securekey.com",
+              "name": "Aleksandar Likic",
+              "username": "aleksandar.likic"
+            }
+          }
+        ],
+        "createdOn": 1565127854,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "5679961428c2b0f19386618693b3249d1b827971"
+        ],
+        "ref": "refs/changes/54/32754/2",
+        "revision": "573da5619c3aef87347caedc20139a9e8c6ec40d",
+        "sizeDeletions": -11,
+        "sizeInsertions": 68,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1565273382,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "troy@troyronda.com",
+              "name": "Troy Ronda",
+              "username": "troyronda"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1565279327,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "troy@troyronda.com",
+              "name": "Troy Ronda",
+              "username": "troyronda"
+            },
+            "grantedOn": 1565279337,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "aleksandar.likic@securekey.com",
+              "name": "Aleksandar Likic",
+              "username": "aleksandar.likic"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1565273214,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "baha.shaaban@securekey.com",
+              "name": "Baha A Shaaban",
+              "username": "Baha-sk"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1565278762,
+            "type": "Code-Review",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        },
+        "comments": [
+          {
+            "file": "pkg/client/resmgmt/resmgmt.go",
+            "line": 1002,
+            "message": "I removed readChConfigData as you proposed, but then I have to open the file manually in each of deprecated methods. Don't think that's a problem, anyway those methods will be removed. wdut?",
+            "reviewer": {
+              "email": "vlad.kopaygorodsky@gmail.com",
+              "name": "Vladyslav Kopaihorodskyi",
+              "username": "kopaygorodsky"
+            }
+          },
+          {
+            "file": "pkg/client/resmgmt/resmgmt.go",
+            "line": 1057,
+            "message": "I don't get why add a new exposed function as deprecated. This function can be removed.",
+            "reviewer": {
+              "email": "baha.shaaban@securekey.com",
+              "name": "Baha A Shaaban",
+              "username": "Baha-sk"
+            }
+          },
+          {
+            "file": "pkg/client/resmgmt/resmgmt.go",
+            "line": 1057,
+            "message": "never mind, this was an existing function.. it's ok to deprecate it.",
+            "reviewer": {
+              "email": "baha.shaaban@securekey.com",
+              "name": "Baha A Shaaban",
+              "username": "Baha-sk"
+            }
+          }
+        ],
+        "createdOn": 1565266798,
+        "kind": "REWORK",
+        "number": 3,
+        "parents": [
+          "5679961428c2b0f19386618693b3249d1b827971"
+        ],
+        "ref": "refs/changes/54/32754/3",
+        "revision": "bf5e77cb15bf123d8994d342f7d876f87bf6a9b3",
+        "sizeDeletions": -36,
+        "sizeInsertions": 101,
+        "uploader": {
+          "email": "vlad.kopaygorodsky@gmail.com",
+          "name": "Vladyslav Kopaihorodskyi",
+          "username": "kopaygorodsky"
+        }
+      }
+    ],
+    "project": "fabric-sdk-go",
+    "status": "MERGED",
+    "subject": "[FABG-889] add CreateConfigSignatureFromReader method",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-sdk-go/+/32754"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "32754",
+    "project_name": "fabric-sdk-go",
+    "review_hash": "I7eaea1e2835b7e0ef5fcf8b529f6076d1f34c454"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1565281487,
+  "uuid": "acdbf561b7288010e180c6121bf0a2300c49ed07"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "wcwz020140@163.com",
+          "name": "he hao",
+          "username": "hehao"
+        },
+        "timestamp": 1543840160
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/4295/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1543840167
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/4155/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1543840470
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/4295/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-tests-verify-s390x/4295\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/4155/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-tests-verify-x86_64/4155",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1543842273
+      },
+      {
+        "message": "Patch Set 1:\n\nNeeds a FABG Jira bug and tag in the title",
+        "reviewer": {
+          "email": "nye@blockdaemon.com",
+          "name": "Nye Liu",
+          "username": "nyet"
+        },
+        "timestamp": 1543914992
+      },
+      {
+        "message": "Patch Set 2: Commit message was updated.",
+        "reviewer": {
+          "email": "wcwz020140@163.com",
+          "name": "he hao",
+          "username": "hehao"
+        },
+        "timestamp": 1543921888
+      },
+      {
+        "message": "Patch Set 2:\n\nFiles in third_party/github.com/hyperledger are generated by script.\nmake third-party-pin runs the script.\n\nThe variables THIRDPARTY_FABRIC_COMMIT and THIRDPARTY_FABRIC_CA_COMMIT in the Makefile control which fabric version to use.\n\nIf you simply modify a file without changing the Makefile and running the script, then it will be overwritten next time somebody runs the script.",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1543933832
+      },
+      {
+        "message": "Uploaded patch set 3.",
+        "reviewer": {
+          "email": "sudesh.shetty@securekey.com",
+          "name": "Sudesh Shetty",
+          "username": "sudeshrshetty"
+        },
+        "timestamp": 1545165334
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/4304/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1545165344
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/4164/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1545165694
+      },
+      {
+        "message": "Patch Set 3: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/4304/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-tests-verify-s390x/4304\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/4164/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-tests-verify-x86_64/4164",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1545167793
+      },
+      {
+        "message": "Patch Set 3: Code-Review+2",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1545170052
+      },
+      {
+        "message": "Change has been successfully merged by Troy Ronda",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1545242101
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-merge-x86_64/946/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-tests-merge-x86_64/946\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-merge-s390x/895/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/production/vex-yul-hyp-jenkins-3/fabric-sdk-go-tests-merge-s390x/895",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1545244203
+      }
+    ],
+    "commitMessage": "[FABG-803] Sync the latest files of fabric.\n\nIt will be used to implement parsing blocks.\n\nChange-Id: I48b6b1c5a1a4f12da4dab59681a15273afa97c6c\nSigned-off-by: ice <wcwz020140@163.com>\nSigned-off-by: Sudesh Shetty <sudesh.shetty@securekey.com>\n",
+    "createdOn": 1543840160,
+    "id": "I48b6b1c5a1a4f12da4dab59681a15273afa97c6c",
+    "lastUpdated": 1545244203,
+    "number": 27879,
+    "open": false,
+    "owner": {
+      "email": "wcwz020140@163.com",
+      "name": "he hao",
+      "username": "hehao"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1543842273,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "wcwz020140@163.com",
+          "name": "he hao",
+          "username": "hehao"
+        },
+        "createdOn": 1543840160,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "1bd8071cf86c351ef3d412d95ed8523f660b264e"
+        ],
+        "ref": "refs/changes/79/27879/1",
+        "revision": "b1078ddbc560f75b382fd936537d2c266e00f35b",
+        "sizeDeletions": 0,
+        "sizeInsertions": 28,
+        "uploader": {
+          "email": "wcwz020140@163.com",
+          "name": "he hao",
+          "username": "hehao"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1543842273,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "wcwz020140@163.com",
+          "name": "he hao",
+          "username": "hehao"
+        },
+        "createdOn": 1543921888,
+        "kind": "NO_CODE_CHANGE",
+        "number": 2,
+        "parents": [
+          "1bd8071cf86c351ef3d412d95ed8523f660b264e"
+        ],
+        "ref": "refs/changes/79/27879/2",
+        "revision": "5cd40fdd44aecd4169d0f50bee42813e724d7d00",
+        "sizeDeletions": 0,
+        "sizeInsertions": 28,
+        "uploader": {
+          "email": "wcwz020140@163.com",
+          "name": "he hao",
+          "username": "hehao"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1545167793,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "troy@troyronda.com",
+              "name": "Troy Ronda",
+              "username": "troyronda"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1545170052,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "troy@troyronda.com",
+              "name": "Troy Ronda",
+              "username": "troyronda"
+            },
+            "grantedOn": 1545242101,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "sudesh.shetty@securekey.com",
+          "name": "Sudesh Shetty",
+          "username": "sudeshrshetty"
+        },
+        "createdOn": 1545165334,
+        "kind": "REWORK",
+        "number": 3,
+        "parents": [
+          "1bd8071cf86c351ef3d412d95ed8523f660b264e"
+        ],
+        "ref": "refs/changes/79/27879/3",
+        "revision": "371a591df9760cf32d4a83797839188bffd963ef",
+        "sizeDeletions": -1,
+        "sizeInsertions": 29,
+        "uploader": {
+          "email": "sudesh.shetty@securekey.com",
+          "name": "Sudesh Shetty",
+          "username": "sudeshrshetty"
+        }
+      }
+    ],
+    "project": "fabric-sdk-go",
+    "status": "MERGED",
+    "subject": "[FABG-803] Sync the latest files of fabric.",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-sdk-go/+/27879"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "27879",
+    "project_name": "fabric-sdk-go",
+    "review_hash": "I48b6b1c5a1a4f12da4dab59681a15273afa97c6c"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1545244203,
+  "uuid": "d6c444b116a1c5ca7a8741eeb93f7b3e68539c27"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1499615928
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/112/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499615937
+      },
+      {
+        "message": "Abandoned\n\n.",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1499615951
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/256/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499616135
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/256/ : FAILURE\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-x86_64/256\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/112/ : FAILURE\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-s390x/112",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499616257
+      }
+    ],
+    "commitMessage": "test\n\nChange-Id: I8e768f5b965e2c53a2de9b51abb76d331dd221ef\nSigned-off-by: yacovm <yacovm@il.ibm.com>\n",
+    "createdOn": 1499615928,
+    "id": "I8e768f5b965e2c53a2de9b51abb76d331dd221ef",
+    "lastUpdated": 1499616257,
+    "number": 11457,
+    "open": false,
+    "owner": {
+      "email": "yacovm@il.ibm.com",
+      "name": "Yacov Manevich",
+      "username": "yacovm"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "createdOn": 1499615928,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "020bc5c97b4ed8708c08d1c2226580b359c4fb00"
+        ],
+        "ref": "refs/changes/57/11457/1",
+        "revision": "ba26efab338a11265a6a1885a374cd8fbd6977c7",
+        "sizeDeletions": 0,
+        "sizeInsertions": 0,
+        "uploader": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        }
+      }
+    ],
+    "project": "fabric-sdk-go",
+    "status": "ABANDONED",
+    "subject": "test",
+    "topic": "test",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-sdk-go/+/11457"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "11457",
+    "project_name": "fabric-sdk-go",
+    "review_hash": "I8e768f5b965e2c53a2de9b51abb76d331dd221ef"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1499616257,
+  "uuid": "3b23cab26ddcfc933c8390b0f105ff78301872f2"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1499638458
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/113/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499638472
+      },
+      {
+        "message": "Patch Set 1:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/257/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499638512
+      },
+      {
+        "message": "Patch Set 1: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/257/ : FAILURE\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-x86_64/257\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/113/ : FAILURE\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-s390x/113",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499638839
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1499639383
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/114/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499639390
+      },
+      {
+        "message": "Patch Set 2:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/258/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499639441
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/258/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-x86_64/258\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/114/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-s390x/114",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499640406
+      },
+      {
+        "message": "Uploaded patch set 3.",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1499642859
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/115/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499642866
+      },
+      {
+        "message": "Patch Set 3:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/259/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499642903
+      },
+      {
+        "message": "Uploaded patch set 4.",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1499643238
+      },
+      {
+        "message": "Patch Set 4:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/116/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499643246
+      },
+      {
+        "message": "Uploaded patch set 5.",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1499643283
+      },
+      {
+        "message": "Patch Set 5:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/117/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499643291
+      },
+      {
+        "message": "Uploaded patch set 6.",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1499643322
+      },
+      {
+        "message": "Patch Set 6:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/118/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499643331
+      },
+      {
+        "message": "Patch Set 4:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/260/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499643446
+      },
+      {
+        "message": "Patch Set 5:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/261/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499643463
+      },
+      {
+        "message": "Patch Set 6:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/262/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499643464
+      },
+      {
+        "message": "Patch Set 3: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/259/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-x86_64/259\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/115/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-s390x/115",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499643728
+      },
+      {
+        "message": "Patch Set 6: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/262/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-x86_64/262\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/118/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-s390x/118",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499644235
+      },
+      {
+        "message": "Patch Set 5: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/261/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-x86_64/261\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/117/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-s390x/117",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499644582
+      },
+      {
+        "message": "Patch Set 4: Verified-1\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/260/ : FAILURE\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-x86_64/260\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/116/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-s390x/116",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499645416
+      },
+      {
+        "message": "Uploaded patch set 7.",
+        "reviewer": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "timestamp": 1499672991
+      },
+      {
+        "message": "Patch Set 7:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/119/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499672999
+      },
+      {
+        "message": "Patch Set 7:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/263/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499673062
+      },
+      {
+        "message": "Patch Set 7: Verified+1\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-x86_64/263/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-x86_64/263\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-verify-s390x/119/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-verify-s390x/119",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499674338
+      },
+      {
+        "message": "Patch Set 7: Code-Review+2",
+        "reviewer": {
+          "email": "firas.qutishat@securekey.com",
+          "name": "Firas Qutishat",
+          "username": "firas.qutishat"
+        },
+        "timestamp": 1499693198
+      },
+      {
+        "message": "Change has been successfully merged by Firas Qutishat",
+        "reviewer": {
+          "email": "gerrit@hyperledger.org",
+          "name": "Gerrit Code Review"
+        },
+        "timestamp": 1499693200
+      },
+      {
+        "message": "Patch Set 7:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-merge-s390x/43/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499693208
+      },
+      {
+        "message": "Patch Set 7:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-merge-x86_64/93/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499693454
+      },
+      {
+        "message": "Patch Set 7:\n\nBuild Failed \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-merge-x86_64/93/ : FAILURE\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-merge-x86_64/93\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-merge-s390x/43/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-merge-s390x/43",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499695193
+      },
+      {
+        "message": "Patch Set 7:\n\nremerge",
+        "reviewer": {
+          "email": "troy@troyronda.com",
+          "name": "Troy Ronda",
+          "username": "troyronda"
+        },
+        "timestamp": 1499695359
+      },
+      {
+        "message": "Patch Set 7:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-merge-s390x/44/ (1/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499695369
+      },
+      {
+        "message": "Patch Set 7:\n\nBuild Started https://jenkins.hyperledger.org/job/fabric-sdk-go-tests-merge-x86_64/94/ (2/2)",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499695620
+      },
+      {
+        "message": "Patch Set 7:\n\nBuild Successful \n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-merge-x86_64/94/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-merge-x86_64/94\n\nhttps://jenkins.hyperledger.org/job/fabric-sdk-go-tests-merge-s390x/44/ : SUCCESS\n\nLogs: https://logs.hyperledger.org/jobbuilder/vex-yul-hyp-jenkins-1/fabric-sdk-go-tests-merge-s390x/44",
+        "reviewer": {
+          "email": "jobbuilder@jenkins.hyperledger.org",
+          "name": "Hyperledger Jobbuilder",
+          "username": "hyperledger-jobbuilder"
+        },
+        "timestamp": 1499696875
+      }
+    ],
+    "commitMessage": "[FAB-5520] Make Broadcast select a random orderer\n\nThe implementation of SendTransaction sends the transaction\nto all ordering service nodes.\nThere is no reason to send the same transaction to all ordering service\nnodes.\n\nThis change set makes a random ordering service instance be selected\ninstead of sending to everyone.\nIn case the selected (random) orderer returns a bad status, the code now\ntries to contact other endpoints until it succeeds or all have been tried.\n\nChange-Id: Idf5c8be69c1f90c62c7ebc164531fa740e670843\nSigned-off-by: yacovm <yacovm@il.ibm.com>\n",
+    "createdOn": 1499638458,
+    "id": "Idf5c8be69c1f90c62c7ebc164531fa740e670843",
+    "lastUpdated": 1499696875,
+    "number": 11459,
+    "open": false,
+    "owner": {
+      "email": "yacovm@il.ibm.com",
+      "name": "Yacov Manevich",
+      "username": "yacovm"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1499638839,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "createdOn": 1499638458,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "223e728ea19ad4546cad24c57811664ec96f24bb"
+        ],
+        "ref": "refs/changes/59/11459/1",
+        "revision": "0e807a0c723aaa886e3b1f8eb631bca51a204cd6",
+        "sizeDeletions": -60,
+        "sizeInsertions": 124,
+        "uploader": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1499640406,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "createdOn": 1499639383,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "223e728ea19ad4546cad24c57811664ec96f24bb"
+        ],
+        "ref": "refs/changes/59/11459/2",
+        "revision": "48371dd1e5afbf66ba0281981d3a203a48f152b4",
+        "sizeDeletions": -62,
+        "sizeInsertions": 118,
+        "uploader": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1499643728,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "createdOn": 1499642859,
+        "kind": "REWORK",
+        "number": 3,
+        "parents": [
+          "223e728ea19ad4546cad24c57811664ec96f24bb"
+        ],
+        "ref": "refs/changes/59/11459/3",
+        "revision": "0593056cbd865e0d1c3336ca4ff224eb1af9a90d",
+        "sizeDeletions": -65,
+        "sizeInsertions": 108,
+        "uploader": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1499645416,
+            "type": "Verified",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "createdOn": 1499643238,
+        "kind": "REWORK",
+        "number": 4,
+        "parents": [
+          "223e728ea19ad4546cad24c57811664ec96f24bb"
+        ],
+        "ref": "refs/changes/59/11459/4",
+        "revision": "4e3797bb85b06e148dc9b72b64d785d9b8c17d78",
+        "sizeDeletions": -65,
+        "sizeInsertions": 131,
+        "uploader": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1499644582,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "createdOn": 1499643283,
+        "kind": "REWORK",
+        "number": 5,
+        "parents": [
+          "223e728ea19ad4546cad24c57811664ec96f24bb"
+        ],
+        "ref": "refs/changes/59/11459/5",
+        "revision": "98afb4963ceac4a8ca833f29ea6e43c9436a61b6",
+        "sizeDeletions": -65,
+        "sizeInsertions": 129,
+        "uploader": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1499644235,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "createdOn": 1499643322,
+        "kind": "REWORK",
+        "number": 6,
+        "parents": [
+          "223e728ea19ad4546cad24c57811664ec96f24bb"
+        ],
+        "ref": "refs/changes/59/11459/6",
+        "revision": "89e39e8a374326fca6985aa123479cd91f486f10",
+        "sizeDeletions": -65,
+        "sizeInsertions": 128,
+        "uploader": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "jobbuilder@jenkins.hyperledger.org",
+              "name": "Hyperledger Jobbuilder",
+              "username": "hyperledger-jobbuilder"
+            },
+            "description": "Verified",
+            "grantedOn": 1499674338,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "firas.qutishat@securekey.com",
+              "name": "Firas Qutishat",
+              "username": "firas.qutishat"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1499693198,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "firas.qutishat@securekey.com",
+              "name": "Firas Qutishat",
+              "username": "firas.qutishat"
+            },
+            "grantedOn": 1499693200,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        },
+        "createdOn": 1499672991,
+        "kind": "REWORK",
+        "number": 7,
+        "parents": [
+          "223e728ea19ad4546cad24c57811664ec96f24bb"
+        ],
+        "ref": "refs/changes/59/11459/7",
+        "revision": "fe06786f3c4c4320f7588ae03f267ad3507c57da",
+        "sizeDeletions": -65,
+        "sizeInsertions": 131,
+        "uploader": {
+          "email": "yacovm@il.ibm.com",
+          "name": "Yacov Manevich",
+          "username": "yacovm"
+        }
+      }
+    ],
+    "project": "fabric-sdk-go",
+    "status": "MERGED",
+    "subject": "[FAB-5520] Make Broadcast select a random orderer",
+    "topic": "FAB-5220",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-sdk-go/+/11459"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "11459",
+    "project_name": "fabric-sdk-go",
+    "review_hash": "Idf5c8be69c1f90c62c7ebc164531fa740e670843"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1499696875,
+  "uuid": "5b396afa5e95a430a0b06b395edd1c762da7cf56"
+}]
