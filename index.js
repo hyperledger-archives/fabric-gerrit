@@ -208,7 +208,7 @@ fs.readdir(`${__dirname}/backup`, function (err, files) {
 									}
 
 									if (patchSet.hasOwnProperty('createdOn')) {
-										fs.appendFileSync(filename, `<strong>Created</strong>: ${patchSet.createdOn}<br>`, function (err) {
+										fs.appendFileSync(filename, `<strong>Created</strong>: ${new Date(patchSet.createdOn * 1000).toLocaleString("UTC")}<br>`, function (err) {
 											if (err) throw err;
 										});
 									} else {
@@ -236,9 +236,10 @@ fs.readdir(`${__dirname}/backup`, function (err, files) {
 									}
 
 									if (patchSet.hasOwnProperty('approvals')) {
+										index = 1;
 										patchSet.approvals.forEach(function (approval) {
 											if (approval.type === 'SUBM') {
-												if (approval.hasOwnProperty('by')) {
+												if (approval.hasOwnProperty('by') && index++ === patchSet.approvals.length) {
 													fs.appendFileSync(filename, `<strong>MergedBy</strong>: ${approval.by.name}<br>`, function (err) {
 														if (err) throw err;
 													});
