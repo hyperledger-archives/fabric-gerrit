@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
+set -euo pipefail
 
+cd backup
 dirs=$(ls -d -- */)
 for dir in ${dirs}; do
     cd ${dir}
@@ -13,3 +15,4 @@ for dir in ${dirs}; do
     rm -rf *.json*.o*
     cd ..
 done
+cd ..
