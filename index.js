@@ -221,7 +221,7 @@ fs.readdir(`${__dirname}/backup`, function (err, files) {
 									if (patchSet.hasOwnProperty('revision')) {
 										if (entry.data.hasOwnProperty('status')) {
 											if (entry.data.status === "MERGED" && index++ === entry.data.patchSets.length) {
-												fs.appendFileSync(filename, `<strong>GitHubRevision</strong>: [${patchSet.revision}](https://github.com/hyperledger/${entry.data.project}/commit/${patchSet.revision})<br><br>`, function (err) {
+												fs.appendFileSync(filename, `<strong>GitHubMergedRevision</strong>: [${patchSet.revision}](https://github.com/hyperledger/${entry.data.project}/commit/${patchSet.revision})<br><br>`, function (err) {
 													if (err) throw err;
 												});
 											} else {
