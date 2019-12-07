@@ -1,0 +1,227 @@
+[{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1473726352
+      },
+      {
+        "message": "Abandoned\n\nunintentionally included tests and util function from dco-bot",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1473726569
+      }
+    ],
+    "commitMessage": "IInitial commit\n\nCcreate initial commit from 194fd2ee2e4ab6c2d8985fe95149f005d679362c\nchristo4ferris/hyper-issue-bot\n\nChange-Id: I5f22799ccd115ab91ca29ea60879da1a17fbfe8e\nSigned-off-by: Christopher Ferris <chrisfer@us.ibm.com>\n",
+    "createdOn": 1473726352,
+    "id": "I5f22799ccd115ab91ca29ea60879da1a17fbfe8e",
+    "lastUpdated": 1473726569,
+    "number": 1017,
+    "open": false,
+    "owner": {
+      "email": "chris.ferris@gmail.com",
+      "name": "Christopher Ferris",
+      "username": "ChristopherFerris"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "createdOn": 1473726352,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "ded371e10c77c52fe86ae7120d51942e2dd18685"
+        ],
+        "ref": "refs/changes/17/1017/1",
+        "revision": "954b7d81826f3c951facac6876076ad65ed4ad79",
+        "sizeDeletions": 0,
+        "sizeInsertions": 459,
+        "uploader": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        }
+      }
+    ],
+    "project": "issue-bot",
+    "status": "ABANDONED",
+    "subject": "IInitial commit",
+    "url": "https://gerrit.hyperledger.org/r/c/issue-bot/+/1017"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "1017",
+    "project_name": "issue-bot",
+    "review_hash": "I5f22799ccd115ab91ca29ea60879da1a17fbfe8e"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1473726569,
+  "uuid": "7e1807ce2c93c02e9ec685bfe804bef5b4b8fb2b"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1473726756
+      },
+      {
+        "message": "Patch Set 1: Code-Review+1\n\nLGTM",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1473726997
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nThis is currently running and responding to new issues posted to github.com/hyperledger/hyperledger",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1473801238
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "srinivasan.muralidharan99@gmail.com",
+          "name": "Srinivasan Muralidharan",
+          "username": "muralisr"
+        },
+        "timestamp": 1473802490
+      },
+      {
+        "message": "Change has been successfully merged by Srinivasan Muralidharan",
+        "reviewer": {
+          "email": "gerrit@hyperledger.org",
+          "name": "Gerrit Code Review"
+        },
+        "timestamp": 1473802495
+      }
+    ],
+    "commitMessage": "Initial commit\n\nfrom christo4ferris/hyper-issue-bot\n\nChange-Id: Id6dd067b291d2aae73557efe640d57c79d27d216\nSigned-off-by: Christopher Ferris <chrisfer@us.ibm.com>\n",
+    "createdOn": 1473726756,
+    "id": "Id6dd067b291d2aae73557efe640d57c79d27d216",
+    "lastUpdated": 1473802495,
+    "number": 1019,
+    "open": false,
+    "owner": {
+      "email": "chris.ferris@gmail.com",
+      "name": "Christopher Ferris",
+      "username": "ChristopherFerris"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "ry@linux.com",
+              "name": "Ry Jones",
+              "username": "ryjones"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1473726997,
+            "type": "Code-Review",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            },
+            "description": "Verified",
+            "grantedOn": 1473801238,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "srinivasan.muralidharan99@gmail.com",
+              "name": "Srinivasan Muralidharan",
+              "username": "muralisr"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1473802490,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "srinivasan.muralidharan99@gmail.com",
+              "name": "Srinivasan Muralidharan",
+              "username": "muralisr"
+            },
+            "grantedOn": 1473802495,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "createdOn": 1473726756,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "ded371e10c77c52fe86ae7120d51942e2dd18685"
+        ],
+        "ref": "refs/changes/19/1019/1",
+        "revision": "2df6a2d1d902956e7b942d613a77185374116a11",
+        "sizeDeletions": 0,
+        "sizeInsertions": 390,
+        "uploader": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        }
+      }
+    ],
+    "project": "issue-bot",
+    "status": "MERGED",
+    "subject": "Initial commit",
+    "url": "https://gerrit.hyperledger.org/r/c/issue-bot/+/1019"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "1019",
+    "project_name": "issue-bot",
+    "review_hash": "Id6dd067b291d2aae73557efe640d57c79d27d216"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1473802495,
+  "uuid": "80ecea8aca41d63573be202e9d6c72a7673f2597"
+}]

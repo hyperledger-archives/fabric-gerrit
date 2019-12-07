@@ -1,0 +1,1320 @@
+[{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1515607681
+      },
+      {
+        "message": "Abandoned\n\nno longer pursuing this course",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1523130894
+      }
+    ],
+    "commitMessage": "[WIP] convert fabric docs to md\n\nWIP effort to convert fabric/docs/source from .rst to .md\n\nChange-Id: Ibef1c8a907c01bcd0499567ef66d370c40168210\nSigned-off-by: Christopher Ferris <chrisfer@us.ibm.com>\n",
+    "createdOn": 1515607681,
+    "id": "Ibef1c8a907c01bcd0499567ef66d370c40168210",
+    "lastUpdated": 1523130894,
+    "number": 16739,
+    "open": false,
+    "owner": {
+      "email": "chris.ferris@gmail.com",
+      "name": "Christopher Ferris",
+      "username": "ChristopherFerris"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "createdOn": 1515607681,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "67aae37cbc0f5ace3074cb5ba82cc982c6d3be52"
+        ],
+        "ref": "refs/changes/39/16739/1",
+        "revision": "8d7e91e30af55ea5189da7f5aa07bd0dc6f22815",
+        "sizeDeletions": 0,
+        "sizeInsertions": 10968,
+        "uploader": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        }
+      }
+    ],
+    "project": "fabric-docs",
+    "status": "ABANDONED",
+    "subject": "[WIP] convert fabric docs to md",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-docs/+/16739"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "16739",
+    "project_name": "fabric-docs",
+    "review_hash": "Ibef1c8a907c01bcd0499567ef66d370c40168210"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1523130894,
+  "uuid": "ae22af4e7737982f9d6b9ae3d0a9bee6d1375350"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1522872865
+      },
+      {
+        "message": "Patch Set 1: Verified+1",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1522881043
+      },
+      {
+        "message": "Patch Set 1: Code-Review-1\n\n(3 comments)",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1522889144
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1522931865
+      },
+      {
+        "message": "Patch Set 2: Code-Review+1",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1522934315
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "jyellick@us.ibm.com",
+          "name": "Jason Yellick",
+          "username": "jyellick"
+        },
+        "timestamp": 1523045155
+      },
+      {
+        "message": "Patch Set 2: Verified+1 Code-Review+2",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1523047851
+      },
+      {
+        "message": "Change has been successfully merged by Gari Singh",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1523047854
+      }
+    ],
+    "commitMessage": "FAB-9349 add README, CONTRIBUTING, etc\n\nChange-Id: I6b795aa4d6633e36b2d05b1f05acea086c2e83e2\nSigned-off-by: Christopher Ferris <chrisfer@us.ibm.com>\n",
+    "createdOn": 1522872865,
+    "id": "I6b795aa4d6633e36b2d05b1f05acea086c2e83e2",
+    "lastUpdated": 1523047854,
+    "number": 20153,
+    "open": false,
+    "owner": {
+      "email": "chris.ferris@gmail.com",
+      "name": "Christopher Ferris",
+      "username": "ChristopherFerris"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "ry@linux.com",
+              "name": "Ry Jones",
+              "username": "ryjones"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1522889144,
+            "type": "Code-Review",
+            "value": "-1"
+          },
+          {
+            "by": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            },
+            "description": "Verified",
+            "grantedOn": 1522881043,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "comments": [
+          {
+            "file": "MAINTAINERS.md",
+            "line": 6,
+            "message": "Chat",
+            "reviewer": {
+              "email": "ry@linux.com",
+              "name": "Ry Jones",
+              "username": "ryjones"
+            }
+          },
+          {
+            "file": "MAINTAINERS.md",
+            "line": 18,
+            "message": "trailing space",
+            "reviewer": {
+              "email": "ry@linux.com",
+              "name": "Ry Jones",
+              "username": "ryjones"
+            }
+          },
+          {
+            "file": "MAINTAINERS.md",
+            "line": 27,
+            "message": "Chat",
+            "reviewer": {
+              "email": "ry@linux.com",
+              "name": "Ry Jones",
+              "username": "ryjones"
+            }
+          }
+        ],
+        "createdOn": 1522872865,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "67aae37cbc0f5ace3074cb5ba82cc982c6d3be52"
+        ],
+        "ref": "refs/changes/53/20153/1",
+        "revision": "42d29c36b51d668f7cdb70cc1cec7121017e8cc6",
+        "sizeDeletions": 0,
+        "sizeInsertions": 278,
+        "uploader": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "ry@linux.com",
+              "name": "Ry Jones",
+              "username": "ryjones"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1522934315,
+            "type": "Code-Review",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "jyellick@us.ibm.com",
+              "name": "Jason Yellick",
+              "username": "jyellick"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1523045155,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1523047851,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "grantedOn": 1523047854,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Verified",
+            "grantedOn": 1523047851,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "createdOn": 1522931865,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "67aae37cbc0f5ace3074cb5ba82cc982c6d3be52"
+        ],
+        "ref": "refs/changes/53/20153/2",
+        "revision": "e471f0770e49a006232e63ace4b9c6033cc915eb",
+        "sizeDeletions": 0,
+        "sizeInsertions": 278,
+        "uploader": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        }
+      }
+    ],
+    "project": "fabric-docs",
+    "status": "MERGED",
+    "subject": "FAB-9349 add README, CONTRIBUTING, etc",
+    "topic": "fab-9349",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-docs/+/20153"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "20153",
+    "project_name": "fabric-docs",
+    "review_hash": "I6b795aa4d6633e36b2d05b1f05acea086c2e83e2"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1523047854,
+  "uuid": "911bb9c420ff24147b15bd9d7d3a9db8243f7adf"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1524781967
+      },
+      {
+        "message": "Patch Set 1: Verified+1\n\nI've manually verified the build locally",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1524782343
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1524788985
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nmanually verified locally until we have CI implemented",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1524851383
+      },
+      {
+        "message": "Patch Set 2: Code-Review+2",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1525194327
+      },
+      {
+        "message": "Change has been successfully merged by Gari Singh",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1525194343
+      }
+    ],
+    "commitMessage": "FAB-9344 initialize with basic build artifacts\n\nclone the fabric repo build artifacts for docs\n\nChange-Id: I076ca6f16a1b20759ae255a79928e8aece4202ff\nSigned-off-by: Christopher Ferris <chrisfer@us.ibm.com>\n",
+    "createdOn": 1524781967,
+    "id": "I076ca6f16a1b20759ae255a79928e8aece4202ff",
+    "lastUpdated": 1525194343,
+    "number": 21079,
+    "open": false,
+    "owner": {
+      "email": "chris.ferris@gmail.com",
+      "name": "Christopher Ferris",
+      "username": "ChristopherFerris"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            },
+            "description": "Verified",
+            "grantedOn": 1524782343,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "createdOn": 1524781967,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "e471f0770e49a006232e63ace4b9c6033cc915eb"
+        ],
+        "ref": "refs/changes/79/21079/1",
+        "revision": "fdfc3b620c4e399c1546180ff1e08fc9d6cdedf5",
+        "sizeDeletions": 0,
+        "sizeInsertions": 351,
+        "uploader": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            },
+            "description": "Verified",
+            "grantedOn": 1524851383,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1525194327,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "grantedOn": 1525194343,
+            "type": "SUBM",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "createdOn": 1524788985,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "e471f0770e49a006232e63ace4b9c6033cc915eb"
+        ],
+        "ref": "refs/changes/79/21079/2",
+        "revision": "45bf3a5b2029f2950d421319c535b4927ca93886",
+        "sizeDeletions": 0,
+        "sizeInsertions": 609,
+        "uploader": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        }
+      }
+    ],
+    "project": "fabric-docs",
+    "status": "MERGED",
+    "subject": "FAB-9344 initialize with basic build artifacts",
+    "topic": "fab-9345",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-docs/+/21079"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "21079",
+    "project_name": "fabric-docs",
+    "review_hash": "I076ca6f16a1b20759ae255a79928e8aece4202ff"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1525194343,
+  "uuid": "3d455ec56a4a3cd2bca2b6190ce1e88c00252c5b"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1524788985
+      },
+      {
+        "message": "Patch Set 1: Code-Review-1\n\nimages are all hosed",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1524833721
+      },
+      {
+        "message": "Uploaded patch set 2.",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1524835349
+      },
+      {
+        "message": "Patch Set 2: Verified+1\n\nmanually verified until CI implemented",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1524851400
+      },
+      {
+        "message": "Patch Set 2:\n\nare we sure we want these to be in the same repo?  I for one do not believe that fabric and fabric-ca will be tied to the hip in terms of releases",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1525197351
+      },
+      {
+        "message": "Patch Set 2:\n\nAs we discussed, the thought process is that we would like to a) have a more cohesive set of documents across the Fabric landscape b) enable doc-specific maintainers to better facilitate progress. Bringing the docs together under a separate repo seems to help satisfy those objectives. Submodules would not allow for separate doc-maintainers, but would facilitate version skew between modules while keeping the docs aligned. I think that we can manage if the versions skew as long as we maintain backwards compatibility.",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1525271098
+      },
+      {
+        "message": "Abandoned\n\nfor post 1.3",
+        "reviewer": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "timestamp": 1527461611
+      }
+    ],
+    "commitMessage": "FAB-9345 add fabric-ca docs to fabric-docs\n\nChange-Id: I2b027cba11c18f189b313f8331c0033941ff2a1e\nSigned-off-by: Christopher Ferris <chrisfer@us.ibm.com>\n",
+    "createdOn": 1524788985,
+    "id": "I2b027cba11c18f189b313f8331c0033941ff2a1e",
+    "lastUpdated": 1527461611,
+    "number": 21087,
+    "open": false,
+    "owner": {
+      "email": "chris.ferris@gmail.com",
+      "name": "Christopher Ferris",
+      "username": "ChristopherFerris"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1524833721,
+            "type": "Code-Review",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "createdOn": 1524788985,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "45bf3a5b2029f2950d421319c535b4927ca93886"
+        ],
+        "ref": "refs/changes/87/21087/1",
+        "revision": "0dc099080ceaaaf5ea4a93312e9997e195caf107",
+        "sizeDeletions": 0,
+        "sizeInsertions": 2806,
+        "uploader": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "chris.ferris@gmail.com",
+              "name": "Christopher Ferris",
+              "username": "ChristopherFerris"
+            },
+            "description": "Verified",
+            "grantedOn": 1524851400,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        },
+        "createdOn": 1524835349,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "45bf3a5b2029f2950d421319c535b4927ca93886"
+        ],
+        "ref": "refs/changes/87/21087/2",
+        "revision": "a6f2d56c443f4c6b6c87792128d9b9f0917d8f1e",
+        "sizeDeletions": -1,
+        "sizeInsertions": 2807,
+        "uploader": {
+          "email": "chris.ferris@gmail.com",
+          "name": "Christopher Ferris",
+          "username": "ChristopherFerris"
+        }
+      }
+    ],
+    "project": "fabric-docs",
+    "status": "ABANDONED",
+    "subject": "FAB-9345 add fabric-ca docs to fabric-docs",
+    "topic": "fab-9345",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-docs/+/21087"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "21087",
+    "project_name": "fabric-docs",
+    "review_hash": "I2b027cba11c18f189b313f8331c0033941ff2a1e"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1527461611,
+  "uuid": "d356823a3fa92175a98e493114cf88c92ea4ef6f"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "connect@udyansharma.com",
+          "name": "Udyan Sharma",
+          "username": "udyan.sharma"
+        },
+        "timestamp": 1554576570
+      },
+      {
+        "message": "Abandoned\n\nUsed wrong project. Also request for renaming or removal of fabric-docs repo.",
+        "reviewer": {
+          "email": "connect@udyansharma.com",
+          "name": "Udyan Sharma",
+          "username": "udyan.sharma"
+        },
+        "timestamp": 1554646061
+      }
+    ],
+    "commitMessage": "[FAB-15088] mention raft consensus algorithm\n\nAdded a mention about raft consensus mechanism, which has just been\nincorporated in release 1.4\n\nChange-Id: I33cd3db3687e692fcce28c15f4e9e6f85dcfd62e\nSigned-off-by: Udyan Sharma <connect@udyansharma.com>\n",
+    "createdOn": 1554576570,
+    "id": "I33cd3db3687e692fcce28c15f4e9e6f85dcfd62e",
+    "lastUpdated": 1554646061,
+    "number": 30789,
+    "open": false,
+    "owner": {
+      "email": "connect@udyansharma.com",
+      "name": "Udyan Sharma",
+      "username": "udyan.sharma"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "connect@udyansharma.com",
+          "name": "Udyan Sharma",
+          "username": "udyan.sharma"
+        },
+        "createdOn": 1554576570,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "161794d08d8a4be7e0b48e9b8e9da44c8121a185"
+        ],
+        "ref": "refs/changes/89/30789/1",
+        "revision": "34d4c716114da9aa2d07c5efadc84868143f99cf",
+        "sizeDeletions": 0,
+        "sizeInsertions": 261,
+        "uploader": {
+          "email": "connect@udyansharma.com",
+          "name": "Udyan Sharma",
+          "username": "udyan.sharma"
+        }
+      }
+    ],
+    "project": "fabric-docs",
+    "status": "ABANDONED",
+    "subject": "[FAB-15088] mention raft consensus algorithm",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-docs/+/30789"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "30789",
+    "project_name": "fabric-docs",
+    "review_hash": "I33cd3db3687e692fcce28c15f4e9e6f85dcfd62e"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1554646061,
+  "uuid": "2b9f3043da69e078c44bbf38c4fa7a01c85b8645"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1546162645
+      },
+      {
+        "message": "Patch Set 1: Code-Review+2",
+        "reviewer": {
+          "email": "enyeart@us.ibm.com",
+          "name": "David Enyeart",
+          "username": "denyeart"
+        },
+        "timestamp": 1546182303
+      },
+      {
+        "message": "Patch Set 1:\n\nthere is no CI for this repo. You'll need to add V+1 manually.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1546201392
+      },
+      {
+        "message": "Patch Set 1: Verified+1",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1546266440
+      },
+      {
+        "message": "Change has been successfully merged by Gari Singh",
+        "reviewer": {
+          "email": "gari.r.singh@gmail.com",
+          "name": "Gari Singh",
+          "username": "mastersingh24"
+        },
+        "timestamp": 1546266442
+      }
+    ],
+    "commitMessage": "Configure Stale ProBot\n\nUse GitHub's process to automatically comment\nand close PRs, with a pointer to the contributing\nguide.\n\nChange-Id: Ie9c52fc069b483862eb7058219d16ea4e9ea93bb\nSigned-off-by: Ry Jones <ry@linux.com>\n",
+    "createdOn": 1546162645,
+    "id": "Ie9c52fc069b483862eb7058219d16ea4e9ea93bb",
+    "lastUpdated": 1546266442,
+    "number": 28412,
+    "open": false,
+    "owner": {
+      "email": "ry@linux.com",
+      "name": "Ry Jones",
+      "username": "ryjones"
+    },
+    "patchSets": [
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "grantedOn": 1546266442,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "gari.r.singh@gmail.com",
+              "name": "Gari Singh",
+              "username": "mastersingh24"
+            },
+            "description": "Verified",
+            "grantedOn": 1546266440,
+            "type": "Verified",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "enyeart@us.ibm.com",
+              "name": "David Enyeart",
+              "username": "denyeart"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1546182303,
+            "type": "Code-Review",
+            "value": "2"
+          }
+        ],
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1546162645,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "45bf3a5b2029f2950d421319c535b4927ca93886"
+        ],
+        "ref": "refs/changes/12/28412/1",
+        "revision": "161794d08d8a4be7e0b48e9b8e9da44c8121a185",
+        "sizeDeletions": 0,
+        "sizeInsertions": 26,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      }
+    ],
+    "project": "fabric-docs",
+    "status": "MERGED",
+    "subject": "Configure Stale ProBot",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-docs/+/28412"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "28412",
+    "project_name": "fabric-docs",
+    "review_hash": "Ie9c52fc069b483862eb7058219d16ea4e9ea93bb"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1546266442,
+  "uuid": "c5e5eeb5d9db1867a79bbc0f22cf6f272f7e0848"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1558452713
+      },
+      {
+        "message": "Abandoned",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1561559766
+      }
+    ],
+    "commitMessage": "FAB-15465: Update Jinja2\n\nSigned-off-by: Ry Jones <ry@linux.com>\nChange-Id: Ie93b946ea30dbd04530e684b23ce13add3072cbb\n",
+    "createdOn": 1558452713,
+    "id": "Ie93b946ea30dbd04530e684b23ce13add3072cbb",
+    "lastUpdated": 1561559766,
+    "number": 31467,
+    "open": false,
+    "owner": {
+      "email": "ry@linux.com",
+      "name": "Ry Jones",
+      "username": "ryjones"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1558452713,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "161794d08d8a4be7e0b48e9b8e9da44c8121a185"
+        ],
+        "ref": "refs/changes/67/31467/1",
+        "revision": "283812cdff27e4c96072a1b1c340c4d70e4751bf",
+        "sizeDeletions": -1,
+        "sizeInsertions": 1,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      }
+    ],
+    "project": "fabric-docs",
+    "status": "ABANDONED",
+    "subject": "FAB-15465: Update Jinja2",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-docs/+/31467"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "31467",
+    "project_name": "fabric-docs",
+    "review_hash": "Ie93b946ea30dbd04530e684b23ce13add3072cbb"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1561559766,
+  "uuid": "ff9c70be938ff75bb9ba8d9b177a3390c424ff02"
+},
+{
+  "backend_name": "Gerrit",
+  "backend_version": "0.13.0",
+  "category": "review",
+  "classified_fields_filtered": null,
+  "data": {
+    "branch": "master",
+    "comments": [
+      {
+        "message": "Uploaded patch set 1.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1567270864
+      },
+      {
+        "message": "Patch Set 2: Published edit on patch set 1.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1567278263
+      },
+      {
+        "message": "Patch Set 2: Code-Review-1\n\n(1 comment)",
+        "reviewer": {
+          "email": "kostas@gmail.com",
+          "name": "Kostas Christidis",
+          "username": "kchristidis"
+        },
+        "timestamp": 1567401634
+      },
+      {
+        "message": "Patch Set 2:\n\n(1 comment)\n\nI'll prune the list",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1567404512
+      },
+      {
+        "message": "Uploaded patch set 3.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1567404759
+      },
+      {
+        "message": "Patch Set 3:\n\n(1 comment)",
+        "reviewer": {
+          "email": "kostas@gmail.com",
+          "name": "Kostas Christidis",
+          "username": "kchristidis"
+        },
+        "timestamp": 1567450652
+      },
+      {
+        "message": "Patch Set 4: Published edit on patch set 3.",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1567451531
+      },
+      {
+        "message": "Patch Set 4:\n\n> Patch Set 3:\n> \n> (1 comment)\n\ngood call, done",
+        "reviewer": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "timestamp": 1567451548
+      },
+      {
+        "message": "Patch Set 4: Code-Review+2",
+        "reviewer": {
+          "email": "kostas@gmail.com",
+          "name": "Kostas Christidis",
+          "username": "kchristidis"
+        },
+        "timestamp": 1567452350
+      },
+      {
+        "message": "Patch Set 4: Code-Review+2",
+        "reviewer": {
+          "email": "jyellick@us.ibm.com",
+          "name": "Jason Yellick",
+          "username": "jyellick"
+        },
+        "timestamp": 1567536555
+      },
+      {
+        "message": "Patch Set 4: Verified+1",
+        "reviewer": {
+          "email": "jyellick@us.ibm.com",
+          "name": "Jason Yellick",
+          "username": "jyellick"
+        },
+        "timestamp": 1567536598
+      },
+      {
+        "message": "Change has been successfully merged by Jason Yellick",
+        "reviewer": {
+          "email": "jyellick@us.ibm.com",
+          "name": "Jason Yellick",
+          "username": "jyellick"
+        },
+        "timestamp": 1567536606
+      }
+    ],
+    "commitMessage": "[FAB-16489] Add CODEOWNERS\n\nSigned-off-by: Ry Jones <ry@linux.com>\nChange-Id: Id766c80d181e575178509dc54be5ba5cf7c329da\n",
+    "createdOn": 1567270864,
+    "id": "Id766c80d181e575178509dc54be5ba5cf7c329da",
+    "lastUpdated": 1567536606,
+    "number": 33326,
+    "open": false,
+    "owner": {
+      "email": "ry@linux.com",
+      "name": "Ry Jones",
+      "username": "ryjones"
+    },
+    "patchSets": [
+      {
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1567270864,
+        "kind": "REWORK",
+        "number": 1,
+        "parents": [
+          "161794d08d8a4be7e0b48e9b8e9da44c8121a185"
+        ],
+        "ref": "refs/changes/26/33326/1",
+        "revision": "7f932a3b8af65bfc985216f10a3748e2a59f70f2",
+        "sizeDeletions": 0,
+        "sizeInsertions": 5,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "kostas@gmail.com",
+              "name": "Kostas Christidis",
+              "username": "kchristidis"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1567401634,
+            "type": "Code-Review",
+            "value": "-1"
+          }
+        ],
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "comments": [
+          {
+            "file": "CODEOWNERS",
+            "line": 7,
+            "message": "All of these folks besides @JonathanLevi (whose GitHub username is @hacera) are retired maintainers.",
+            "reviewer": {
+              "email": "kostas@gmail.com",
+              "name": "Kostas Christidis",
+              "username": "kchristidis"
+            }
+          },
+          {
+            "file": "CODEOWNERS",
+            "line": 7,
+            "message": "@hacera is an org, not a person. Orgs can't do code reviews",
+            "reviewer": {
+              "email": "ry@linux.com",
+              "name": "Ry Jones",
+              "username": "ryjones"
+            }
+          },
+          {
+            "file": "CODEOWNERS",
+            "line": 7,
+            "message": "Ah, good point. Do we want @hacera then, or @JonathanLevi? Note that this is also the case for: https://gerrit.hyperledger.org/r/c/fabric/+/33305",
+            "reviewer": {
+              "email": "kostas@gmail.com",
+              "name": "Kostas Christidis",
+              "username": "kchristidis"
+            }
+          }
+        ],
+        "createdOn": 1567278263,
+        "kind": "REWORK",
+        "number": 2,
+        "parents": [
+          "161794d08d8a4be7e0b48e9b8e9da44c8121a185"
+        ],
+        "ref": "refs/changes/26/33326/2",
+        "revision": "3167f624d0aa4783c731e0d1d023d1f6af4b3142",
+        "sizeDeletions": 0,
+        "sizeInsertions": 7,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      },
+      {
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1567404759,
+        "kind": "REWORK",
+        "number": 3,
+        "parents": [
+          "161794d08d8a4be7e0b48e9b8e9da44c8121a185"
+        ],
+        "ref": "refs/changes/26/33326/3",
+        "revision": "8d5c6761c0671737bb06c49c5445e62a678d8884",
+        "sizeDeletions": 0,
+        "sizeInsertions": 4,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      },
+      {
+        "approvals": [
+          {
+            "by": {
+              "email": "kostas@gmail.com",
+              "name": "Kostas Christidis",
+              "username": "kchristidis"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1567452350,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jyellick@us.ibm.com",
+              "name": "Jason Yellick",
+              "username": "jyellick"
+            },
+            "description": "Code-Review",
+            "grantedOn": 1567536555,
+            "type": "Code-Review",
+            "value": "2"
+          },
+          {
+            "by": {
+              "email": "jyellick@us.ibm.com",
+              "name": "Jason Yellick",
+              "username": "jyellick"
+            },
+            "grantedOn": 1567536606,
+            "type": "SUBM",
+            "value": "1"
+          },
+          {
+            "by": {
+              "email": "jyellick@us.ibm.com",
+              "name": "Jason Yellick",
+              "username": "jyellick"
+            },
+            "description": "Verified",
+            "grantedOn": 1567536598,
+            "type": "Verified",
+            "value": "1"
+          }
+        ],
+        "author": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        },
+        "createdOn": 1567451531,
+        "kind": "REWORK",
+        "number": 4,
+        "parents": [
+          "161794d08d8a4be7e0b48e9b8e9da44c8121a185"
+        ],
+        "ref": "refs/changes/26/33326/4",
+        "revision": "f899f7625de227c08ad875b67626280bc07bc1f8",
+        "sizeDeletions": 0,
+        "sizeInsertions": 4,
+        "uploader": {
+          "email": "ry@linux.com",
+          "name": "Ry Jones",
+          "username": "ryjones"
+        }
+      }
+    ],
+    "project": "fabric-docs",
+    "status": "MERGED",
+    "subject": "[FAB-16489] Add CODEOWNERS",
+    "url": "https://gerrit.hyperledger.org/r/c/fabric-docs/+/33326"
+  },
+  "origin": "gerrit.hyperledger.org",
+  "perceval_version": "0.12.24",
+  "search_fields": {
+    "item_id": "33326",
+    "project_name": "fabric-docs",
+    "review_hash": "Id766c80d181e575178509dc54be5ba5cf7c329da"
+  },
+  "tag": "gerrit.hyperledger.org",
+  "updated_on": 1567536606,
+  "uuid": "973a87cc2bd88849d2246067bfd5540da378478a"
+}]
