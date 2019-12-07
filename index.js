@@ -161,6 +161,7 @@ fs.readdir(`${__dirname}/backup`, function (err, files) {
 							});
 
 							if (entry.data.hasOwnProperty('patchSets')) {
+								let index = 1;
 								entry.data.patchSets.forEach(function (patchSet) {
 
 									if (patchSet.hasOwnProperty('number')) {
@@ -219,7 +220,7 @@ fs.readdir(`${__dirname}/backup`, function (err, files) {
 
 									if (patchSet.hasOwnProperty('revision')) {
 										if (entry.data.hasOwnProperty('status')) {
-											if (entry.data.status === "MERGED") {
+											if (entry.data.status === "MERGED" && index++ === entry.data.patchSets.length) {
 												fs.appendFileSync(filename, `<strong>GitHubRevision</strong>: [${patchSet.revision}](https://github.com/hyperledger/${entry.data.project}/commit/${patchSet.revision})<br><br>`, function (err) {
 													if (err) throw err;
 												});
@@ -236,10 +237,9 @@ fs.readdir(`${__dirname}/backup`, function (err, files) {
 									}
 
 									if (patchSet.hasOwnProperty('approvals')) {
-										index = 1;
 										patchSet.approvals.forEach(function (approval) {
 											if (approval.type === 'SUBM') {
-												if (approval.hasOwnProperty('by') && index++ === patchSet.approvals.length) {
+												if (approval.hasOwnProperty('by')) {
 													fs.appendFileSync(filename, `<strong>MergedBy</strong>: ${approval.by.name}<br>`, function (err) {
 														if (err) throw err;
 													});
