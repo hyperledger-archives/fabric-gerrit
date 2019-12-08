@@ -1,0 +1,35 @@
+set -ex
+proc(){
+  mkdir -p $1
+#  grep "\"project\":\"$1\"" mirror-05-DEC-2019.json |sort | jq | grep -v "timestamp.*,$" > $1/$1.json
+  grep "\"project\":\"$1\"" mirror-05-DEC-2019.json |sort | split -l 100 - $1/$1.json
+}
+
+proc blockchain-explorer
+proc cello
+proc cello-analytics
+proc fabric
+proc fabric-amcl
+proc fabric-api
+proc fabric-baseimage
+proc fabric-ca
+proc fabric-chaincode-evm
+proc fabric-chaincode-java
+proc fabric-chaincode-node
+proc fabric-chaintool
+proc fabric-cli
+proc fabric-cop
+proc fabric-docs
+proc fabric-gateway-java
+proc fabric-lib-go
+proc fabric-samples
+proc fabric-sdk-go
+proc fabric-sdk-java
+proc fabric-sdk-node
+proc fabric-sdk-py
+proc fabric-sdk-rest
+proc fabric-test
+proc fabric-test-resources
+proc homebrew-fabric
+proc issue-bot
+proc slack-archive

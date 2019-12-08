@@ -221,11 +221,11 @@ fs.readdir(`${__dirname}/backup`, function (err, files) {
 									if (patchSet.hasOwnProperty('revision')) {
 										if (entry.data.hasOwnProperty('status')) {
 											if (entry.data.status === "MERGED" && index++ === entry.data.patchSets.length) {
-												fs.appendFileSync(filename, `<strong>GitHubMergedRevision</strong>: [${patchSet.revision}](https://github.com/hyperledger/${entry.data.project}/commit/${patchSet.revision})<br><br>`, function (err) {
+												fs.appendFileSync(filename, `<strong>GitHubMergedRevision</strong>: [${patchSet.revision}](https://github.com/hyperledger-gerrit-archive/${entry.data.project}/commit/${patchSet.revision})<br><br>`, function (err) {
 													if (err) throw err;
 												});
 											} else {
-												fs.appendFileSync(filename, `<strong>UnmergedRevision</strong>: ${patchSet.revision}<br><br>`, function (err) {
+												fs.appendFileSync(filename, `<strong>UnmergedRevision</strong>: [${patchSet.revision}](https://github.com/hyperledger-gerrit-archive/${entry.data.project}/commit/${patchSet.revision})<br><br>`, function (err) {
 													if (err) throw err;
 												});
 											}
@@ -298,8 +298,32 @@ fs.readdir(`${__dirname}/backup`, function (err, files) {
 														if (err) throw err;
 													});
 												}
+
+
 											}
 										});
+										if (patchSet.hasOwnProperty('comments')) {
+											fs.appendFileSync(filename, `<h2>Comments</h2>`, function (err) {
+												if (err) throw err;
+											});
+											patchSet.comments.forEach(function(comment) {
+												if (comment.hasOwnProperty('reviewer')) {
+													fs.appendFileSync(filename, `<strong>Commenter</strong>: ${comment.reviewer.name} - ${comment.reviewer.email}<br>`, function (err) {
+														if (err) throw err;
+													});
+												} else {
+													fs.appendFileSync(filename, `<strong>Commenter</strong>:<br>`, function (err) {
+														if (err) throw err;
+													});
+												}
+												fs.appendFileSync(filename, `<strong>CommentLine</strong>: [${comment.file}#L${comment.line}](https://github.com/hyperledger-gerrit-archive/${entry.data.project}/blob/${patchSet.revision}/${comment.file}#L${comment.line})<br>`, function (err) {
+													if (err) throw err;
+												});
+												fs.appendFileSync(filename, `<strong>Comment</strong>: <pre>${comment.message}</pre>`, function (err) {
+													if (err) throw err;
+												});
+											})
+										}
 									}
 
 									fs.appendFileSync(filename, '</blockquote>', function (err) {

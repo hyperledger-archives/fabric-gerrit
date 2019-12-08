@@ -9,6 +9,7 @@ set -euo pipefail
 dirs=$(ls -d -- */ | grep -v backup | grep -v cello)
 for dir in ${dirs}; do
   cd "${dir}"
+  ls -d -- */ | xargs rm -rf
   ls | cut -d'.' -f1 | sort -n | xargs -n100 echo >data.out
   sed -i 'data' 's/data //g' data.out
   first=($(cut -d' ' -f1 <data.out))
